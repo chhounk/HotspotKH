@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cambodia Hotspot Monitor</title>
+  <meta name="description" content="Near-real-time thermal hotspot monitoring for Cambodia using NASA FIRMS satellite data">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛰️</text></svg>">
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+
+  <!-- App styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loading">
+    <div class="spinner"></div>
+    <p>Loading hotspot data...</p>
+  </div>
+
+  <!-- Header -->
+  <header id="header">
+    <h1>Cambodia Hotspot Monitor</h1>
+    <span class="subtitle">ប្រព័ន្ធតាមដានចំណុចកំដៅកម្ពុជា</span>
+    <div class="spacer"></div>
+    <button id="about-btn">About</button>
+  </header>
+
+  <!-- Map -->
+  <div id="map"></div>
+
+  <!-- Left Controls -->
+  <div id="controls">
+    <!-- Layer toggles -->
+    <div class="ctrl-section-label">Layers</div>
+    <button id="btn-protected" class="ctrl-btn toggle-btn">Protected Areas <span class="toggle-state">ON</span></button>
+
+    <hr style="border-color:rgba(255,255,255,0.1);margin:4px 0">
+
+    <!-- Province filter -->
+    <div class="ctrl-section-label">Province</div>
+    <select id="province-filter" class="ctrl-select">
+      <option value="all">All Provinces</option>
+    </select>
+
+    <hr style="border-color:rgba(255,255,255,0.1);margin:4px 0">
+
+    <!-- Classification filters -->
+    <div class="ctrl-section-label">Filter</div>
+    <button id="btn-filter-all" class="ctrl-btn">All Hotspots</button>
+    <button id="btn-filter-wildfire" class="ctrl-btn">Likely Wildfires</button>
+    <button id="btn-filter-possible" class="ctrl-btn">Possible Wildfires</button>
+    <button id="btn-filter-thermal" class="ctrl-btn">Thermal Anomalies</button>
+    <button id="btn-filter-pa" class="ctrl-btn">Protected Areas Only</button>
+  </div>
+
+  <!-- Filter Summary Box -->
+  <div id="filter-summary"></div>
+
+  <!-- Summary Panel -->
+  <div id="panel">
+    <h2>Hotspot Summary</h2>
+    <div id="summary-content">
+      <p style="color:var(--text-secondary)">Loading...</p>
+    </div>
+  </div>
+
+  <!-- Mobile Panel Toggle -->
+  <button id="panel-toggle">📊</button>
+
+  <!-- About Modal -->
+  <div id="modal-overlay">
+    <div id="modal">
+      <h2>About This Project</h2>
+      <p>
+        The <strong>Cambodia Hotspot Monitor</strong> displays near-real-time thermal hotspot
+        detections across Cambodia using satellite data from NASA's
+        <a href="https://firms.modaps.eosdis.nasa.gov/" target="_blank">FIRMS</a>
+        (Fire Information for Resource Management System).
+      </p>
+      <p>
+        <strong>What are hotspots?</strong> NASA satellites detect thermal anomalies — any
+        heat source visible from space. Most detections in Cambodia are
+        <strong>agricultural burns</strong> (farmers clearing fields), not wildfires.
+      </p>
+      <p><strong>Hotspot classification:</strong></p>
+      <ul style="font-size:14px;color:var(--text-secondary);line-height:1.8;padding-left:20px;margin-bottom:10px">
+        <li><span style="color:#d32f2f;font-weight:700">Likely Wildfire</span> — High confidence + FRP &ge; 15 MW</li>
+        <li><span style="color:#e65100;font-weight:700">Possible Wildfire</span> — High confidence, or nominal + FRP &ge; 10 MW</li>
+        <li><span style="color:#5c6b7a;font-weight:700">Thermal Anomaly</span> — Low confidence/intensity (likely agricultural)</li>
+      </ul>
+      <p>
+        Province boundaries from <a href="https://gadm.org/" target="_blank">GADM</a>.
+        Protected areas from <a href="https://www.protectedplanet.net/" target="_blank">WDPA</a>.
+      </p>
+      <p>
+        Hotspot locations are approximate satellite detections and may include false positives.
+        Always verify with local authorities before taking action.
+      </p>
+      <p style="font-size:12px;margin-top:16px;color:var(--text-secondary)">
+        Open source &middot; Leaflet.js &middot; NASA FIRMS &middot; MIT License
+      </p>
+      <button id="modal-close">Close</button>
+    </div>
+  </div>
+
+  <!-- App script -->
+  <script src="js/app.js"></script>
+</body>
+</html>
