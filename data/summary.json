@@ -1,7 +1,7 @@
 {
-  "total_hotspots": 2954,
+  "total_hotspots": 2955,
   "likely_wildfires": 76,
-  "possible_wildfires": 569,
+  "possible_wildfires": 570,
   "thermal_anomalies": 2309,
   "hotspots_in_protected_areas": 1099,
   "top_provinces": [
@@ -19,7 +19,7 @@
     },
     {
       "province": "Prey Veng",
-      "count": 219
+      "count": 220
     },
     {
       "province": "Kratie",
@@ -98,7 +98,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-04-05T15:34:33.373418+07:00",
+  "last_updated": "2026-04-05T20:18:13.131591+07:00",
   "date_range": {
     "start": "2026-04-04",
     "end": "2026-04-05"
