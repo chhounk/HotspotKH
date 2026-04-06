@@ -1,21 +1,21 @@
 {
-  "total_hotspots": 3185,
+  "total_hotspots": 3558,
   "likely_wildfires": 75,
-  "possible_wildfires": 514,
-  "thermal_anomalies": 2596,
-  "hotspots_in_protected_areas": 1193,
+  "possible_wildfires": 515,
+  "thermal_anomalies": 2968,
+  "hotspots_in_protected_areas": 1411,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 691
+      "count": 817
     },
     {
       "province": "Preah Vihear",
-      "count": 318
+      "count": 384
     },
     {
       "province": "Kratie",
-      "count": 306
+      "count": 352
     },
     {
       "province": "Prey Veng",
@@ -23,7 +23,7 @@
     },
     {
       "province": "Mondulkiri",
-      "count": 203
+      "count": 241
     },
     {
       "province": "Svay Rieng",
@@ -31,31 +31,31 @@
     },
     {
       "province": "Kampong Thom",
-      "count": 171
+      "count": 181
     },
     {
       "province": "Stung Treng",
-      "count": 132
+      "count": 157
     },
     {
       "province": "Kampong Cham",
       "count": 131
     },
     {
-      "province": "Kandal",
-      "count": 110
+      "province": "Battambang",
+      "count": 124
     },
     {
-      "province": "Battambang",
-      "count": 109
+      "province": "Kandal",
+      "count": 111
     },
     {
       "province": "Kampong Chhnang",
-      "count": 93
+      "count": 102
     },
     {
       "province": "Banteay Meanchey",
-      "count": 85
+      "count": 94
     },
     {
       "province": "Kampong Speu",
@@ -67,27 +67,27 @@
     },
     {
       "province": "Oddar Meanchey",
-      "count": 64
+      "count": 68
     },
     {
       "province": "Kampot",
-      "count": 51
+      "count": 52
     },
     {
       "province": "Tboung Khmum",
-      "count": 46
+      "count": 50
     },
     {
       "province": "Pursat",
-      "count": 29
+      "count": 43
     },
     {
       "province": "Takeo",
-      "count": 27
+      "count": 30
     },
     {
       "province": "Koh Kong",
-      "count": 24
+      "count": 25
     },
     {
       "province": "Phnom Penh",
@@ -95,10 +95,10 @@
     },
     {
       "province": "Kep",
-      "count": 1
+      "count": 2
     }
   ],
-  "last_updated": "2026-04-07T01:38:38.524479+07:00",
+  "last_updated": "2026-04-07T04:27:02.029549+07:00",
   "date_range": {
     "start": "2026-04-05",
     "end": "2026-04-06"
