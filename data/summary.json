@@ -1,13 +1,13 @@
 {
-  "total_hotspots": 3324,
+  "total_hotspots": 3455,
   "likely_wildfires": 98,
-  "possible_wildfires": 765,
-  "thermal_anomalies": 2461,
-  "hotspots_in_protected_areas": 1163,
+  "possible_wildfires": 767,
+  "thermal_anomalies": 2590,
+  "hotspots_in_protected_areas": 1246,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 601
+      "count": 653
     },
     {
       "province": "Prey Veng",
@@ -15,54 +15,58 @@
     },
     {
       "province": "Preah Vihear",
-      "count": 258
+      "count": 269
     },
     {
       "province": "Kratie",
-      "count": 241
+      "count": 261
     },
     {
       "province": "Kampong Cham",
-      "count": 205
-    },
-    {
-      "province": "Kampong Thom",
-      "count": 178
+      "count": 206
     },
     {
       "province": "Pursat",
-      "count": 177
+      "count": 191
+    },
+    {
+      "province": "Kampong Thom",
+      "count": 179
     },
     {
       "province": "Svay Rieng",
-      "count": 171
+      "count": 173
     },
     {
       "province": "Kandal",
-      "count": 144
+      "count": 145
     },
     {
       "province": "Mondulkiri",
-      "count": 138
+      "count": 141
     },
     {
       "province": "Battambang",
-      "count": 128
+      "count": 131
     },
     {
       "province": "Kampong Chhnang",
-      "count": 125
+      "count": 128
     },
     {
       "province": "Banteay Meanchey",
-      "count": 124
+      "count": 126
     },
     {
       "province": "Oddar Meanchey",
-      "count": 111
+      "count": 115
     },
     {
       "province": "Kampong Speu",
+      "count": 101
+    },
+    {
+      "province": "Stung Treng",
       "count": 101
     },
     {
@@ -70,16 +74,12 @@
       "count": 94
     },
     {
-      "province": "Stung Treng",
-      "count": 91
-    },
-    {
       "province": "Takeo",
-      "count": 59
+      "count": 60
     },
     {
       "province": "Kampot",
-      "count": 49
+      "count": 52
     },
     {
       "province": "Tboung Khmum",
@@ -94,7 +94,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-04-09T01:58:49.289889+07:00",
+  "last_updated": "2026-04-09T04:32:35.125788+07:00",
   "date_range": {
     "start": "2026-04-07",
     "end": "2026-04-08"
