@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 1647,
+  "total_hotspots": 1653,
   "likely_wildfires": 60,
-  "possible_wildfires": 334,
-  "thermal_anomalies": 1253,
+  "possible_wildfires": 338,
+  "thermal_anomalies": 1255,
   "hotspots_in_protected_areas": 611,
   "top_provinces": [
     {
@@ -47,19 +47,19 @@
     },
     {
       "province": "Battambang",
-      "count": 52
+      "count": 53
     },
     {
       "province": "Pursat",
       "count": 51
     },
     {
-      "province": "Stung Treng",
-      "count": 46
+      "province": "Kampong Speu",
+      "count": 48
     },
     {
-      "province": "Kampong Speu",
-      "count": 45
+      "province": "Stung Treng",
+      "count": 46
     },
     {
       "province": "Banteay Meanchey",
@@ -71,7 +71,7 @@
     },
     {
       "province": "Siem Reap",
-      "count": 41
+      "count": 43
     },
     {
       "province": "Kampot",
@@ -90,9 +90,9 @@
       "count": 10
     }
   ],
-  "last_updated": "2026-04-08T08:09:55.917449+07:00",
+  "last_updated": "2026-04-08T12:03:37.409702+07:00",
   "date_range": {
     "start": "2026-04-07",
-    "end": "2026-04-07"
+    "end": "2026-04-08"
   }
 }
