@@ -1,9 +1,9 @@
 {
-  "total_hotspots": 3316,
-  "likely_wildfires": 87,
-  "possible_wildfires": 778,
+  "total_hotspots": 3318,
+  "likely_wildfires": 88,
+  "possible_wildfires": 779,
   "thermal_anomalies": 2451,
-  "hotspots_in_protected_areas": 1165,
+  "hotspots_in_protected_areas": 1166,
   "top_provinces": [
     {
       "province": "Ratanakiri",
@@ -19,11 +19,11 @@
     },
     {
       "province": "Kratie",
-      "count": 235
+      "count": 236
     },
     {
       "province": "Pursat",
-      "count": 189
+      "count": 190
     },
     {
       "province": "Kampong Thom",
@@ -94,7 +94,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-04-09T19:53:03.949545+07:00",
+  "last_updated": "2026-04-09T23:09:46.148735+07:00",
   "date_range": {
     "start": "2026-04-08",
     "end": "2026-04-09"
