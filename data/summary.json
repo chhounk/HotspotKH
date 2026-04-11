@@ -1,9 +1,9 @@
 {
-  "total_hotspots": 2836,
-  "likely_wildfires": 30,
-  "possible_wildfires": 474,
-  "thermal_anomalies": 2332,
-  "hotspots_in_protected_areas": 821,
+  "total_hotspots": 2888,
+  "likely_wildfires": 34,
+  "possible_wildfires": 499,
+  "thermal_anomalies": 2355,
+  "hotspots_in_protected_areas": 834,
   "top_provinces": [
     {
       "province": "Ratanakiri",
@@ -23,15 +23,15 @@
     },
     {
       "province": "Kampong Thom",
-      "count": 179
+      "count": 186
     },
     {
       "province": "Battambang",
-      "count": 169
+      "count": 183
     },
     {
       "province": "Pursat",
-      "count": 164
+      "count": 176
     },
     {
       "province": "Kampong Cham",
@@ -46,6 +46,10 @@
       "count": 132
     },
     {
+      "province": "Banteay Meanchey",
+      "count": 120
+    },
+    {
       "province": "Mondulkiri",
       "count": 117
     },
@@ -54,20 +58,16 @@
       "count": 114
     },
     {
-      "province": "Banteay Meanchey",
-      "count": 114
-    },
-    {
       "province": "Siem Reap",
-      "count": 105
+      "count": 110
     },
     {
       "province": "Kampong Speu",
-      "count": 83
+      "count": 84
     },
     {
       "province": "Kampong Chhnang",
-      "count": 83
+      "count": 84
     },
     {
       "province": "Stung Treng",
@@ -79,7 +79,7 @@
     },
     {
       "province": "Kampot",
-      "count": 44
+      "count": 49
     },
     {
       "province": "Tboung Khmum",
@@ -87,14 +87,14 @@
     },
     {
       "province": "Koh Kong",
-      "count": 8
+      "count": 9
     },
     {
       "province": "Phnom Penh",
       "count": 5
     }
   ],
-  "last_updated": "2026-04-11T16:28:47.985268+07:00",
+  "last_updated": "2026-04-11T19:28:10.493713+07:00",
   "date_range": {
     "start": "2026-04-10",
     "end": "2026-04-11"
