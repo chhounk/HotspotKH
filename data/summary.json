@@ -1,89 +1,93 @@
 {
-  "total_hotspots": 1904,
-  "likely_wildfires": 75,
-  "possible_wildfires": 298,
-  "thermal_anomalies": 1531,
-  "hotspots_in_protected_areas": 875,
+  "total_hotspots": 3281,
+  "likely_wildfires": 200,
+  "possible_wildfires": 699,
+  "thermal_anomalies": 2382,
+  "hotspots_in_protected_areas": 1388,
   "top_provinces": [
     {
       "province": "Pursat",
-      "count": 370
-    },
-    {
-      "province": "Battambang",
-      "count": 197
-    },
-    {
-      "province": "Kratie",
-      "count": 168
+      "count": 548
     },
     {
       "province": "Ratanakiri",
-      "count": 167
+      "count": 299
+    },
+    {
+      "province": "Kratie",
+      "count": 287
+    },
+    {
+      "province": "Battambang",
+      "count": 272
     },
     {
       "province": "Preah Vihear",
-      "count": 138
-    },
-    {
-      "province": "Banteay Meanchey",
-      "count": 112
+      "count": 229
     },
     {
       "province": "Kampong Thom",
-      "count": 105
-    },
-    {
-      "province": "Prey Veng",
-      "count": 97
-    },
-    {
-      "province": "Oddar Meanchey",
-      "count": 90
+      "count": 219
     },
     {
       "province": "Svay Rieng",
-      "count": 67
+      "count": 180
+    },
+    {
+      "province": "Prey Veng",
+      "count": 180
+    },
+    {
+      "province": "Banteay Meanchey",
+      "count": 176
+    },
+    {
+      "province": "Oddar Meanchey",
+      "count": 151
     },
     {
       "province": "Siem Reap",
-      "count": 66
-    },
-    {
-      "province": "Kampong Chhnang",
-      "count": 58
-    },
-    {
-      "province": "Kampong Speu",
-      "count": 51
+      "count": 113
     },
     {
       "province": "Kampong Cham",
-      "count": 47
+      "count": 101
     },
     {
-      "province": "Stung Treng",
-      "count": 39
-    },
-    {
-      "province": "Mondulkiri",
-      "count": 36
+      "province": "Kampong Chhnang",
+      "count": 97
     },
     {
       "province": "Kandal",
-      "count": 35
+      "count": 95
     },
     {
-      "province": "Kampot",
-      "count": 27
+      "province": "Kampong Speu",
+      "count": 93
+    },
+    {
+      "province": "Stung Treng",
+      "count": 69
+    },
+    {
+      "province": "Mondulkiri",
+      "count": 61
     },
     {
       "province": "Takeo",
-      "count": 22
+      "count": 44
+    },
+    {
+      "province": "Kampot",
+      "count": 41
     },
     {
       "province": "Tboung Khmum",
-      "count": 9
+      "count": 20
+    },
+    {
+      "province": "Phnom Penh",
+      "count": 3
     },
     {
       "province": "Koh Kong",
@@ -94,7 +98,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-04-12T14:00:34.626228+07:00",
+  "last_updated": "2026-04-12T16:34:31.974525+07:00",
   "date_range": {
     "start": "2026-04-11",
     "end": "2026-04-12"
