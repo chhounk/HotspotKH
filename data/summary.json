@@ -1,7 +1,7 @@
 {
-  "total_hotspots": 2839,
+  "total_hotspots": 2843,
   "likely_wildfires": 195,
-  "possible_wildfires": 621,
+  "possible_wildfires": 625,
   "thermal_anomalies": 2023,
   "hotspots_in_protected_areas": 1267,
   "top_provinces": [
@@ -47,7 +47,7 @@
     },
     {
       "province": "Siem Reap",
-      "count": 104
+      "count": 108
     },
     {
       "province": "Kampong Chhnang",
@@ -98,9 +98,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-04-13T08:15:59.951995+07:00",
+  "last_updated": "2026-04-13T12:31:38.034476+07:00",
   "date_range": {
     "start": "2026-04-12",
-    "end": "2026-04-12"
+    "end": "2026-04-13"
   }
 }
