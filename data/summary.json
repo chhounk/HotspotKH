@@ -1,7 +1,7 @@
 {
-  "total_hotspots": 2387,
+  "total_hotspots": 2388,
   "likely_wildfires": 68,
-  "possible_wildfires": 628,
+  "possible_wildfires": 629,
   "thermal_anomalies": 1691,
   "hotspots_in_protected_areas": 861,
   "top_provinces": [
@@ -43,7 +43,7 @@
     },
     {
       "province": "Oddar Meanchey",
-      "count": 86
+      "count": 87
     },
     {
       "province": "Banteay Meanchey",
@@ -98,7 +98,7 @@
       "count": 3
     }
   ],
-  "last_updated": "2026-04-14T19:53:47.712823+07:00",
+  "last_updated": "2026-04-14T22:59:01.088371+07:00",
   "date_range": {
     "start": "2026-04-13",
     "end": "2026-04-14"
