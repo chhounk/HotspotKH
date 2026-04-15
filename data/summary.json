@@ -1,9 +1,9 @@
 {
-  "total_hotspots": 1091,
+  "total_hotspots": 1096,
   "likely_wildfires": 22,
-  "possible_wildfires": 317,
+  "possible_wildfires": 322,
   "thermal_anomalies": 752,
-  "hotspots_in_protected_areas": 312,
+  "hotspots_in_protected_areas": 314,
   "top_provinces": [
     {
       "province": "Ratanakiri",
@@ -15,7 +15,7 @@
     },
     {
       "province": "Prey Veng",
-      "count": 113
+      "count": 114
     },
     {
       "province": "Kratie",
@@ -27,7 +27,7 @@
     },
     {
       "province": "Preah Vihear",
-      "count": 60
+      "count": 62
     },
     {
       "province": "Kampong Cham",
@@ -51,7 +51,7 @@
     },
     {
       "province": "Takeo",
-      "count": 32
+      "count": 33
     },
     {
       "province": "Kampong Speu",
@@ -70,12 +70,12 @@
       "count": 24
     },
     {
-      "province": "Stung Treng",
+      "province": "Battambang",
       "count": 19
     },
     {
-      "province": "Battambang",
-      "count": 18
+      "province": "Stung Treng",
+      "count": 19
     },
     {
       "province": "Kampot",
@@ -94,9 +94,9 @@
       "count": 2
     }
   ],
-  "last_updated": "2026-04-15T08:13:01.018674+07:00",
+  "last_updated": "2026-04-15T12:14:01.272467+07:00",
   "date_range": {
     "start": "2026-04-14",
-    "end": "2026-04-14"
+    "end": "2026-04-15"
   }
 }
