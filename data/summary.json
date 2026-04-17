@@ -1,13 +1,13 @@
 {
-  "total_hotspots": 1029,
+  "total_hotspots": 1095,
   "likely_wildfires": 54,
   "possible_wildfires": 216,
-  "thermal_anomalies": 759,
-  "hotspots_in_protected_areas": 179,
+  "thermal_anomalies": 825,
+  "hotspots_in_protected_areas": 212,
   "top_provinces": [
     {
       "province": "Svay Rieng",
-      "count": 276
+      "count": 280
     },
     {
       "province": "Prey Veng",
@@ -15,22 +15,30 @@
     },
     {
       "province": "Ratanakiri",
-      "count": 113
+      "count": 126
     },
     {
       "province": "Kampong Cham",
-      "count": 63
+      "count": 69
     },
     {
       "province": "Kampong Thom",
       "count": 60
     },
     {
+      "province": "Kampot",
+      "count": 51
+    },
+    {
+      "province": "Kratie",
+      "count": 42
+    },
+    {
       "province": "Banteay Meanchey",
       "count": 42
     },
     {
-      "province": "Kratie",
+      "province": "Takeo",
       "count": 40
     },
     {
@@ -38,48 +46,40 @@
       "count": 37
     },
     {
-      "province": "Kampot",
-      "count": 36
-    },
-    {
-      "province": "Takeo",
-      "count": 35
-    },
-    {
       "province": "Siem Reap",
       "count": 33
     },
     {
       "province": "Preah Vihear",
-      "count": 30
-    },
-    {
-      "province": "Battambang",
-      "count": 20
+      "count": 32
     },
     {
       "province": "Kampong Chhnang",
-      "count": 19
+      "count": 23
+    },
+    {
+      "province": "Battambang",
+      "count": 22
+    },
+    {
+      "province": "Mondulkiri",
+      "count": 21
     },
     {
       "province": "Kampong Speu",
       "count": 18
     },
     {
-      "province": "Mondulkiri",
-      "count": 16
+      "province": "Tboung Khmum",
+      "count": 17
     },
     {
       "province": "Oddar Meanchey",
       "count": 15
     },
     {
-      "province": "Tboung Khmum",
-      "count": 13
-    },
-    {
       "province": "Stung Treng",
-      "count": 8
+      "count": 12
     },
     {
       "province": "Pursat",
@@ -94,7 +94,7 @@
       "count": 3
     }
   ],
-  "last_updated": "2026-04-18T01:39:03.311742+07:00",
+  "last_updated": "2026-04-18T04:30:46.896555+07:00",
   "date_range": {
     "start": "2026-04-16",
     "end": "2026-04-17"
