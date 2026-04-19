@@ -1,13 +1,13 @@
 {
-  "total_hotspots": 1318,
+  "total_hotspots": 1321,
   "likely_wildfires": 39,
   "possible_wildfires": 283,
-  "thermal_anomalies": 996,
+  "thermal_anomalies": 999,
   "hotspots_in_protected_areas": 242,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 225
+      "count": 226
     },
     {
       "province": "Svay Rieng",
@@ -39,7 +39,7 @@
     },
     {
       "province": "Mondulkiri",
-      "count": 47
+      "count": 49
     },
     {
       "province": "Banteay Meanchey",
@@ -94,7 +94,7 @@
       "count": 2
     }
   ],
-  "last_updated": "2026-04-20T01:29:38.310211+07:00",
+  "last_updated": "2026-04-20T04:23:15.167586+07:00",
   "date_range": {
     "start": "2026-04-18",
     "end": "2026-04-19"
