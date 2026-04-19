@@ -263,17 +263,38 @@
     el.classList.add("visible");
   }
 
+  // All 25 Cambodia provinces (always shown, even with 0 hotspots)
+  var ALL_PROVINCES = [
+    "Banteay Meanchey", "Battambang", "Kampong Cham", "Kampong Chhnang",
+    "Kampong Speu", "Kampong Thom", "Kampot", "Kandal", "Kep", "Koh Kong",
+    "Kratie", "Mondulkiri", "Oddar Meanchey", "Pailin", "Phnom Penh",
+    "Preah Sihanouk", "Preah Vihear", "Prey Veng", "Pursat", "Ratanakiri",
+    "Siem Reap", "Stung Treng", "Svay Rieng", "Takeo", "Tboung Khmum"
+  ];
+
   // --- Province Dropdown ---
   function buildProvinceDropdown(fires) {
     var select = document.getElementById("province-filter");
     if (!select) return;
 
+    // Count hotspots per province from data
     var counts = {};
-    fires.forEach(function (f) { counts[f.province || "Unknown"] = (counts[f.province || "Unknown"] || 0) + 1; });
-    var provinces = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; });
+    fires.forEach(function (f) {
+      var p = f.province || "Unknown";
+      counts[p] = (counts[p] || 0) + 1;
+    });
+
+    // Merge: provinces with data (sorted by count desc) then rest at 0
+    var withData    = ALL_PROVINCES.filter(function (p) { return counts[p] > 0; })
+                       .sort(function (a, b) { return counts[b] - counts[a]; });
+    var withoutData = ALL_PROVINCES.filter(function (p) { return !counts[p]; })
+                       .sort();
+    var ordered = withData.concat(withoutData);
 
     var html = '<option value="all">All Provinces (' + fires.length + ')</option>';
-    provinces.forEach(function (p) { html += '<option value="' + p + '">' + p + ' (' + counts[p] + ')</option>'; });
+    ordered.forEach(function (p) {
+      html += '<option value="' + p + '">' + p + ' (' + (counts[p] || 0) + ')</option>';
+    });
     select.innerHTML = html;
 
     select.addEventListener("change", function () {

@@ -235,7 +235,17 @@ html, body { height: 100%; font-family: var(--font); background: var(--bg-dark);
   .ctrl-select { font-size: 11px; padding: 5px 6px; }
   .ctrl-section-label { font-size: 9px; }
 
-  #filter-summary { bottom: 60px; max-width: 90vw; }
+  /* Move filter summary to top-center on mobile so it never covers the bottom bar */
+  #filter-summary {
+    top: 60px;
+    bottom: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 85vw;
+    font-size: 13px;
+  }
+  #filter-summary .fs-total { font-size: 18px; }
 
-  .legend { font-size: 10px; }
+  /* Hide legend on mobile — classification is self-evident from filter buttons */
+  .legend { display: none; }
 }
