@@ -3,12 +3,9 @@
   "use strict";
 
   // --- State ---
-  var map, firesLayer, heatLayer, humidityLayer, coordControl;
+  var map, firesLayer, coordControl;
   var allFires = [];
   var summaryData = null;
-  var showHeatmap = false;
-  var showHumidity = false;
-  var humidityLoaded = false;
   var currentFilter = "all";
   var currentProvince = "all";
 
@@ -67,7 +64,7 @@
     L.control.zoom({ position: "bottomleft" }).addTo(map);
     firesLayer = L.layerGroup().addTo(map);
 
-    // Coordinate + temperature/humidity display
+    // Coordinate + temperature display
     coordControl = L.control({ position: "bottomleft" });
     coordControl.onAdd = function () {
       var div = L.DomUtil.create("div", "coord-display");
@@ -128,110 +125,6 @@
       var el = document.querySelector(".coord-display");
       if (el) el.innerHTML = "Lat: — &nbsp; Lon: — &nbsp; | &nbsp; Temp: —";
     });
-  }
-
-  // --- Heatmap Layer ---
-  function renderHeatmap() {
-    if (heatLayer) {
-      map.removeLayer(heatLayer);
-      heatLayer = null;
-    }
-    if (!showHeatmap || allFires.length === 0) return;
-
-    var points = allFires.map(function (f) {
-      var intensity = Math.min(parseFloat(f.frp) || 1, 120) / 120;
-      return [f.latitude, f.longitude, intensity];
-    });
-
-    heatLayer = L.heatLayer(points, {
-      radius: 22,
-      blur: 16,
-      maxZoom: 12,
-      max: 1.0,
-      gradient: {
-        0.0: "#313695",
-        0.2: "#4575b4",
-        0.4: "#74add1",
-        0.5: "#fee090",
-        0.7: "#f46d43",
-        0.85: "#d73027",
-        1.0: "#a50026",
-      },
-    }).addTo(map);
-  }
-
-  // --- Humidity Map Layer ---
-  // 5×5 grid of Open-Meteo fetches across Cambodia
-  var GRID_LATS = [10.47, 11.41, 12.35, 13.29, 14.23];
-  var GRID_LONS = [102.83, 103.89, 104.95, 106.01, 107.07];
-  var CELL_DLAT = 0.94;
-  var CELL_DLON = 1.06;
-
-  function humidityColor(h) {
-    if (h < 30) return "#ff7043";   // very dry - orange
-    if (h < 50) return "#ffb300";   // dry - amber
-    if (h < 65) return "#aed581";   // moderate - light green
-    if (h < 80) return "#29b6f6";   // humid - sky blue
-    return "#1565c0";               // very humid - deep blue
-  }
-
-  function fetchHumidityGrid() {
-    var promises = [];
-    GRID_LATS.forEach(function (lat) {
-      GRID_LONS.forEach(function (lon) {
-        promises.push(
-          fetch("https://api.open-meteo.com/v1/forecast?latitude=" + lat + "&longitude=" + lon + "&current=relative_humidity_2m&timezone=Asia%2FPhnom_Penh")
-            .then(function (r) { return r.json(); })
-            .then(function (data) {
-              return {
-                lat: lat,
-                lon: lon,
-                humidity: data.current ? data.current.relative_humidity_2m : null,
-              };
-            })
-            .catch(function () { return { lat: lat, lon: lon, humidity: null }; })
-        );
-      });
-    });
-    return Promise.all(promises);
-  }
-
-  function renderHumidityMap(gridData) {
-    if (humidityLayer) {
-      map.removeLayer(humidityLayer);
-      humidityLayer = null;
-    }
-    if (!showHumidity) return;
-
-    humidityLayer = L.layerGroup();
-
-    gridData.forEach(function (cell) {
-      if (cell.humidity === null) return;
-      var south = cell.lat - CELL_DLAT / 2;
-      var north = cell.lat + CELL_DLAT / 2;
-      var west  = cell.lon - CELL_DLON / 2;
-      var east  = cell.lon + CELL_DLON / 2;
-
-      var rect = L.rectangle([[south, west], [north, east]], {
-        color: humidityColor(cell.humidity),
-        fillColor: humidityColor(cell.humidity),
-        fillOpacity: 0.38,
-        weight: 1,
-        opacity: 0.5,
-      });
-
-      rect.bindTooltip(
-        "<b>Humidity: " + cell.humidity + "%</b><br>" +
-        "Lat " + cell.lat.toFixed(2) + ", Lon " + cell.lon.toFixed(2),
-        { sticky: true }
-      );
-
-      humidityLayer.addLayer(rect);
-    });
-
-    humidityLayer.addTo(map);
-    // Bring hotspot markers to front
-    if (firesLayer) firesLayer.bringToFront();
   }
 
   // --- Data Loading ---
@@ -432,53 +325,14 @@
 
   // --- Controls ---
   function setupControls() {
-    var btnHeatmap  = document.getElementById("btn-heatmap");
-    var btnHumidity = document.getElementById("btn-humidity");
-
     var filterBtns = {
-      all:              document.getElementById("btn-filter-all"),
-      likely_wildfire:  document.getElementById("btn-filter-wildfire"),
+      all:               document.getElementById("btn-filter-all"),
+      likely_wildfire:   document.getElementById("btn-filter-wildfire"),
       possible_wildfire: document.getElementById("btn-filter-possible"),
-      thermal_anomaly:  document.getElementById("btn-filter-thermal"),
+      thermal_anomaly:   document.getElementById("btn-filter-thermal"),
     };
 
     filterBtns.all.classList.add("filter-active");
-
-    // Heatmap toggle
-    btnHeatmap.addEventListener("click", function () {
-      showHeatmap = !showHeatmap;
-      this.querySelector(".toggle-state").textContent = showHeatmap ? "ON" : "OFF";
-      this.classList.toggle("active", showHeatmap);
-      renderHeatmap();
-    });
-
-    // Humidity toggle — lazy-load on first enable
-    btnHumidity.addEventListener("click", function () {
-      var btn = this;
-      showHumidity = !showHumidity;
-      btn.querySelector(".toggle-state").textContent = showHumidity ? "ON" : "OFF";
-      btn.classList.toggle("active", showHumidity);
-
-      if (showHumidity && !humidityLoaded) {
-        btn.querySelector(".toggle-state").textContent = "…";
-        btn.disabled = true;
-        fetchHumidityGrid().then(function (gridData) {
-          humidityLoaded = true;
-          btn.disabled = false;
-          btn.querySelector(".toggle-state").textContent = "ON";
-          renderHumidityMap(gridData);
-          // Store for future toggling
-          btn._gridData = gridData;
-        });
-      } else if (showHumidity && btn._gridData) {
-        renderHumidityMap(btn._gridData);
-      } else {
-        if (humidityLayer) {
-          map.removeLayer(humidityLayer);
-          humidityLayer = null;
-        }
-      }
-    });
 
     function setFilter(filter) {
       currentFilter = filter;
@@ -502,14 +356,7 @@
         '<div class="legend-item"><span class="legend-dot" style="background:#d32f2f"></span> Likely Wildfire</div>' +
         '<div class="legend-item"><span class="legend-dot" style="background:#e65100"></span> Possible Wildfire</div>' +
         '<div class="legend-item"><span class="legend-dot" style="background:#5c6b7a"></span> Thermal Anomaly</div>' +
-        '<div class="legend-note">Dot size = FRP intensity</div>' +
-        '<hr style="border-color:rgba(255,255,255,0.15);margin:6px 0">' +
-        '<div class="legend-title">Humidity</div>' +
-        '<div class="legend-item"><span class="legend-dot" style="background:#ff7043"></span> &lt;30% Very Dry</div>' +
-        '<div class="legend-item"><span class="legend-dot" style="background:#ffb300"></span> 30–50% Dry</div>' +
-        '<div class="legend-item"><span class="legend-dot" style="background:#aed581"></span> 50–65% Moderate</div>' +
-        '<div class="legend-item"><span class="legend-dot" style="background:#29b6f6"></span> 65–80% Humid</div>' +
-        '<div class="legend-item"><span class="legend-dot" style="background:#1565c0"></span> &gt;80% Very Humid</div>';
+        '<div class="legend-note">Dot size = FRP intensity</div>';
       return div;
     };
     legend.addTo(map);
