@@ -80,17 +80,30 @@
       <p>
         <strong>What are hotspots?</strong> NASA satellites detect thermal anomalies — any
         heat source visible from space. Most detections in Cambodia are
-        <strong>agricultural burns</strong> (farmers clearing fields), not wildfires.
+        <strong>agricultural burns</strong> (farmers clearing fields after harvest), not wildfires.
+        <strong>Industrial activity</strong> (brick kilns, factories) and <strong>ritual or ceremonial burning</strong>
+        (land clearing for ceremonies, religious practices) may also appear as thermal anomalies.
       </p>
-      <p><strong>Hotspot classification:</strong></p>
-      <ul style="font-size:14px;color:var(--text-secondary);line-height:1.8;padding-left:20px;margin-bottom:10px">
-        <li><span style="color:#d32f2f;font-weight:700">Likely Wildfire</span> — High confidence + FRP &ge; 15 MW</li>
-        <li><span style="color:#e65100;font-weight:700">Possible Wildfire</span> — High confidence, or nominal + FRP &ge; 10 MW</li>
-        <li><span style="color:#5c6b7a;font-weight:700">Thermal Anomaly</span> — Low confidence/intensity (likely agricultural)</li>
-      </ul>
+      <p><strong>Hotspot classification &amp; map legend:</strong></p>
+      <div style="background:rgba(0,0,0,0.2);border-radius:6px;padding:12px 14px;margin-bottom:12px">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+          <span style="width:12px;height:12px;border-radius:50%;background:#d32f2f;display:inline-block;flex-shrink:0"></span>
+          <span><span style="color:#d32f2f;font-weight:700">Likely Wildfire</span> — High satellite confidence + fire radiative power &ge; 15 MW</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+          <span style="width:12px;height:12px;border-radius:50%;background:#e65100;display:inline-block;flex-shrink:0"></span>
+          <span><span style="color:#e65100;font-weight:700">Possible Wildfire</span> — High confidence, or nominal confidence + FRP &ge; 10 MW</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+          <span style="width:12px;height:12px;border-radius:50%;background:#5c6b7a;display:inline-block;flex-shrink:0"></span>
+          <span><span style="color:#a0aab4;font-weight:700">Thermal Anomaly</span> — Low confidence or intensity; likely agricultural, industrial, or ritual burning</span>
+        </div>
+        <div style="font-size:12px;color:var(--text-secondary);border-top:1px solid rgba(255,255,255,0.1);padding-top:8px">
+          Dot size reflects FRP intensity — larger dots indicate stronger heat sources.
+        </div>
+      </div>
       <p>
         Province boundaries from <a href="https://gadm.org/" target="_blank">GADM</a>.
-        Protected areas from <a href="https://www.protectedplanet.net/" target="_blank">WDPA</a>.
       </p>
       <p>
         Hotspot locations are approximate satellite detections and may include false positives.
