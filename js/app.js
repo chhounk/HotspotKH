@@ -3,10 +3,12 @@
   "use strict";
 
   // --- State ---
-  var map, firesLayer, protectedLayer, coordControl;
+  var map, firesLayer, heatLayer, humidityLayer, coordControl;
   var allFires = [];
   var summaryData = null;
-  var showProtected = true;
+  var showHeatmap = false;
+  var showHumidity = false;
+  var humidityLoaded = false;
   var currentFilter = "all";
   var currentProvince = "all";
 
@@ -34,7 +36,6 @@
     likely_wildfire: "Likely Wildfires",
     possible_wildfire: "Possible + Likely Wildfires",
     thermal_anomaly: "Thermal Anomalies",
-    protected: "In Protected Areas",
   };
   var CLASS_COLORS = {
     likely_wildfire: "#d32f2f",
@@ -58,7 +59,6 @@
       attributionControl: false,
     });
 
-    // Clean OpenStreetMap tiles — no borders, just geography
     L.tileLayer(
       "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
       { maxZoom: 18 }
@@ -67,7 +67,7 @@
     L.control.zoom({ position: "bottomleft" }).addTo(map);
     firesLayer = L.layerGroup().addTo(map);
 
-    // Coordinate + temperature display
+    // Coordinate + temperature/humidity display
     coordControl = L.control({ position: "bottomleft" });
     coordControl.onAdd = function () {
       var div = L.DomUtil.create("div", "coord-display");
@@ -130,6 +130,110 @@
     });
   }
 
+  // --- Heatmap Layer ---
+  function renderHeatmap() {
+    if (heatLayer) {
+      map.removeLayer(heatLayer);
+      heatLayer = null;
+    }
+    if (!showHeatmap || allFires.length === 0) return;
+
+    var points = allFires.map(function (f) {
+      var intensity = Math.min(parseFloat(f.frp) || 1, 120) / 120;
+      return [f.latitude, f.longitude, intensity];
+    });
+
+    heatLayer = L.heatLayer(points, {
+      radius: 22,
+      blur: 16,
+      maxZoom: 12,
+      max: 1.0,
+      gradient: {
+        0.0: "#313695",
+        0.2: "#4575b4",
+        0.4: "#74add1",
+        0.5: "#fee090",
+        0.7: "#f46d43",
+        0.85: "#d73027",
+        1.0: "#a50026",
+      },
+    }).addTo(map);
+  }
+
+  // --- Humidity Map Layer ---
+  // 5×5 grid of Open-Meteo fetches across Cambodia
+  var GRID_LATS = [10.47, 11.41, 12.35, 13.29, 14.23];
+  var GRID_LONS = [102.83, 103.89, 104.95, 106.01, 107.07];
+  var CELL_DLAT = 0.94;
+  var CELL_DLON = 1.06;
+
+  function humidityColor(h) {
+    if (h < 30) return "#ff7043";   // very dry - orange
+    if (h < 50) return "#ffb300";   // dry - amber
+    if (h < 65) return "#aed581";   // moderate - light green
+    if (h < 80) return "#29b6f6";   // humid - sky blue
+    return "#1565c0";               // very humid - deep blue
+  }
+
+  function fetchHumidityGrid() {
+    var promises = [];
+    GRID_LATS.forEach(function (lat) {
+      GRID_LONS.forEach(function (lon) {
+        promises.push(
+          fetch("https://api.open-meteo.com/v1/forecast?latitude=" + lat + "&longitude=" + lon + "&current=relative_humidity_2m&timezone=Asia%2FPhnom_Penh")
+            .then(function (r) { return r.json(); })
+            .then(function (data) {
+              return {
+                lat: lat,
+                lon: lon,
+                humidity: data.current ? data.current.relative_humidity_2m : null,
+              };
+            })
+            .catch(function () { return { lat: lat, lon: lon, humidity: null }; })
+        );
+      });
+    });
+    return Promise.all(promises);
+  }
+
+  function renderHumidityMap(gridData) {
+    if (humidityLayer) {
+      map.removeLayer(humidityLayer);
+      humidityLayer = null;
+    }
+    if (!showHumidity) return;
+
+    humidityLayer = L.layerGroup();
+
+    gridData.forEach(function (cell) {
+      if (cell.humidity === null) return;
+      var south = cell.lat - CELL_DLAT / 2;
+      var north = cell.lat + CELL_DLAT / 2;
+      var west  = cell.lon - CELL_DLON / 2;
+      var east  = cell.lon + CELL_DLON / 2;
+
+      var rect = L.rectangle([[south, west], [north, east]], {
+        color: humidityColor(cell.humidity),
+        fillColor: humidityColor(cell.humidity),
+        fillOpacity: 0.38,
+        weight: 1,
+        opacity: 0.5,
+      });
+
+      rect.bindTooltip(
+        "<b>Humidity: " + cell.humidity + "%</b><br>" +
+        "Lat " + cell.lat.toFixed(2) + ", Lon " + cell.lon.toFixed(2),
+        { sticky: true }
+      );
+
+      humidityLayer.addLayer(rect);
+    });
+
+    humidityLayer.addTo(map);
+    // Bring hotspot markers to front
+    if (firesLayer) firesLayer.bringToFront();
+  }
+
   // --- Data Loading ---
   async function loadJSON(url) {
     var resp = await fetch(url + "?t=" + Date.now());
@@ -141,20 +245,8 @@
     var results = await Promise.all([
       loadJSON("data/fires_latest.json"),
       loadJSON("data/summary.json"),
-      loadJSON("data/geo/cambodia_protected_areas.geojson").catch(function () { return null; }),
     ]);
-    return { fires: results[0], summary: results[1], protected: results[2] };
-  }
-
-  // --- Render Protected Areas ---
-  function renderProtected(geojson) {
-    if (!geojson) return;
-    protectedLayer = L.geoJSON(geojson, {
-      style: { color: "#2e7d32", weight: 2, fillColor: "#4caf50", fillOpacity: 0.15 },
-      onEachFeature: function (feature, layer) {
-        layer.bindTooltip(feature.properties.NAME || "Protected Area", { sticky: true });
-      },
-    }).addTo(map);
+    return { fires: results[0], summary: results[1] };
   }
 
   // --- Render Hotspots ---
@@ -201,10 +293,6 @@
     html += "<b>Confidence:</b> " + (fire.confidence || "N/A") + "<br>";
     html += "<b>FRP:</b> " + (fire.frp || "N/A") + " MW<br>";
     html += "<b>Day/Night:</b> " + (fire.daynight === "D" ? "Day" : "Night") + "<br>";
-    if (fire.protected_area) {
-      html += '<br><span class="popup-pa-badge">PROTECTED AREA</span><br>';
-      html += "<b>" + (fire.protected_area_name || "Protected Area") + "</b>";
-    }
     return html;
   }
 
@@ -222,8 +310,6 @@
       });
     } else if (currentFilter === "thermal_anomaly") {
       filtered = filtered.filter(function (f) { return classifyHotspot(f) === "thermal_anomaly"; });
-    } else if (currentFilter === "protected") {
-      filtered = filtered.filter(function (f) { return f.protected_area; });
     }
     return filtered;
   }
@@ -260,10 +346,10 @@
       return;
     }
 
-    var counts = { likely_wildfire: 0, possible_wildfire: 0, thermal_anomaly: 0, protected: 0 };
+    var counts = { likely_wildfire: 0, possible_wildfire: 0, thermal_anomaly: 0 };
     filtered.forEach(function (f) {
-      counts[classifyHotspot(f)] = (counts[classifyHotspot(f)] || 0) + 1;
-      if (f.protected_area) counts.protected++;
+      var cls = classifyHotspot(f);
+      counts[cls] = (counts[cls] || 0) + 1;
     });
 
     var provinceName = currentProvince === "all" ? "All Provinces" : currentProvince;
@@ -278,7 +364,6 @@
     if (counts.likely_wildfire > 0) html += '<span class="fs-tag" style="background:#d32f2f">' + counts.likely_wildfire + ' likely wildfire' + (counts.likely_wildfire !== 1 ? 's' : '') + '</span>';
     if (counts.possible_wildfire > 0) html += '<span class="fs-tag" style="background:#e65100">' + counts.possible_wildfire + ' possible</span>';
     if (counts.thermal_anomaly > 0) html += '<span class="fs-tag" style="background:#5c6b7a">' + counts.thermal_anomaly + ' thermal</span>';
-    if (counts.protected > 0) html += '<span class="fs-tag" style="background:#2e7d32">' + counts.protected + ' in protected areas</span>';
     html += '</div>';
 
     el.innerHTML = html;
@@ -321,7 +406,6 @@
       return;
     }
 
-    var paClass = (summary.hotspots_in_protected_areas || 0) > 0 ? "danger" : "";
     var wfClass = (summary.likely_wildfires || 0) > 0 ? "danger" : "";
     var html = "";
 
@@ -329,7 +413,6 @@
     html += '<div class="stat-row"><span class="stat-label">Likely Wildfires</span><span class="stat-value ' + wfClass + '">' + (summary.likely_wildfires || 0) + '</span></div>';
     html += '<div class="stat-row"><span class="stat-label">Possible Wildfires</span><span class="stat-value" style="color:var(--accent-orange)">' + (summary.possible_wildfires || 0) + '</span></div>';
     html += '<div class="stat-row"><span class="stat-label">Thermal Anomalies</span><span class="stat-value" style="color:var(--text-secondary)">' + (summary.thermal_anomalies || 0) + '</span></div>';
-    html += '<div class="stat-row"><span class="stat-label">In Protected Areas</span><span class="stat-value ' + paClass + '">' + (summary.hotspots_in_protected_areas || 0) + '</span></div>';
 
     if (summary.top_provinces && summary.top_provinces.length) {
       html += '<div class="province-list"><div class="stat-label" style="margin-bottom:6px">Top Provinces</div>';
@@ -349,25 +432,52 @@
 
   // --- Controls ---
   function setupControls() {
-    var btnProtected = document.getElementById("btn-protected");
+    var btnHeatmap  = document.getElementById("btn-heatmap");
+    var btnHumidity = document.getElementById("btn-humidity");
 
     var filterBtns = {
-      all: document.getElementById("btn-filter-all"),
-      likely_wildfire: document.getElementById("btn-filter-wildfire"),
+      all:              document.getElementById("btn-filter-all"),
+      likely_wildfire:  document.getElementById("btn-filter-wildfire"),
       possible_wildfire: document.getElementById("btn-filter-possible"),
-      thermal_anomaly: document.getElementById("btn-filter-thermal"),
-      protected: document.getElementById("btn-filter-pa"),
+      thermal_anomaly:  document.getElementById("btn-filter-thermal"),
     };
 
-    btnProtected.classList.add("active");
     filterBtns.all.classList.add("filter-active");
 
-    btnProtected.addEventListener("click", function () {
-      showProtected = !showProtected;
-      this.classList.toggle("active");
-      this.querySelector(".toggle-state").textContent = showProtected ? "ON" : "OFF";
-      if (showProtected && protectedLayer) map.addLayer(protectedLayer);
-      else if (protectedLayer) map.removeLayer(protectedLayer);
+    // Heatmap toggle
+    btnHeatmap.addEventListener("click", function () {
+      showHeatmap = !showHeatmap;
+      this.querySelector(".toggle-state").textContent = showHeatmap ? "ON" : "OFF";
+      this.classList.toggle("active", showHeatmap);
+      renderHeatmap();
+    });
+
+    // Humidity toggle — lazy-load on first enable
+    btnHumidity.addEventListener("click", function () {
+      var btn = this;
+      showHumidity = !showHumidity;
+      btn.querySelector(".toggle-state").textContent = showHumidity ? "ON" : "OFF";
+      btn.classList.toggle("active", showHumidity);
+
+      if (showHumidity && !humidityLoaded) {
+        btn.querySelector(".toggle-state").textContent = "…";
+        btn.disabled = true;
+        fetchHumidityGrid().then(function (gridData) {
+          humidityLoaded = true;
+          btn.disabled = false;
+          btn.querySelector(".toggle-state").textContent = "ON";
+          renderHumidityMap(gridData);
+          // Store for future toggling
+          btn._gridData = gridData;
+        });
+      } else if (showHumidity && btn._gridData) {
+        renderHumidityMap(btn._gridData);
+      } else {
+        if (humidityLayer) {
+          map.removeLayer(humidityLayer);
+          humidityLayer = null;
+        }
+      }
     });
 
     function setFilter(filter) {
@@ -380,6 +490,29 @@
     Object.keys(filterBtns).forEach(function (key) {
       filterBtns[key].addEventListener("click", function () { setFilter(key); });
     });
+  }
+
+  // --- Legend ---
+  function addLegend() {
+    var legend = L.control({ position: "bottomright" });
+    legend.onAdd = function () {
+      var div = L.DomUtil.create("div", "legend");
+      div.innerHTML =
+        '<div class="legend-title">Hotspot Classification</div>' +
+        '<div class="legend-item"><span class="legend-dot" style="background:#d32f2f"></span> Likely Wildfire</div>' +
+        '<div class="legend-item"><span class="legend-dot" style="background:#e65100"></span> Possible Wildfire</div>' +
+        '<div class="legend-item"><span class="legend-dot" style="background:#5c6b7a"></span> Thermal Anomaly</div>' +
+        '<div class="legend-note">Dot size = FRP intensity</div>' +
+        '<hr style="border-color:rgba(255,255,255,0.15);margin:6px 0">' +
+        '<div class="legend-title">Humidity</div>' +
+        '<div class="legend-item"><span class="legend-dot" style="background:#ff7043"></span> &lt;30% Very Dry</div>' +
+        '<div class="legend-item"><span class="legend-dot" style="background:#ffb300"></span> 30–50% Dry</div>' +
+        '<div class="legend-item"><span class="legend-dot" style="background:#aed581"></span> 50–65% Moderate</div>' +
+        '<div class="legend-item"><span class="legend-dot" style="background:#29b6f6"></span> 65–80% Humid</div>' +
+        '<div class="legend-item"><span class="legend-dot" style="background:#1565c0"></span> &gt;80% Very Humid</div>';
+      return div;
+    };
+    legend.addTo(map);
   }
 
   // --- Modal ---
@@ -400,22 +533,6 @@
     });
   }
 
-  // --- Legend ---
-  function addLegend() {
-    var legend = L.control({ position: "bottomright" });
-    legend.onAdd = function () {
-      var div = L.DomUtil.create("div", "legend");
-      div.innerHTML =
-        '<div class="legend-title">Hotspot Classification</div>' +
-        '<div class="legend-item"><span class="legend-dot" style="background:#d32f2f"></span> Likely Wildfire</div>' +
-        '<div class="legend-item"><span class="legend-dot" style="background:#e65100"></span> Possible Wildfire</div>' +
-        '<div class="legend-item"><span class="legend-dot" style="background:#5c6b7a"></span> Thermal Anomaly</div>' +
-        '<div class="legend-note">Dot size = FRP intensity</div>';
-      return div;
-    };
-    legend.addTo(map);
-  }
-
   // --- Main ---
   async function main() {
     initMap();
@@ -433,7 +550,6 @@
         if (!f.classification) f.classification = classifyHotspot(f);
       });
 
-      renderProtected(data.protected);
       buildProvinceDropdown(allFires);
       renderHotspots(allFires);
       renderSummary(summaryData);

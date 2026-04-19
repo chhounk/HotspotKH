@@ -12,6 +12,8 @@
   <!-- Leaflet -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <!-- Leaflet.heat -->
+  <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
 
   <!-- App styles -->
   <link rel="stylesheet" href="css/style.css">
@@ -39,7 +41,8 @@
   <div id="controls">
     <!-- Layer toggles -->
     <div class="ctrl-section-label">Layers</div>
-    <button id="btn-protected" class="ctrl-btn toggle-btn">Protected Areas <span class="toggle-state">ON</span></button>
+    <button id="btn-heatmap" class="ctrl-btn toggle-btn">Heatmap <span class="toggle-state">OFF</span></button>
+    <button id="btn-humidity" class="ctrl-btn toggle-btn">Humidity Map <span class="toggle-state">OFF</span></button>
 
     <hr style="border-color:rgba(255,255,255,0.1);margin:4px 0">
 
@@ -57,7 +60,6 @@
     <button id="btn-filter-wildfire" class="ctrl-btn">Likely Wildfires</button>
     <button id="btn-filter-possible" class="ctrl-btn">Possible Wildfires</button>
     <button id="btn-filter-thermal" class="ctrl-btn">Thermal Anomalies</button>
-    <button id="btn-filter-pa" class="ctrl-btn">Protected Areas Only</button>
   </div>
 
   <!-- Filter Summary Box -->
