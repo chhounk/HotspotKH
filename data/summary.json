@@ -1,17 +1,17 @@
 {
-  "total_hotspots": 1147,
+  "total_hotspots": 1234,
   "likely_wildfires": 29,
   "possible_wildfires": 253,
-  "thermal_anomalies": 865,
-  "hotspots_in_protected_areas": 196,
+  "thermal_anomalies": 952,
+  "hotspots_in_protected_areas": 250,
   "top_provinces": [
     {
-      "province": "Svay Rieng",
-      "count": 213
+      "province": "Ratanakiri",
+      "count": 235
     },
     {
-      "province": "Ratanakiri",
-      "count": 176
+      "province": "Svay Rieng",
+      "count": 215
     },
     {
       "province": "Prey Veng",
@@ -23,11 +23,11 @@
     },
     {
       "province": "Kampong Thom",
-      "count": 89
+      "count": 90
     },
     {
       "province": "Kampong Cham",
-      "count": 85
+      "count": 87
     },
     {
       "province": "Siem Reap",
@@ -35,11 +35,11 @@
     },
     {
       "province": "Kratie",
-      "count": 58
+      "count": 63
     },
     {
       "province": "Mondulkiri",
-      "count": 45
+      "count": 54
     },
     {
       "province": "Takeo",
@@ -50,16 +50,16 @@
       "count": 36
     },
     {
+      "province": "Preah Vihear",
+      "count": 27
+    },
+    {
       "province": "Kampong Chhnang",
       "count": 25
     },
     {
       "province": "Tboung Khmum",
-      "count": 21
-    },
-    {
-      "province": "Preah Vihear",
-      "count": 21
+      "count": 22
     },
     {
       "province": "Battambang",
@@ -67,7 +67,7 @@
     },
     {
       "province": "Oddar Meanchey",
-      "count": 15
+      "count": 16
     },
     {
       "province": "Stung Treng",
@@ -82,19 +82,19 @@
       "count": 5
     },
     {
+      "province": "Pursat",
+      "count": 2
+    },
+    {
       "province": "Phnom Penh",
       "count": 2
     },
     {
       "province": "Kep",
       "count": 1
-    },
-    {
-      "province": "Pursat",
-      "count": 1
     }
   ],
-  "last_updated": "2026-04-21T01:46:16.931124+07:00",
+  "last_updated": "2026-04-21T04:35:19.493739+07:00",
   "date_range": {
     "start": "2026-04-19",
     "end": "2026-04-20"
