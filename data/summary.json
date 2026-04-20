@@ -1,9 +1,9 @@
 {
-  "total_hotspots": 1144,
-  "likely_wildfires": 27,
-  "possible_wildfires": 252,
+  "total_hotspots": 1147,
+  "likely_wildfires": 29,
+  "possible_wildfires": 253,
   "thermal_anomalies": 865,
-  "hotspots_in_protected_areas": 194,
+  "hotspots_in_protected_areas": 196,
   "top_provinces": [
     {
       "province": "Svay Rieng",
@@ -11,7 +11,7 @@
     },
     {
       "province": "Ratanakiri",
-      "count": 174
+      "count": 176
     },
     {
       "province": "Prey Veng",
@@ -54,12 +54,12 @@
       "count": 25
     },
     {
-      "province": "Preah Vihear",
+      "province": "Tboung Khmum",
       "count": 21
     },
     {
-      "province": "Tboung Khmum",
-      "count": 20
+      "province": "Preah Vihear",
+      "count": 21
     },
     {
       "province": "Battambang",
@@ -94,7 +94,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-04-20T19:58:16.403941+07:00",
+  "last_updated": "2026-04-20T23:00:41.285194+07:00",
   "date_range": {
     "start": "2026-04-19",
     "end": "2026-04-20"
