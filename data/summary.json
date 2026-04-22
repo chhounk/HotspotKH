@@ -1,13 +1,13 @@
 {
-  "total_hotspots": 1075,
+  "total_hotspots": 1280,
   "likely_wildfires": 31,
-  "possible_wildfires": 175,
-  "thermal_anomalies": 869,
-  "hotspots_in_protected_areas": 347,
+  "possible_wildfires": 176,
+  "thermal_anomalies": 1073,
+  "hotspots_in_protected_areas": 471,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 283
+      "count": 399
     },
     {
       "province": "Kampong Thom",
@@ -18,64 +18,64 @@
       "count": 99
     },
     {
-      "province": "Kampong Cham",
-      "count": 91
+      "province": "Kratie",
+      "count": 99
     },
     {
       "province": "Kandal",
-      "count": 89
+      "count": 94
     },
     {
-      "province": "Kratie",
-      "count": 74
+      "province": "Kampong Cham",
+      "count": 92
     },
     {
       "province": "Mondulkiri",
-      "count": 53
+      "count": 66
     },
     {
       "province": "Prey Veng",
-      "count": 45
+      "count": 48
     },
     {
       "province": "Preah Vihear",
-      "count": 31
+      "count": 39
     },
     {
       "province": "Stung Treng",
-      "count": 29
+      "count": 38
+    },
+    {
+      "province": "Battambang",
+      "count": 28
     },
     {
       "province": "Siem Reap",
       "count": 28
     },
     {
-      "province": "Battambang",
-      "count": 24
-    },
-    {
       "province": "Banteay Meanchey",
-      "count": 21
-    },
-    {
-      "province": "Kampong Chhnang",
-      "count": 20
-    },
-    {
-      "province": "Takeo",
-      "count": 20
+      "count": 25
     },
     {
       "province": "Oddar Meanchey",
-      "count": 19
+      "count": 24
+    },
+    {
+      "province": "Takeo",
+      "count": 23
+    },
+    {
+      "province": "Kampong Chhnang",
+      "count": 21
     },
     {
       "province": "Tboung Khmum",
-      "count": 16
+      "count": 20
     },
     {
       "province": "Kampot",
-      "count": 14
+      "count": 18
     },
     {
       "province": "Kampong Speu",
@@ -90,7 +90,7 @@
       "count": 2
     }
   ],
-  "last_updated": "2026-04-23T01:54:13.028002+07:00",
+  "last_updated": "2026-04-23T04:40:02.764622+07:00",
   "date_range": {
     "start": "2026-04-21",
     "end": "2026-04-22"
