@@ -1,13 +1,13 @@
 {
-  "total_hotspots": 778,
+  "total_hotspots": 794,
   "likely_wildfires": 21,
-  "possible_wildfires": 128,
-  "thermal_anomalies": 629,
-  "hotspots_in_protected_areas": 227,
+  "possible_wildfires": 133,
+  "thermal_anomalies": 640,
+  "hotspots_in_protected_areas": 236,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 197
+      "count": 213
     },
     {
       "province": "Kandal",
@@ -82,9 +82,9 @@
       "count": 4
     }
   ],
-  "last_updated": "2026-04-23T12:20:14.579475+07:00",
+  "last_updated": "2026-04-23T14:18:45.472292+07:00",
   "date_range": {
     "start": "2026-04-22",
-    "end": "2026-04-22"
+    "end": "2026-04-23"
   }
 }
