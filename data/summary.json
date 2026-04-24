@@ -1,73 +1,73 @@
 {
-  "total_hotspots": 945,
-  "likely_wildfires": 59,
-  "possible_wildfires": 144,
-  "thermal_anomalies": 742,
-  "hotspots_in_protected_areas": 458,
+  "total_hotspots": 1090,
+  "likely_wildfires": 66,
+  "possible_wildfires": 170,
+  "thermal_anomalies": 854,
+  "hotspots_in_protected_areas": 464,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 382
+      "count": 383
+    },
+    {
+      "province": "Svay Rieng",
+      "count": 134
+    },
+    {
+      "province": "Kampong Thom",
+      "count": 85
     },
     {
       "province": "Kratie",
-      "count": 77
+      "count": 82
     },
     {
       "province": "Kampong Cham",
       "count": 76
     },
     {
-      "province": "Svay Rieng",
-      "count": 73
-    },
-    {
-      "province": "Kampong Thom",
-      "count": 60
-    },
-    {
       "province": "Kandal",
-      "count": 58
+      "count": 72
+    },
+    {
+      "province": "Takeo",
+      "count": 39
     },
     {
       "province": "Stung Treng",
       "count": 34
     },
     {
-      "province": "Takeo",
-      "count": 32
+      "province": "Preah Vihear",
+      "count": 29
     },
     {
-      "province": "Preah Vihear",
-      "count": 27
+      "province": "Prey Veng",
+      "count": 28
+    },
+    {
+      "province": "Banteay Meanchey",
+      "count": 26
     },
     {
       "province": "Mondulkiri",
       "count": 22
     },
     {
-      "province": "Banteay Meanchey",
-      "count": 19
-    },
-    {
-      "province": "Prey Veng",
-      "count": 18
+      "province": "Oddar Meanchey",
+      "count": 16
     },
     {
       "province": "Kampong Chhnang",
-      "count": 13
-    },
-    {
-      "province": "Oddar Meanchey",
-      "count": 13
+      "count": 14
     },
     {
       "province": "Battambang",
-      "count": 11
+      "count": 14
     },
     {
       "province": "Siem Reap",
-      "count": 9
+      "count": 14
     },
     {
       "province": "Kep",
@@ -83,7 +83,7 @@
     },
     {
       "province": "Kampong Speu",
-      "count": 3
+      "count": 4
     },
     {
       "province": "Koh Kong",
@@ -94,7 +94,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-04-24T14:30:43.102985+07:00",
+  "last_updated": "2026-04-24T17:13:47.447042+07:00",
   "date_range": {
     "start": "2026-04-23",
     "end": "2026-04-24"
