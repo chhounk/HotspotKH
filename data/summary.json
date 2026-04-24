@@ -1,13 +1,13 @@
 {
-  "total_hotspots": 1467,
-  "likely_wildfires": 66,
+  "total_hotspots": 1474,
+  "likely_wildfires": 72,
   "possible_wildfires": 255,
-  "thermal_anomalies": 1146,
-  "hotspots_in_protected_areas": 536,
+  "thermal_anomalies": 1147,
+  "hotspots_in_protected_areas": 542,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 416
+      "count": 423
     },
     {
       "province": "Svay Rieng",
@@ -94,7 +94,7 @@
       "count": 2
     }
   ],
-  "last_updated": "2026-04-24T19:51:54.543771+07:00",
+  "last_updated": "2026-04-24T22:55:45.798188+07:00",
   "date_range": {
     "start": "2026-04-23",
     "end": "2026-04-24"
