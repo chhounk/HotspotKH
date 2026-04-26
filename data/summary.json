@@ -1,7 +1,7 @@
 {
-  "total_hotspots": 962,
+  "total_hotspots": 963,
   "likely_wildfires": 5,
-  "possible_wildfires": 167,
+  "possible_wildfires": 168,
   "thermal_anomalies": 790,
   "hotspots_in_protected_areas": 303,
   "top_provinces": [
@@ -70,15 +70,15 @@
       "count": 15
     },
     {
+      "province": "Tboung Khmum",
+      "count": 9
+    },
+    {
       "province": "Pursat",
       "count": 8
     },
     {
       "province": "Prey Veng",
-      "count": 8
-    },
-    {
-      "province": "Tboung Khmum",
       "count": 8
     },
     {
@@ -94,7 +94,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-04-26T19:35:09.547908+07:00",
+  "last_updated": "2026-04-26T22:31:59.719846+07:00",
   "date_range": {
     "start": "2026-04-25",
     "end": "2026-04-26"
