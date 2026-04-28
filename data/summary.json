@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 465,
+  "total_hotspots": 466,
   "likely_wildfires": 5,
   "possible_wildfires": 72,
-  "thermal_anomalies": 388,
+  "thermal_anomalies": 389,
   "hotspots_in_protected_areas": 67,
   "top_provinces": [
     {
@@ -11,7 +11,7 @@
     },
     {
       "province": "Kampong Thom",
-      "count": 68
+      "count": 69
     },
     {
       "province": "Kandal",
@@ -90,7 +90,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-04-28T20:21:59.660147+07:00",
+  "last_updated": "2026-04-28T23:30:57.809793+07:00",
   "date_range": {
     "start": "2026-04-27",
     "end": "2026-04-28"
