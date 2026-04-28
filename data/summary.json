@@ -1,98 +1,10 @@
 {
-  "total_hotspots": 463,
-  "likely_wildfires": 5,
-  "possible_wildfires": 71,
-  "thermal_anomalies": 387,
-  "hotspots_in_protected_areas": 67,
-  "top_provinces": [
-    {
-      "province": "Svay Rieng",
-      "count": 77
-    },
-    {
-      "province": "Kampong Thom",
-      "count": 68
-    },
-    {
-      "province": "Kandal",
-      "count": 56
-    },
-    {
-      "province": "Ratanakiri",
-      "count": 49
-    },
-    {
-      "province": "Kampong Cham",
-      "count": 48
-    },
-    {
-      "province": "Prey Veng",
-      "count": 27
-    },
-    {
-      "province": "Takeo",
-      "count": 22
-    },
-    {
-      "province": "Preah Vihear",
-      "count": 18
-    },
-    {
-      "province": "Siem Reap",
-      "count": 18
-    },
-    {
-      "province": "Tboung Khmum",
-      "count": 16
-    },
-    {
-      "province": "Kratie",
-      "count": 12
-    },
-    {
-      "province": "Banteay Meanchey",
-      "count": 11
-    },
-    {
-      "province": "Kampong Chhnang",
-      "count": 10
-    },
-    {
-      "province": "Oddar Meanchey",
-      "count": 10
-    },
-    {
-      "province": "Mondulkiri",
-      "count": 9
-    },
-    {
-      "province": "Battambang",
-      "count": 4
-    },
-    {
-      "province": "Kampong Speu",
-      "count": 3
-    },
-    {
-      "province": "Stung Treng",
-      "count": 2
-    },
-    {
-      "province": "Koh Kong",
-      "count": 1
-    },
-    {
-      "province": "Kampot",
-      "count": 1
-    },
-    {
-      "province": "Pursat",
-      "count": 1
-    }
-  ],
-  "last_updated": "2026-04-28T14:59:48.513653+07:00",
-  "date_range": {
-    "start": "2026-04-27",
-    "end": "2026-04-28"
-  }
+  "total_hotspots": 0,
+  "likely_wildfires": 0,
+  "possible_wildfires": 0,
+  "thermal_anomalies": 0,
+  "hotspots_in_protected_areas": 0,
+  "top_provinces": [],
+  "last_updated": "2026-04-28T17:54:04.961277+07:00",
+  "date_range": {}
 }
