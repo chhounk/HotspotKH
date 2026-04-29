@@ -1,33 +1,33 @@
 {
-  "total_hotspots": 177,
-  "likely_wildfires": 1,
-  "possible_wildfires": 29,
-  "thermal_anomalies": 147,
-  "hotspots_in_protected_areas": 8,
+  "total_hotspots": 248,
+  "likely_wildfires": 4,
+  "possible_wildfires": 47,
+  "thermal_anomalies": 197,
+  "hotspots_in_protected_areas": 11,
   "top_provinces": [
     {
       "province": "Kampong Thom",
-      "count": 45
-    },
-    {
-      "province": "Kandal",
-      "count": 25
-    },
-    {
-      "province": "Kampong Cham",
-      "count": 23
+      "count": 60
     },
     {
       "province": "Svay Rieng",
-      "count": 20
+      "count": 37
+    },
+    {
+      "province": "Kampong Cham",
+      "count": 30
+    },
+    {
+      "province": "Kandal",
+      "count": 29
     },
     {
       "province": "Prey Veng",
-      "count": 17
+      "count": 25
     },
     {
       "province": "Siem Reap",
-      "count": 10
+      "count": 17
     },
     {
       "province": "Tboung Khmum",
@@ -38,19 +38,35 @@
       "count": 6
     },
     {
+      "province": "Mondulkiri",
+      "count": 6
+    },
+    {
+      "province": "Battambang",
+      "count": 5
+    },
+    {
       "province": "Oddar Meanchey",
       "count": 5
     },
     {
-      "province": "Mondulkiri",
+      "province": "Kratie",
       "count": 4
     },
     {
-      "province": "Koh Kong",
+      "province": "Banteay Meanchey",
+      "count": 3
+    },
+    {
+      "province": "Kampot",
+      "count": 3
+    },
+    {
+      "province": "Kampong Chhnang",
       "count": 2
     },
     {
-      "province": "Kratie",
+      "province": "Koh Kong",
       "count": 2
     },
     {
@@ -58,19 +74,7 @@
       "count": 2
     },
     {
-      "province": "Banteay Meanchey",
-      "count": 2
-    },
-    {
       "province": "Kampong Speu",
-      "count": 1
-    },
-    {
-      "province": "Kampong Chhnang",
-      "count": 1
-    },
-    {
-      "province": "Battambang",
       "count": 1
     },
     {
@@ -78,11 +82,11 @@
       "count": 1
     },
     {
-      "province": "Kampot",
+      "province": "Ratanakiri",
       "count": 1
     }
   ],
-  "last_updated": "2026-04-29T14:54:26.116395+07:00",
+  "last_updated": "2026-04-29T17:44:57.768008+07:00",
   "date_range": {
     "start": "2026-04-28",
     "end": "2026-04-29"
