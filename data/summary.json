@@ -1,9 +1,9 @@
 {
-  "total_hotspots": 248,
+  "total_hotspots": 253,
   "likely_wildfires": 4,
   "possible_wildfires": 47,
-  "thermal_anomalies": 197,
-  "hotspots_in_protected_areas": 11,
+  "thermal_anomalies": 202,
+  "hotspots_in_protected_areas": 12,
   "top_provinces": [
     {
       "province": "Kampong Thom",
@@ -11,15 +11,15 @@
     },
     {
       "province": "Svay Rieng",
-      "count": 37
+      "count": 39
+    },
+    {
+      "province": "Kandal",
+      "count": 30
     },
     {
       "province": "Kampong Cham",
       "count": 30
-    },
-    {
-      "province": "Kandal",
-      "count": 29
     },
     {
       "province": "Prey Veng",
@@ -43,7 +43,7 @@
     },
     {
       "province": "Battambang",
-      "count": 5
+      "count": 6
     },
     {
       "province": "Oddar Meanchey",
@@ -74,11 +74,11 @@
       "count": 2
     },
     {
-      "province": "Kampong Speu",
-      "count": 1
+      "province": "Pursat",
+      "count": 2
     },
     {
-      "province": "Pursat",
+      "province": "Kampong Speu",
       "count": 1
     },
     {
@@ -86,7 +86,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-04-30T02:03:32.761563+07:00",
+  "last_updated": "2026-04-30T04:48:42.457524+07:00",
   "date_range": {
     "start": "2026-04-28",
     "end": "2026-04-29"
