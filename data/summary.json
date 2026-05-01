@@ -1,56 +1,44 @@
 {
-  "total_hotspots": 316,
-  "likely_wildfires": 11,
-  "possible_wildfires": 82,
-  "thermal_anomalies": 223,
-  "hotspots_in_protected_areas": 38,
+  "total_hotspots": 236,
+  "likely_wildfires": 7,
+  "possible_wildfires": 59,
+  "thermal_anomalies": 170,
+  "hotspots_in_protected_areas": 36,
   "top_provinces": [
     {
       "province": "Kampong Thom",
-      "count": 67
+      "count": 48
     },
     {
       "province": "Kampong Cham",
-      "count": 49
+      "count": 42
     },
     {
       "province": "Svay Rieng",
-      "count": 40
+      "count": 21
     },
     {
       "province": "Kandal",
-      "count": 26
-    },
-    {
-      "province": "Prey Veng",
-      "count": 18
+      "count": 21
     },
     {
       "province": "Kratie",
-      "count": 17
-    },
-    {
-      "province": "Siem Reap",
-      "count": 15
+      "count": 14
     },
     {
       "province": "Preah Vihear",
       "count": 11
     },
     {
+      "province": "Prey Veng",
+      "count": 10
+    },
+    {
       "province": "Kampong Chhnang",
-      "count": 10
-    },
-    {
-      "province": "Banteay Meanchey",
-      "count": 10
-    },
-    {
-      "province": "Kampot",
       "count": 9
     },
     {
-      "province": "Battambang",
+      "province": "Banteay Meanchey",
       "count": 9
     },
     {
@@ -62,33 +50,41 @@
       "count": 7
     },
     {
-      "province": "Tboung Khmum",
-      "count": 6
+      "province": "Kampot",
+      "count": 7
     },
     {
-      "province": "Mondulkiri",
-      "count": 4
+      "province": "Siem Reap",
+      "count": 7
+    },
+    {
+      "province": "Tboung Khmum",
+      "count": 6
     },
     {
       "province": "Koh Kong",
       "count": 4
     },
     {
+      "province": "Battambang",
+      "count": 4
+    },
+    {
+      "province": "Stung Treng",
+      "count": 3
+    },
+    {
       "province": "Takeo",
       "count": 3
     },
     {
-      "province": "Stung Treng",
+      "province": "Mondulkiri",
       "count": 2
-    },
-    {
-      "province": "Pursat",
-      "count": 1
     }
   ],
-  "last_updated": "2026-05-01T04:43:41.337540+07:00",
+  "last_updated": "2026-05-01T08:44:43.927357+07:00",
   "date_range": {
-    "start": "2026-04-29",
+    "start": "2026-04-30",
     "end": "2026-04-30"
   }
 }
