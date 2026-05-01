@@ -1,9 +1,9 @@
 {
-  "total_hotspots": 280,
+  "total_hotspots": 283,
   "likely_wildfires": 7,
-  "possible_wildfires": 65,
-  "thermal_anomalies": 208,
-  "hotspots_in_protected_areas": 54,
+  "possible_wildfires": 66,
+  "thermal_anomalies": 210,
+  "hotspots_in_protected_areas": 55,
   "top_provinces": [
     {
       "province": "Kampong Thom",
@@ -11,7 +11,7 @@
     },
     {
       "province": "Kampong Cham",
-      "count": 44
+      "count": 46
     },
     {
       "province": "Svay Rieng",
@@ -19,7 +19,7 @@
     },
     {
       "province": "Ratanakiri",
-      "count": 22
+      "count": 23
     },
     {
       "province": "Kandal",
@@ -82,7 +82,7 @@
       "count": 3
     }
   ],
-  "last_updated": "2026-05-01T19:47:37.416073+07:00",
+  "last_updated": "2026-05-01T22:43:09.133842+07:00",
   "date_range": {
     "start": "2026-04-30",
     "end": "2026-05-01"
