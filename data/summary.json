@@ -1,90 +1,66 @@
 {
-  "total_hotspots": 302,
-  "likely_wildfires": 7,
-  "possible_wildfires": 66,
-  "thermal_anomalies": 229,
-  "hotspots_in_protected_areas": 57,
+  "total_hotspots": 66,
+  "likely_wildfires": 0,
+  "possible_wildfires": 7,
+  "thermal_anomalies": 59,
+  "hotspots_in_protected_areas": 21,
   "top_provinces": [
     {
-      "province": "Kampong Thom",
-      "count": 51
-    },
-    {
-      "province": "Kampong Cham",
-      "count": 47
+      "province": "Ratanakiri",
+      "count": 18
     },
     {
       "province": "Svay Rieng",
-      "count": 36
-    },
-    {
-      "province": "Ratanakiri",
-      "count": 25
-    },
-    {
-      "province": "Kandal",
-      "count": 21
-    },
-    {
-      "province": "Preah Vihear",
-      "count": 15
-    },
-    {
-      "province": "Kratie",
       "count": 15
     },
     {
       "province": "Oddar Meanchey",
-      "count": 14
-    },
-    {
-      "province": "Prey Veng",
-      "count": 12
-    },
-    {
-      "province": "Banteay Meanchey",
-      "count": 11
-    },
-    {
-      "province": "Tboung Khmum",
-      "count": 9
-    },
-    {
-      "province": "Kampong Chhnang",
-      "count": 9
-    },
-    {
-      "province": "Siem Reap",
-      "count": 8
-    },
-    {
-      "province": "Kampot",
-      "count": 7
-    },
-    {
-      "province": "Mondulkiri",
       "count": 6
     },
     {
-      "province": "Stung Treng",
+      "province": "Kampong Cham",
       "count": 5
     },
     {
-      "province": "Koh Kong",
+      "province": "Preah Vihear",
       "count": 4
     },
     {
-      "province": "Battambang",
+      "province": "Mondulkiri",
       "count": 4
     },
     {
-      "province": "Takeo",
+      "province": "Tboung Khmum",
       "count": 3
+    },
+    {
+      "province": "Kampong Thom",
+      "count": 3
+    },
+    {
+      "province": "Stung Treng",
+      "count": 2
+    },
+    {
+      "province": "Banteay Meanchey",
+      "count": 2
+    },
+    {
+      "province": "Prey Veng",
+      "count": 2
+    },
+    {
+      "province": "Siem Reap",
+      "count": 1
+    },
+    {
+      "province": "Kratie",
+      "count": 1
     }
   ],
-  "last_updated": "2026-05-02T04:40:28.214817+07:00",
+  "last_updated": "2026-05-02T08:22:40.802512+07:00",
   "date_range": {
-    "start": "2026-04-30",
+    "start": "2026-05-01",
     "end": "2026-05-01"
   }
 }
