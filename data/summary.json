@@ -1,13 +1,13 @@
 {
-  "total_hotspots": 285,
+  "total_hotspots": 306,
   "likely_wildfires": 5,
   "possible_wildfires": 49,
-  "thermal_anomalies": 231,
-  "hotspots_in_protected_areas": 103,
+  "thermal_anomalies": 252,
+  "hotspots_in_protected_areas": 115,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 108
+      "count": 120
     },
     {
       "province": "Kampong Thom",
@@ -15,19 +15,19 @@
     },
     {
       "province": "Svay Rieng",
-      "count": 22
+      "count": 23
     },
     {
       "province": "Preah Vihear",
-      "count": 20
+      "count": 22
     },
     {
       "province": "Kampong Cham",
-      "count": 20
+      "count": 22
     },
     {
       "province": "Kratie",
-      "count": 15
+      "count": 18
     },
     {
       "province": "Kandal",
@@ -70,15 +70,15 @@
       "count": 2
     },
     {
-      "province": "Kampong Chhnang",
+      "province": "Takeo",
       "count": 2
     },
     {
-      "province": "Takeo",
-      "count": 1
+      "province": "Kampong Chhnang",
+      "count": 2
     }
   ],
-  "last_updated": "2026-05-03T01:38:41.228848+07:00",
+  "last_updated": "2026-05-03T04:28:28.148163+07:00",
   "date_range": {
     "start": "2026-05-01",
     "end": "2026-05-02"
