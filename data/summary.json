@@ -1,29 +1,33 @@
 {
-  "total_hotspots": 240,
+  "total_hotspots": 261,
   "likely_wildfires": 5,
-  "possible_wildfires": 42,
-  "thermal_anomalies": 193,
-  "hotspots_in_protected_areas": 94,
+  "possible_wildfires": 45,
+  "thermal_anomalies": 211,
+  "hotspots_in_protected_areas": 103,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 102
+      "count": 111
     },
     {
       "province": "Kampong Thom",
       "count": 22
     },
     {
+      "province": "Kampong Cham",
+      "count": 19
+    },
+    {
+      "province": "Kratie",
+      "count": 19
+    },
+    {
       "province": "Preah Vihear",
       "count": 18
     },
     {
-      "province": "Kampong Cham",
-      "count": 17
-    },
-    {
-      "province": "Kratie",
-      "count": 17
+      "province": "Svay Rieng",
+      "count": 11
     },
     {
       "province": "Kandal",
@@ -34,20 +38,16 @@
       "count": 9
     },
     {
-      "province": "Svay Rieng",
+      "province": "Siem Reap",
       "count": 8
     },
     {
-      "province": "Siem Reap",
+      "province": "Mondulkiri",
       "count": 7
     },
     {
       "province": "Stung Treng",
       "count": 6
-    },
-    {
-      "province": "Mondulkiri",
-      "count": 5
     },
     {
       "province": "Prey Veng",
@@ -58,11 +58,11 @@
       "count": 4
     },
     {
-      "province": "Battambang",
-      "count": 2
+      "province": "Banteay Meanchey",
+      "count": 4
     },
     {
-      "province": "Banteay Meanchey",
+      "province": "Battambang",
       "count": 2
     },
     {
@@ -78,9 +78,9 @@
       "count": 2
     }
   ],
-  "last_updated": "2026-05-03T12:47:48.999147+07:00",
+  "last_updated": "2026-05-03T14:42:41.699869+07:00",
   "date_range": {
     "start": "2026-05-02",
-    "end": "2026-05-02"
+    "end": "2026-05-03"
   }
 }
