@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 354,
+  "total_hotspots": 360,
   "likely_wildfires": 5,
   "possible_wildfires": 57,
-  "thermal_anomalies": 292,
+  "thermal_anomalies": 298,
   "hotspots_in_protected_areas": 129,
   "top_provinces": [
     {
@@ -30,16 +30,16 @@
       "count": 18
     },
     {
+      "province": "Banteay Meanchey",
+      "count": 18
+    },
+    {
       "province": "Kandal",
       "count": 15
     },
     {
       "province": "Mondulkiri",
       "count": 14
-    },
-    {
-      "province": "Banteay Meanchey",
-      "count": 12
     },
     {
       "province": "Siem Reap",
@@ -78,7 +78,7 @@
       "count": 2
     }
   ],
-  "last_updated": "2026-05-03T16:57:16.150839+07:00",
+  "last_updated": "2026-05-03T19:38:08.723647+07:00",
   "date_range": {
     "start": "2026-05-02",
     "end": "2026-05-03"
