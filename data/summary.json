@@ -1,82 +1,70 @@
 {
-  "total_hotspots": 221,
+  "total_hotspots": 89,
   "likely_wildfires": 0,
-  "possible_wildfires": 26,
-  "thermal_anomalies": 195,
-  "hotspots_in_protected_areas": 72,
+  "possible_wildfires": 11,
+  "thermal_anomalies": 78,
+  "hotspots_in_protected_areas": 34,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 76
-    },
-    {
-      "province": "Kratie",
-      "count": 23
-    },
-    {
-      "province": "Siem Reap",
-      "count": 19
-    },
-    {
-      "province": "Banteay Meanchey",
-      "count": 19
+      "count": 33
     },
     {
       "province": "Kampong Thom",
       "count": 17
     },
     {
-      "province": "Kampong Cham",
-      "count": 13
-    },
-    {
-      "province": "Svay Rieng",
-      "count": 11
-    },
-    {
-      "province": "Mondulkiri",
-      "count": 9
-    },
-    {
-      "province": "Oddar Meanchey",
-      "count": 8
+      "province": "Siem Reap",
+      "count": 15
     },
     {
       "province": "Stung Treng",
       "count": 6
     },
     {
-      "province": "Kandal",
-      "count": 5
-    },
-    {
-      "province": "Kampot",
+      "province": "Oddar Meanchey",
       "count": 4
     },
     {
+      "province": "Banteay Meanchey",
+      "count": 3
+    },
+    {
+      "province": "Kampong Cham",
+      "count": 2
+    },
+    {
+      "province": "Kratie",
+      "count": 2
+    },
+    {
       "province": "Preah Vihear",
-      "count": 3
-    },
-    {
-      "province": "Takeo",
-      "count": 3
-    },
-    {
-      "province": "Battambang",
-      "count": 3
+      "count": 2
     },
     {
       "province": "Kampong Speu",
       "count": 1
     },
     {
-      "province": "Tboung Khmum",
+      "province": "Kandal",
+      "count": 1
+    },
+    {
+      "province": "Battambang",
+      "count": 1
+    },
+    {
+      "province": "Kampot",
+      "count": 1
+    },
+    {
+      "province": "Svay Rieng",
       "count": 1
     }
   ],
-  "last_updated": "2026-05-05T04:50:04.053727+07:00",
+  "last_updated": "2026-05-05T08:24:53.409931+07:00",
   "date_range": {
-    "start": "2026-05-03",
+    "start": "2026-05-04",
     "end": "2026-05-04"
   }
 }
