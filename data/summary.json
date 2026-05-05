@@ -1,13 +1,13 @@
 {
-  "total_hotspots": 97,
+  "total_hotspots": 103,
   "likely_wildfires": 0,
-  "possible_wildfires": 18,
-  "thermal_anomalies": 79,
-  "hotspots_in_protected_areas": 39,
+  "possible_wildfires": 19,
+  "thermal_anomalies": 84,
+  "hotspots_in_protected_areas": 44,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 37
+      "count": 43
     },
     {
       "province": "Kampong Thom",
@@ -66,7 +66,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-05-05T12:32:20.014359+07:00",
+  "last_updated": "2026-05-05T14:50:09.174300+07:00",
   "date_range": {
     "start": "2026-05-04",
     "end": "2026-05-05"
