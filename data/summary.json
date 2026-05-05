@@ -1,72 +1,84 @@
 {
-  "total_hotspots": 103,
-  "likely_wildfires": 0,
-  "possible_wildfires": 19,
-  "thermal_anomalies": 84,
-  "hotspots_in_protected_areas": 44,
+  "total_hotspots": 404,
+  "likely_wildfires": 9,
+  "possible_wildfires": 74,
+  "thermal_anomalies": 321,
+  "hotspots_in_protected_areas": 169,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 43
+      "count": 155
     },
     {
       "province": "Kampong Thom",
-      "count": 17
-    },
-    {
-      "province": "Siem Reap",
-      "count": 15
-    },
-    {
-      "province": "Stung Treng",
-      "count": 6
-    },
-    {
-      "province": "Oddar Meanchey",
-      "count": 6
-    },
-    {
-      "province": "Banteay Meanchey",
-      "count": 3
-    },
-    {
-      "province": "Kampong Cham",
-      "count": 2
-    },
-    {
-      "province": "Kratie",
-      "count": 2
+      "count": 80
     },
     {
       "province": "Preah Vihear",
-      "count": 2
+      "count": 25
+    },
+    {
+      "province": "Kampong Cham",
+      "count": 22
+    },
+    {
+      "province": "Siem Reap",
+      "count": 20
+    },
+    {
+      "province": "Svay Rieng",
+      "count": 20
+    },
+    {
+      "province": "Kratie",
+      "count": 19
+    },
+    {
+      "province": "Stung Treng",
+      "count": 14
+    },
+    {
+      "province": "Oddar Meanchey",
+      "count": 10
+    },
+    {
+      "province": "Takeo",
+      "count": 8
+    },
+    {
+      "province": "Pursat",
+      "count": 7
+    },
+    {
+      "province": "Banteay Meanchey",
+      "count": 5
+    },
+    {
+      "province": "Kampong Chhnang",
+      "count": 5
+    },
+    {
+      "province": "Mondulkiri",
+      "count": 5
+    },
+    {
+      "province": "Kampong Speu",
+      "count": 3
+    },
+    {
+      "province": "Kandal",
+      "count": 3
     },
     {
       "province": "Kampot",
       "count": 2
     },
     {
-      "province": "Kampong Speu",
-      "count": 1
-    },
-    {
-      "province": "Kandal",
-      "count": 1
-    },
-    {
       "province": "Battambang",
-      "count": 1
-    },
-    {
-      "province": "Svay Rieng",
-      "count": 1
-    },
-    {
-      "province": "Mondulkiri",
       "count": 1
     }
   ],
-  "last_updated": "2026-05-05T14:50:09.174300+07:00",
+  "last_updated": "2026-05-05T17:26:51.825611+07:00",
   "date_range": {
     "start": "2026-05-04",
     "end": "2026-05-05"
