@@ -1,48 +1,40 @@
 {
-  "total_hotspots": 404,
+  "total_hotspots": 324,
   "likely_wildfires": 9,
-  "possible_wildfires": 74,
-  "thermal_anomalies": 321,
-  "hotspots_in_protected_areas": 169,
+  "possible_wildfires": 63,
+  "thermal_anomalies": 252,
+  "hotspots_in_protected_areas": 140,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 155
+      "count": 131
     },
     {
       "province": "Kampong Thom",
-      "count": 80
+      "count": 63
     },
     {
       "province": "Preah Vihear",
-      "count": 25
+      "count": 23
     },
     {
       "province": "Kampong Cham",
-      "count": 22
-    },
-    {
-      "province": "Siem Reap",
       "count": 20
     },
     {
       "province": "Svay Rieng",
-      "count": 20
-    },
-    {
-      "province": "Kratie",
       "count": 19
     },
     {
-      "province": "Stung Treng",
-      "count": 14
-    },
-    {
-      "province": "Oddar Meanchey",
-      "count": 10
+      "province": "Kratie",
+      "count": 17
     },
     {
       "province": "Takeo",
+      "count": 8
+    },
+    {
+      "province": "Stung Treng",
       "count": 8
     },
     {
@@ -50,8 +42,8 @@
       "count": 7
     },
     {
-      "province": "Banteay Meanchey",
-      "count": 5
+      "province": "Oddar Meanchey",
+      "count": 6
     },
     {
       "province": "Kampong Chhnang",
@@ -62,25 +54,29 @@
       "count": 5
     },
     {
+      "province": "Siem Reap",
+      "count": 5
+    },
+    {
       "province": "Kampong Speu",
-      "count": 3
-    },
-    {
-      "province": "Kandal",
-      "count": 3
-    },
-    {
-      "province": "Kampot",
       "count": 2
     },
     {
-      "province": "Battambang",
+      "province": "Banteay Meanchey",
+      "count": 2
+    },
+    {
+      "province": "Kandal",
+      "count": 2
+    },
+    {
+      "province": "Kampot",
       "count": 1
     }
   ],
-  "last_updated": "2026-05-06T04:50:05.544337+07:00",
+  "last_updated": "2026-05-06T08:22:48.842250+07:00",
   "date_range": {
-    "start": "2026-05-04",
+    "start": "2026-05-05",
     "end": "2026-05-05"
   }
 }
