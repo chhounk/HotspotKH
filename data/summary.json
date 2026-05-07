@@ -1,13 +1,13 @@
 {
-  "total_hotspots": 430,
+  "total_hotspots": 448,
   "likely_wildfires": 5,
   "possible_wildfires": 62,
-  "thermal_anomalies": 363,
-  "hotspots_in_protected_areas": 152,
+  "thermal_anomalies": 381,
+  "hotspots_in_protected_areas": 161,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 193
+      "count": 207
     },
     {
       "province": "Svay Rieng",
@@ -15,7 +15,7 @@
     },
     {
       "province": "Kratie",
-      "count": 39
+      "count": 43
     },
     {
       "province": "Kampong Thom",
@@ -74,7 +74,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-05-08T02:21:09.862273+07:00",
+  "last_updated": "2026-05-08T04:43:17.256766+07:00",
   "date_range": {
     "start": "2026-05-06",
     "end": "2026-05-07"
