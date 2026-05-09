@@ -1,13 +1,13 @@
 {
-  "total_hotspots": 264,
+  "total_hotspots": 265,
   "likely_wildfires": 8,
-  "possible_wildfires": 47,
+  "possible_wildfires": 48,
   "thermal_anomalies": 209,
-  "hotspots_in_protected_areas": 148,
+  "hotspots_in_protected_areas": 149,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 129
+      "count": 130
     },
     {
       "province": "Kratie",
@@ -66,7 +66,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-05-09T19:44:48.366476+07:00",
+  "last_updated": "2026-05-09T22:39:06.639341+07:00",
   "date_range": {
     "start": "2026-05-08",
     "end": "2026-05-09"
