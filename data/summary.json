@@ -1,21 +1,21 @@
 {
-  "total_hotspots": 530,
+  "total_hotspots": 549,
   "likely_wildfires": 13,
-  "possible_wildfires": 109,
-  "thermal_anomalies": 408,
-  "hotspots_in_protected_areas": 199,
+  "possible_wildfires": 110,
+  "thermal_anomalies": 426,
+  "hotspots_in_protected_areas": 208,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 190
+      "count": 202
+    },
+    {
+      "province": "Kratie",
+      "count": 54
     },
     {
       "province": "Kampong Thom",
       "count": 54
-    },
-    {
-      "province": "Kratie",
-      "count": 53
     },
     {
       "province": "Kampong Cham",
@@ -23,15 +23,15 @@
     },
     {
       "province": "Tboung Khmum",
-      "count": 26
+      "count": 28
     },
     {
       "province": "Mondulkiri",
-      "count": 25
+      "count": 27
     },
     {
       "province": "Preah Vihear",
-      "count": 25
+      "count": 26
     },
     {
       "province": "Oddar Meanchey",
@@ -39,7 +39,7 @@
     },
     {
       "province": "Stung Treng",
-      "count": 20
+      "count": 21
     },
     {
       "province": "Siem Reap",
@@ -86,7 +86,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-05-11T01:41:30.590509+07:00",
+  "last_updated": "2026-05-11T04:35:49.390139+07:00",
   "date_range": {
     "start": "2026-05-09",
     "end": "2026-05-10"
