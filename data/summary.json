@@ -1,37 +1,45 @@
 {
-  "total_hotspots": 348,
-  "likely_wildfires": 9,
-  "possible_wildfires": 77,
-  "thermal_anomalies": 262,
-  "hotspots_in_protected_areas": 110,
+  "total_hotspots": 595,
+  "likely_wildfires": 11,
+  "possible_wildfires": 108,
+  "thermal_anomalies": 476,
+  "hotspots_in_protected_areas": 238,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 93
+      "count": 237
     },
     {
       "province": "Kampong Thom",
-      "count": 48
-    },
-    {
-      "province": "Kampong Cham",
-      "count": 37
+      "count": 51
     },
     {
       "province": "Kratie",
-      "count": 24
+      "count": 46
+    },
+    {
+      "province": "Kampong Cham",
+      "count": 42
+    },
+    {
+      "province": "Mondulkiri",
+      "count": 33
     },
     {
       "province": "Tboung Khmum",
-      "count": 23
+      "count": 28
     },
     {
       "province": "Stung Treng",
-      "count": 18
+      "count": 27
+    },
+    {
+      "province": "Preah Vihear",
+      "count": 24
     },
     {
       "province": "Oddar Meanchey",
-      "count": 18
+      "count": 19
     },
     {
       "province": "Siem Reap",
@@ -39,35 +47,31 @@
     },
     {
       "province": "Banteay Meanchey",
-      "count": 14
+      "count": 16
     },
     {
-      "province": "Mondulkiri",
-      "count": 13
+      "province": "Svay Rieng",
+      "count": 12
     },
     {
-      "province": "Preah Vihear",
-      "count": 13
+      "province": "Kandal",
+      "count": 10
+    },
+    {
+      "province": "Prey Veng",
+      "count": 8
+    },
+    {
+      "province": "Takeo",
+      "count": 7
     },
     {
       "province": "Kampong Speu",
       "count": 6
     },
     {
-      "province": "Svay Rieng",
-      "count": 5
-    },
-    {
       "province": "Kampong Chhnang",
-      "count": 5
-    },
-    {
-      "province": "Prey Veng",
-      "count": 3
-    },
-    {
-      "province": "Kandal",
-      "count": 3
+      "count": 6
     },
     {
       "province": "Pursat",
@@ -78,17 +82,13 @@
       "count": 3
     },
     {
-      "province": "Takeo",
-      "count": 2
-    },
-    {
       "province": "Kampot",
       "count": 1
     }
   ],
-  "last_updated": "2026-05-11T13:25:14.037868+07:00",
+  "last_updated": "2026-05-11T18:53:44.549689+07:00",
   "date_range": {
     "start": "2026-05-10",
-    "end": "2026-05-10"
+    "end": "2026-05-11"
   }
 }
