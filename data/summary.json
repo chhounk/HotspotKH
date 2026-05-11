@@ -1,68 +1,60 @@
 {
-  "total_hotspots": 549,
-  "likely_wildfires": 13,
-  "possible_wildfires": 110,
-  "thermal_anomalies": 426,
-  "hotspots_in_protected_areas": 208,
+  "total_hotspots": 348,
+  "likely_wildfires": 9,
+  "possible_wildfires": 77,
+  "thermal_anomalies": 262,
+  "hotspots_in_protected_areas": 110,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 202
-    },
-    {
-      "province": "Kratie",
-      "count": 54
+      "count": 93
     },
     {
       "province": "Kampong Thom",
-      "count": 54
+      "count": 48
     },
     {
       "province": "Kampong Cham",
-      "count": 40
+      "count": 37
     },
     {
-      "province": "Tboung Khmum",
-      "count": 28
-    },
-    {
-      "province": "Mondulkiri",
-      "count": 27
-    },
-    {
-      "province": "Preah Vihear",
-      "count": 26
-    },
-    {
-      "province": "Oddar Meanchey",
+      "province": "Kratie",
       "count": 24
     },
     {
+      "province": "Tboung Khmum",
+      "count": 23
+    },
+    {
       "province": "Stung Treng",
-      "count": 21
+      "count": 18
+    },
+    {
+      "province": "Oddar Meanchey",
+      "count": 18
     },
     {
       "province": "Siem Reap",
-      "count": 19
-    },
-    {
-      "province": "Banteay Meanchey",
       "count": 16
     },
     {
-      "province": "Kandal",
-      "count": 7
+      "province": "Banteay Meanchey",
+      "count": 14
     },
     {
-      "province": "Svay Rieng",
-      "count": 6
+      "province": "Mondulkiri",
+      "count": 13
+    },
+    {
+      "province": "Preah Vihear",
+      "count": 13
     },
     {
       "province": "Kampong Speu",
       "count": 6
     },
     {
-      "province": "Pursat",
+      "province": "Svay Rieng",
       "count": 5
     },
     {
@@ -71,6 +63,14 @@
     },
     {
       "province": "Prey Veng",
+      "count": 3
+    },
+    {
+      "province": "Kandal",
+      "count": 3
+    },
+    {
+      "province": "Pursat",
       "count": 3
     },
     {
@@ -86,9 +86,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-05-11T04:35:49.390139+07:00",
+  "last_updated": "2026-05-11T08:48:24.777062+07:00",
   "date_range": {
-    "start": "2026-05-09",
+    "start": "2026-05-10",
     "end": "2026-05-10"
   }
 }
