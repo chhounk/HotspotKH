@@ -1,13 +1,13 @@
 {
-  "total_hotspots": 312,
+  "total_hotspots": 316,
   "likely_wildfires": 4,
-  "possible_wildfires": 33,
-  "thermal_anomalies": 275,
-  "hotspots_in_protected_areas": 173,
+  "possible_wildfires": 35,
+  "thermal_anomalies": 277,
+  "hotspots_in_protected_areas": 176,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 197
+      "count": 200
     },
     {
       "province": "Kratie",
@@ -15,7 +15,7 @@
     },
     {
       "province": "Mondulkiri",
-      "count": 21
+      "count": 22
     },
     {
       "province": "Preah Vihear",
@@ -70,9 +70,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-05-12T08:29:51.907693+07:00",
+  "last_updated": "2026-05-12T12:55:46.868157+07:00",
   "date_range": {
     "start": "2026-05-11",
-    "end": "2026-05-11"
+    "end": "2026-05-12"
   }
 }
