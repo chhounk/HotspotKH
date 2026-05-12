@@ -1,21 +1,21 @@
 {
-  "total_hotspots": 496,
+  "total_hotspots": 519,
   "likely_wildfires": 6,
-  "possible_wildfires": 56,
-  "thermal_anomalies": 434,
-  "hotspots_in_protected_areas": 246,
+  "possible_wildfires": 57,
+  "thermal_anomalies": 456,
+  "hotspots_in_protected_areas": 257,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 284
+      "count": 302
     },
     {
       "province": "Mondulkiri",
-      "count": 52
+      "count": 55
     },
     {
       "province": "Kratie",
-      "count": 32
+      "count": 33
     },
     {
       "province": "Svay Rieng",
@@ -38,12 +38,12 @@
       "count": 12
     },
     {
-      "province": "Kandal",
+      "province": "Takeo",
       "count": 10
     },
     {
-      "province": "Takeo",
-      "count": 9
+      "province": "Kandal",
+      "count": 10
     },
     {
       "province": "Oddar Meanchey",
@@ -70,7 +70,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-05-13T02:24:32.294033+07:00",
+  "last_updated": "2026-05-13T04:59:35.975225+07:00",
   "date_range": {
     "start": "2026-05-11",
     "end": "2026-05-12"
