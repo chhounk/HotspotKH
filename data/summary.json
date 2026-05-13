@@ -1,9 +1,9 @@
 {
-  "total_hotspots": 253,
+  "total_hotspots": 256,
   "likely_wildfires": 5,
   "possible_wildfires": 35,
-  "thermal_anomalies": 213,
-  "hotspots_in_protected_areas": 89,
+  "thermal_anomalies": 216,
+  "hotspots_in_protected_areas": 91,
   "top_provinces": [
     {
       "province": "Ratanakiri",
@@ -31,7 +31,7 @@
     },
     {
       "province": "Kratie",
-      "count": 9
+      "count": 10
     },
     {
       "province": "Kandal",
@@ -50,15 +50,15 @@
       "count": 5
     },
     {
+      "province": "Stung Treng",
+      "count": 5
+    },
+    {
       "province": "Tboung Khmum",
       "count": 4
     },
     {
       "province": "Kampong Chhnang",
-      "count": 3
-    },
-    {
-      "province": "Stung Treng",
       "count": 3
     },
     {
@@ -70,7 +70,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-05-13T20:58:00.109316+07:00",
+  "last_updated": "2026-05-14T00:05:59.600209+07:00",
   "date_range": {
     "start": "2026-05-12",
     "end": "2026-05-13"
