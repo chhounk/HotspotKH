@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 193,
+  "total_hotspots": 194,
   "likely_wildfires": 0,
   "possible_wildfires": 41,
-  "thermal_anomalies": 152,
+  "thermal_anomalies": 153,
   "hotspots_in_protected_areas": 48,
   "top_provinces": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "province": "Kandal",
-      "count": 10
+      "count": 11
     },
     {
       "province": "Kampong Chhnang",
@@ -78,7 +78,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-05-16T02:10:55.020050+07:00",
+  "last_updated": "2026-05-16T04:44:49.540433+07:00",
   "date_range": {
     "start": "2026-05-14",
     "end": "2026-05-15"
