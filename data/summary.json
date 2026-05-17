@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 46,
+  "total_hotspots": 49,
   "likely_wildfires": 0,
-  "possible_wildfires": 3,
-  "thermal_anomalies": 43,
+  "possible_wildfires": 5,
+  "thermal_anomalies": 44,
   "hotspots_in_protected_areas": 2,
   "top_provinces": [
     {
@@ -26,21 +26,25 @@
       "count": 2
     },
     {
+      "province": "Battambang",
+      "count": 2
+    },
+    {
+      "province": "Tboung Khmum",
+      "count": 2
+    },
+    {
       "province": "Kampong Chhnang",
       "count": 1
     },
     {
       "province": "Siem Reap",
       "count": 1
-    },
-    {
-      "province": "Battambang",
-      "count": 1
     }
   ],
-  "last_updated": "2026-05-17T08:46:17.669026+07:00",
+  "last_updated": "2026-05-17T13:10:25.549388+07:00",
   "date_range": {
     "start": "2026-05-16",
-    "end": "2026-05-16"
+    "end": "2026-05-17"
   }
 }
