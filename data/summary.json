@@ -1,24 +1,16 @@
 {
-  "total_hotspots": 39,
+  "total_hotspots": 26,
   "likely_wildfires": 0,
-  "possible_wildfires": 6,
-  "thermal_anomalies": 33,
-  "hotspots_in_protected_areas": 7,
+  "possible_wildfires": 2,
+  "thermal_anomalies": 24,
+  "hotspots_in_protected_areas": 5,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 14
+      "count": 12
     },
     {
       "province": "Tboung Khmum",
-      "count": 6
-    },
-    {
-      "province": "Kampong Cham",
-      "count": 6
-    },
-    {
-      "province": "Mondulkiri",
       "count": 4
     },
     {
@@ -26,12 +18,12 @@
       "count": 4
     },
     {
-      "province": "Siem Reap",
+      "province": "Mondulkiri",
       "count": 2
     },
     {
-      "province": "Kandal",
-      "count": 1
+      "province": "Siem Reap",
+      "count": 2
     },
     {
       "province": "Oddar Meanchey",
@@ -42,9 +34,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-05-22T05:07:50.986827+07:00",
+  "last_updated": "2026-05-22T08:55:51.787676+07:00",
   "date_range": {
-    "start": "2026-05-20",
+    "start": "2026-05-21",
     "end": "2026-05-21"
   }
 }
