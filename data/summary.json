@@ -1,57 +1,53 @@
 {
-  "total_hotspots": 262,
+  "total_hotspots": 176,
   "likely_wildfires": 1,
-  "possible_wildfires": 29,
-  "thermal_anomalies": 232,
-  "hotspots_in_protected_areas": 59,
+  "possible_wildfires": 23,
+  "thermal_anomalies": 152,
+  "hotspots_in_protected_areas": 46,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 48
+      "count": 46
     },
     {
       "province": "Mondulkiri",
-      "count": 40
+      "count": 22
     },
     {
       "province": "Kampong Cham",
-      "count": 36
-    },
-    {
-      "province": "Kratie",
-      "count": 24
-    },
-    {
-      "province": "Tboung Khmum",
-      "count": 23
-    },
-    {
-      "province": "Kandal",
       "count": 21
     },
     {
-      "province": "Kampong Thom",
-      "count": 16
+      "province": "Tboung Khmum",
+      "count": 18
+    },
+    {
+      "province": "Kandal",
+      "count": 14
+    },
+    {
+      "province": "Kratie",
+      "count": 14
     },
     {
       "province": "Svay Rieng",
-      "count": 15
+      "count": 9
+    },
+    {
+      "province": "Kampong Thom",
+      "count": 9
     },
     {
       "province": "Prey Veng",
-      "count": 15
+      "count": 7
     },
     {
       "province": "Stung Treng",
-      "count": 5
-    },
-    {
-      "province": "Pursat",
       "count": 4
     },
     {
       "province": "Takeo",
-      "count": 4
+      "count": 3
     },
     {
       "province": "Battambang",
@@ -66,17 +62,13 @@
       "count": 2
     },
     {
-      "province": "Kampong Speu",
-      "count": 2
-    },
-    {
-      "province": "Kampot",
+      "province": "Pursat",
       "count": 1
     }
   ],
-  "last_updated": "2026-05-24T04:41:25.104927+07:00",
+  "last_updated": "2026-05-24T08:53:03.145068+07:00",
   "date_range": {
-    "start": "2026-05-22",
+    "start": "2026-05-23",
     "end": "2026-05-23"
   }
 }
