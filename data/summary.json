@@ -1,9 +1,9 @@
 {
-  "total_hotspots": 188,
+  "total_hotspots": 191,
   "likely_wildfires": 0,
-  "possible_wildfires": 26,
+  "possible_wildfires": 29,
   "thermal_anomalies": 162,
-  "hotspots_in_protected_areas": 49,
+  "hotspots_in_protected_areas": 50,
   "top_provinces": [
     {
       "province": "Kampong Cham",
@@ -11,7 +11,7 @@
     },
     {
       "province": "Ratanakiri",
-      "count": 26
+      "count": 27
     },
     {
       "province": "Kampong Thom",
@@ -42,11 +42,11 @@
       "count": 7
     },
     {
-      "province": "Pursat",
-      "count": 5
+      "province": "Mondulkiri",
+      "count": 7
     },
     {
-      "province": "Mondulkiri",
+      "province": "Pursat",
       "count": 5
     },
     {
@@ -74,7 +74,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-05-25T19:15:30.914237+07:00",
+  "last_updated": "2026-05-25T23:55:55.722708+07:00",
   "date_range": {
     "start": "2026-05-24",
     "end": "2026-05-25"
