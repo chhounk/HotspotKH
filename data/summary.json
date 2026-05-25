@@ -1,48 +1,68 @@
 {
-  "total_hotspots": 89,
+  "total_hotspots": 188,
   "likely_wildfires": 0,
-  "possible_wildfires": 14,
-  "thermal_anomalies": 75,
-  "hotspots_in_protected_areas": 36,
+  "possible_wildfires": 26,
+  "thermal_anomalies": 162,
+  "hotspots_in_protected_areas": 49,
   "top_provinces": [
     {
-      "province": "Ratanakiri",
-      "count": 23
-    },
-    {
-      "province": "Kratie",
-      "count": 13
-    },
-    {
       "province": "Kampong Cham",
-      "count": 12
+      "count": 37
+    },
+    {
+      "province": "Ratanakiri",
+      "count": 26
     },
     {
       "province": "Kampong Thom",
-      "count": 9
-    },
-    {
-      "province": "Oddar Meanchey",
-      "count": 6
-    },
-    {
-      "province": "Kampong Chhnang",
-      "count": 6
+      "count": 24
     },
     {
       "province": "Kandal",
-      "count": 5
+      "count": 21
+    },
+    {
+      "province": "Kratie",
+      "count": 20
+    },
+    {
+      "province": "Oddar Meanchey",
+      "count": 11
+    },
+    {
+      "province": "Siem Reap",
+      "count": 11
+    },
+    {
+      "province": "Tboung Khmum",
+      "count": 7
+    },
+    {
+      "province": "Kampong Chhnang",
+      "count": 7
     },
     {
       "province": "Pursat",
       "count": 5
     },
     {
-      "province": "Siem Reap",
+      "province": "Mondulkiri",
       "count": 5
     },
     {
-      "province": "Tboung Khmum",
+      "province": "Preah Vihear",
+      "count": 4
+    },
+    {
+      "province": "Prey Veng",
+      "count": 3
+    },
+    {
+      "province": "Banteay Meanchey",
+      "count": 3
+    },
+    {
+      "province": "Battambang",
       "count": 2
     },
     {
@@ -52,13 +72,9 @@
     {
       "province": "Takeo",
       "count": 1
-    },
-    {
-      "province": "Preah Vihear",
-      "count": 1
     }
   ],
-  "last_updated": "2026-05-25T13:58:20.749258+07:00",
+  "last_updated": "2026-05-25T19:15:30.914237+07:00",
   "date_range": {
     "start": "2026-05-24",
     "end": "2026-05-25"
