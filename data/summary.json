@@ -1,9 +1,9 @@
 {
-  "total_hotspots": 191,
+  "total_hotspots": 202,
   "likely_wildfires": 0,
   "possible_wildfires": 29,
-  "thermal_anomalies": 162,
-  "hotspots_in_protected_areas": 50,
+  "thermal_anomalies": 173,
+  "hotspots_in_protected_areas": 59,
   "top_provinces": [
     {
       "province": "Kampong Cham",
@@ -11,7 +11,7 @@
     },
     {
       "province": "Ratanakiri",
-      "count": 27
+      "count": 37
     },
     {
       "province": "Kampong Thom",
@@ -51,7 +51,7 @@
     },
     {
       "province": "Preah Vihear",
-      "count": 4
+      "count": 5
     },
     {
       "province": "Prey Veng",
@@ -74,7 +74,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-05-26T02:11:11.452770+07:00",
+  "last_updated": "2026-05-26T04:58:42.480726+07:00",
   "date_range": {
     "start": "2026-05-24",
     "end": "2026-05-25"
