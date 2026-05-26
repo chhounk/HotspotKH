@@ -1,57 +1,49 @@
 {
-  "total_hotspots": 202,
+  "total_hotspots": 123,
   "likely_wildfires": 0,
-  "possible_wildfires": 29,
-  "thermal_anomalies": 173,
-  "hotspots_in_protected_areas": 59,
+  "possible_wildfires": 22,
+  "thermal_anomalies": 101,
+  "hotspots_in_protected_areas": 26,
   "top_provinces": [
     {
       "province": "Kampong Cham",
-      "count": 37
-    },
-    {
-      "province": "Ratanakiri",
-      "count": 37
-    },
-    {
-      "province": "Kampong Thom",
-      "count": 24
+      "count": 26
     },
     {
       "province": "Kandal",
-      "count": 21
+      "count": 16
+    },
+    {
+      "province": "Kampong Thom",
+      "count": 15
+    },
+    {
+      "province": "Ratanakiri",
+      "count": 15
     },
     {
       "province": "Kratie",
-      "count": 20
-    },
-    {
-      "province": "Oddar Meanchey",
-      "count": 11
-    },
-    {
-      "province": "Siem Reap",
-      "count": 11
-    },
-    {
-      "province": "Tboung Khmum",
-      "count": 7
-    },
-    {
-      "province": "Kampong Chhnang",
-      "count": 7
+      "count": 10
     },
     {
       "province": "Mondulkiri",
       "count": 7
     },
     {
-      "province": "Pursat",
-      "count": 5
+      "province": "Siem Reap",
+      "count": 7
+    },
+    {
+      "province": "Tboung Khmum",
+      "count": 6
+    },
+    {
+      "province": "Oddar Meanchey",
+      "count": 6
     },
     {
       "province": "Preah Vihear",
-      "count": 5
+      "count": 4
     },
     {
       "province": "Prey Veng",
@@ -62,21 +54,21 @@
       "count": 3
     },
     {
+      "province": "Kampong Chhnang",
+      "count": 2
+    },
+    {
       "province": "Battambang",
       "count": 2
     },
     {
-      "province": "Stung Treng",
-      "count": 1
-    },
-    {
-      "province": "Takeo",
+      "province": "Pursat",
       "count": 1
     }
   ],
-  "last_updated": "2026-05-26T04:58:42.480726+07:00",
+  "last_updated": "2026-05-26T08:51:29.745806+07:00",
   "date_range": {
-    "start": "2026-05-24",
+    "start": "2026-05-25",
     "end": "2026-05-25"
   }
 }
