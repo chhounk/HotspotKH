@@ -1,20 +1,20 @@
 {
-  "total_hotspots": 204,
+  "total_hotspots": 218,
   "likely_wildfires": 1,
   "possible_wildfires": 39,
-  "thermal_anomalies": 164,
-  "hotspots_in_protected_areas": 37,
+  "thermal_anomalies": 178,
+  "hotspots_in_protected_areas": 46,
   "top_provinces": [
+    {
+      "province": "Ratanakiri",
+      "count": 43
+    },
     {
       "province": "Kampong Cham",
       "count": 35
     },
     {
       "province": "Kandal",
-      "count": 29
-    },
-    {
-      "province": "Ratanakiri",
       "count": 29
     },
     {
@@ -74,7 +74,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-05-27T02:50:00.482663+07:00",
+  "last_updated": "2026-05-27T05:13:46.464064+07:00",
   "date_range": {
     "start": "2026-05-25",
     "end": "2026-05-26"
