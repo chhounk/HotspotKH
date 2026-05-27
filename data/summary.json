@@ -1,13 +1,13 @@
 {
-  "total_hotspots": 96,
+  "total_hotspots": 102,
   "likely_wildfires": 1,
-  "possible_wildfires": 17,
-  "thermal_anomalies": 78,
-  "hotspots_in_protected_areas": 20,
+  "possible_wildfires": 19,
+  "thermal_anomalies": 82,
+  "hotspots_in_protected_areas": 23,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 29
+      "count": 32
     },
     {
       "province": "Kandal",
@@ -34,6 +34,10 @@
       "count": 4
     },
     {
+      "province": "Kratie",
+      "count": 4
+    },
+    {
       "province": "Siem Reap",
       "count": 4
     },
@@ -42,16 +46,12 @@
       "count": 4
     },
     {
-      "province": "Banteay Meanchey",
+      "province": "Mondulkiri",
       "count": 3
     },
     {
-      "province": "Mondulkiri",
-      "count": 2
-    },
-    {
-      "province": "Kratie",
-      "count": 2
+      "province": "Banteay Meanchey",
+      "count": 3
     },
     {
       "province": "Preah Vihear",
@@ -66,9 +66,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-05-27T08:59:25.119192+07:00",
+  "last_updated": "2026-05-27T13:51:12.079209+07:00",
   "date_range": {
     "start": "2026-05-26",
-    "end": "2026-05-26"
+    "end": "2026-05-27"
   }
 }
