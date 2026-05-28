@@ -1,48 +1,36 @@
 {
-  "total_hotspots": 285,
-  "likely_wildfires": 1,
-  "possible_wildfires": 47,
-  "thermal_anomalies": 237,
-  "hotspots_in_protected_areas": 73,
+  "total_hotspots": 189,
+  "likely_wildfires": 0,
+  "possible_wildfires": 30,
+  "thermal_anomalies": 159,
+  "hotspots_in_protected_areas": 53,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 86
+      "count": 57
     },
     {
       "province": "Kandal",
-      "count": 31
+      "count": 18
     },
     {
       "province": "Kampong Cham",
-      "count": 26
-    },
-    {
-      "province": "Kampong Thom",
-      "count": 24
-    },
-    {
-      "province": "Banteay Meanchey",
       "count": 17
     },
     {
-      "province": "Mondulkiri",
+      "province": "Banteay Meanchey",
+      "count": 14
+    },
+    {
+      "province": "Kampong Thom",
       "count": 12
     },
     {
-      "province": "Svay Rieng",
-      "count": 11
+      "province": "Mondulkiri",
+      "count": 10
     },
     {
       "province": "Kratie",
-      "count": 11
-    },
-    {
-      "province": "Prey Veng",
-      "count": 9
-    },
-    {
-      "province": "Siem Reap",
       "count": 9
     },
     {
@@ -50,27 +38,27 @@
       "count": 9
     },
     {
-      "province": "Kampong Chhnang",
-      "count": 8
-    },
-    {
-      "province": "Oddar Meanchey",
+      "province": "Svay Rieng",
       "count": 7
-    },
-    {
-      "province": "Preah Vihear",
-      "count": 6
     },
     {
       "province": "Pursat",
       "count": 5
     },
     {
-      "province": "Tboung Khmum",
-      "count": 4
+      "province": "Siem Reap",
+      "count": 5
     },
     {
       "province": "Kep",
+      "count": 4
+    },
+    {
+      "province": "Prey Veng",
+      "count": 4
+    },
+    {
+      "province": "Preah Vihear",
       "count": 4
     },
     {
@@ -78,8 +66,16 @@
       "count": 3
     },
     {
-      "province": "Takeo",
-      "count": 1
+      "province": "Kampong Chhnang",
+      "count": 3
+    },
+    {
+      "province": "Tboung Khmum",
+      "count": 3
+    },
+    {
+      "province": "Oddar Meanchey",
+      "count": 3
     },
     {
       "province": "Phnom Penh",
@@ -90,9 +86,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-05-28T05:24:00.362522+07:00",
+  "last_updated": "2026-05-28T08:30:54.802697+07:00",
   "date_range": {
-    "start": "2026-05-26",
+    "start": "2026-05-27",
     "end": "2026-05-27"
   }
 }
