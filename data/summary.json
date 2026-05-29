@@ -1,21 +1,25 @@
 {
-  "total_hotspots": 56,
+  "total_hotspots": 67,
   "likely_wildfires": 0,
-  "possible_wildfires": 1,
-  "thermal_anomalies": 55,
-  "hotspots_in_protected_areas": 14,
+  "possible_wildfires": 2,
+  "thermal_anomalies": 65,
+  "hotspots_in_protected_areas": 15,
   "top_provinces": [
     {
       "province": "Kampong Thom",
-      "count": 14
+      "count": 16
+    },
+    {
+      "province": "Battambang",
+      "count": 11
     },
     {
       "province": "Siem Reap",
       "count": 8
     },
     {
-      "province": "Battambang",
-      "count": 6
+      "province": "Kampong Cham",
+      "count": 5
     },
     {
       "province": "Banteay Meanchey",
@@ -23,18 +27,14 @@
     },
     {
       "province": "Ratanakiri",
+      "count": 5
+    },
+    {
+      "province": "Preah Vihear",
       "count": 4
     },
     {
       "province": "Svay Rieng",
-      "count": 3
-    },
-    {
-      "province": "Kampong Cham",
-      "count": 3
-    },
-    {
-      "province": "Preah Vihear",
       "count": 3
     },
     {
@@ -58,9 +58,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-05-29T13:42:53.386270+07:00",
+  "last_updated": "2026-05-29T18:59:38.277856+07:00",
   "date_range": {
     "start": "2026-05-28",
-    "end": "2026-05-28"
+    "end": "2026-05-29"
   }
 }
