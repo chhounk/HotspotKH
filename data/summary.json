@@ -1,42 +1,26 @@
 {
-  "total_hotspots": 16,
+  "total_hotspots": 5,
   "likely_wildfires": 0,
-  "possible_wildfires": 1,
-  "thermal_anomalies": 15,
-  "hotspots_in_protected_areas": 1,
+  "possible_wildfires": 0,
+  "thermal_anomalies": 5,
+  "hotspots_in_protected_areas": 0,
   "top_provinces": [
-    {
-      "province": "Battambang",
-      "count": 7
-    },
-    {
-      "province": "Kampong Cham",
-      "count": 2
-    },
     {
       "province": "Kampong Chhnang",
       "count": 2
     },
     {
-      "province": "Kampong Thom",
+      "province": "Battambang",
       "count": 2
-    },
-    {
-      "province": "Preah Vihear",
-      "count": 1
-    },
-    {
-      "province": "Ratanakiri",
-      "count": 1
     },
     {
       "province": "Kampot",
       "count": 1
     }
   ],
-  "last_updated": "2026-05-31T04:46:54.620131+07:00",
+  "last_updated": "2026-05-31T09:00:21.148768+07:00",
   "date_range": {
-    "start": "2026-05-29",
+    "start": "2026-05-30",
     "end": "2026-05-30"
   }
 }
