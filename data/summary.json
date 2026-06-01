@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 9,
+  "total_hotspots": 4,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 9,
+  "thermal_anomalies": 4,
   "hotspots_in_protected_areas": 0,
   "top_provinces": [
     {
@@ -10,25 +10,13 @@
       "count": 3
     },
     {
-      "province": "Kampong Chhnang",
-      "count": 2
-    },
-    {
-      "province": "Battambang",
-      "count": 2
-    },
-    {
       "province": "Banteay Meanchey",
-      "count": 1
-    },
-    {
-      "province": "Kampot",
       "count": 1
     }
   ],
-  "last_updated": "2026-06-01T04:44:43.840931+07:00",
+  "last_updated": "2026-06-01T09:08:44.926001+07:00",
   "date_range": {
-    "start": "2026-05-30",
+    "start": "2026-05-31",
     "end": "2026-05-31"
   }
 }
