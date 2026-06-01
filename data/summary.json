@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 4,
+  "total_hotspots": 6,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 4,
+  "thermal_anomalies": 6,
   "hotspots_in_protected_areas": 0,
   "top_provinces": [
     {
@@ -11,12 +11,16 @@
     },
     {
       "province": "Banteay Meanchey",
+      "count": 2
+    },
+    {
+      "province": "Battambang",
       "count": 1
     }
   ],
-  "last_updated": "2026-06-01T15:16:05.672457+07:00",
+  "last_updated": "2026-06-01T21:43:00.721477+07:00",
   "date_range": {
     "start": "2026-05-31",
-    "end": "2026-05-31"
+    "end": "2026-06-01"
   }
 }
