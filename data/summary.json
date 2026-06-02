@@ -1,34 +1,10 @@
 {
-  "total_hotspots": 13,
+  "total_hotspots": 0,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 13,
+  "thermal_anomalies": 0,
   "hotspots_in_protected_areas": 0,
-  "top_provinces": [
-    {
-      "province": "Battambang",
-      "count": 7
-    },
-    {
-      "province": "Banteay Meanchey",
-      "count": 2
-    },
-    {
-      "province": "Oddar Meanchey",
-      "count": 2
-    },
-    {
-      "province": "Siem Reap",
-      "count": 1
-    },
-    {
-      "province": "Ratanakiri",
-      "count": 1
-    }
-  ],
-  "last_updated": "2026-06-03T01:27:41.728094+07:00",
-  "date_range": {
-    "start": "2026-06-01",
-    "end": "2026-06-02"
-  }
+  "top_provinces": [],
+  "last_updated": "2026-06-03T05:55:40.957509+07:00",
+  "date_range": {}
 }
