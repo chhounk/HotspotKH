@@ -1,18 +1,10 @@
 {
-  "total_hotspots": 8,
+  "total_hotspots": 4,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 8,
+  "thermal_anomalies": 4,
   "hotspots_in_protected_areas": 0,
   "top_provinces": [
-    {
-      "province": "Kampong Thom",
-      "count": 3
-    },
-    {
-      "province": "Banteay Meanchey",
-      "count": 2
-    },
     {
       "province": "Oddar Meanchey",
       "count": 2
@@ -20,11 +12,15 @@
     {
       "province": "Battambang",
       "count": 1
+    },
+    {
+      "province": "Banteay Meanchey",
+      "count": 1
     }
   ],
-  "last_updated": "2026-06-02T05:53:59.761202+07:00",
+  "last_updated": "2026-06-02T09:09:57.304023+07:00",
   "date_range": {
-    "start": "2026-05-31",
+    "start": "2026-06-01",
     "end": "2026-06-01"
   }
 }
