@@ -1,26 +1,10 @@
 {
-  "total_hotspots": 4,
+  "total_hotspots": 0,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 4,
+  "thermal_anomalies": 0,
   "hotspots_in_protected_areas": 0,
-  "top_provinces": [
-    {
-      "province": "Oddar Meanchey",
-      "count": 2
-    },
-    {
-      "province": "Battambang",
-      "count": 1
-    },
-    {
-      "province": "Banteay Meanchey",
-      "count": 1
-    }
-  ],
-  "last_updated": "2026-06-02T14:13:45.210761+07:00",
-  "date_range": {
-    "start": "2026-06-01",
-    "end": "2026-06-01"
-  }
+  "top_provinces": [],
+  "last_updated": "2026-06-02T19:34:48.321243+07:00",
+  "date_range": {}
 }
