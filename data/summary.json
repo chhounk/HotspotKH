@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 49,
+  "total_hotspots": 51,
   "likely_wildfires": 5,
   "possible_wildfires": 4,
-  "thermal_anomalies": 40,
+  "thermal_anomalies": 42,
   "hotspots_in_protected_areas": 12,
   "top_provinces": [
     {
@@ -14,11 +14,11 @@
       "count": 6
     },
     {
-      "province": "Banteay Meanchey",
-      "count": 5
+      "province": "Kratie",
+      "count": 6
     },
     {
-      "province": "Kratie",
+      "province": "Banteay Meanchey",
       "count": 5
     },
     {
@@ -26,15 +26,15 @@
       "count": 5
     },
     {
+      "province": "Battambang",
+      "count": 3
+    },
+    {
       "province": "Kandal",
       "count": 2
     },
     {
       "province": "Siem Reap",
-      "count": 2
-    },
-    {
-      "province": "Battambang",
       "count": 2
     },
     {
@@ -46,7 +46,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-06-05T21:15:48.732946+07:00",
+  "last_updated": "2026-06-06T00:06:03.607357+07:00",
   "date_range": {
     "start": "2026-06-04",
     "end": "2026-06-05"
