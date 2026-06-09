@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 35,
+  "total_hotspots": 36,
   "likely_wildfires": 0,
   "possible_wildfires": 2,
-  "thermal_anomalies": 33,
+  "thermal_anomalies": 34,
   "hotspots_in_protected_areas": 4,
   "top_provinces": [
     {
@@ -36,11 +36,15 @@
     {
       "province": "Kampong Thom",
       "count": 1
+    },
+    {
+      "province": "Preah Vihear",
+      "count": 1
     }
   ],
-  "last_updated": "2026-06-09T13:37:10.273867+07:00",
+  "last_updated": "2026-06-09T18:50:28.093195+07:00",
   "date_range": {
     "start": "2026-06-08",
-    "end": "2026-06-08"
+    "end": "2026-06-09"
   }
 }
