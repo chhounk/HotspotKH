@@ -1,18 +1,38 @@
 {
-  "total_hotspots": 1,
-  "likely_wildfires": 0,
-  "possible_wildfires": 0,
-  "thermal_anomalies": 1,
-  "hotspots_in_protected_areas": 0,
+  "total_hotspots": 13,
+  "likely_wildfires": 1,
+  "possible_wildfires": 1,
+  "thermal_anomalies": 11,
+  "hotspots_in_protected_areas": 2,
   "top_provinces": [
+    {
+      "province": "Kampong Thom",
+      "count": 6
+    },
+    {
+      "province": "Svay Rieng",
+      "count": 2
+    },
+    {
+      "province": "Mondulkiri",
+      "count": 2
+    },
+    {
+      "province": "Kandal",
+      "count": 1
+    },
+    {
+      "province": "Tboung Khmum",
+      "count": 1
+    },
     {
       "province": "Preah Vihear",
       "count": 1
     }
   ],
-  "last_updated": "2026-06-10T13:54:04.228605+07:00",
+  "last_updated": "2026-06-10T19:10:53.869843+07:00",
   "date_range": {
     "start": "2026-06-09",
-    "end": "2026-06-09"
+    "end": "2026-06-10"
   }
 }
