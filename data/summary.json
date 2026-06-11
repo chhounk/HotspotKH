@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 12,
+  "total_hotspots": 16,
   "likely_wildfires": 1,
   "possible_wildfires": 1,
-  "thermal_anomalies": 10,
+  "thermal_anomalies": 14,
   "hotspots_in_protected_areas": 2,
   "top_provinces": [
     {
@@ -10,25 +10,25 @@
       "count": 6
     },
     {
+      "province": "Tboung Khmum",
+      "count": 3
+    },
+    {
       "province": "Svay Rieng",
+      "count": 3
+    },
+    {
+      "province": "Kandal",
       "count": 2
     },
     {
       "province": "Mondulkiri",
       "count": 2
-    },
-    {
-      "province": "Kandal",
-      "count": 1
-    },
-    {
-      "province": "Tboung Khmum",
-      "count": 1
     }
   ],
-  "last_updated": "2026-06-11T14:18:40.331973+07:00",
+  "last_updated": "2026-06-11T19:34:21.548304+07:00",
   "date_range": {
     "start": "2026-06-10",
-    "end": "2026-06-10"
+    "end": "2026-06-11"
   }
 }
