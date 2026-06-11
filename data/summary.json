@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 16,
+  "total_hotspots": 18,
   "likely_wildfires": 1,
   "possible_wildfires": 1,
-  "thermal_anomalies": 14,
+  "thermal_anomalies": 16,
   "hotspots_in_protected_areas": 2,
   "top_provinces": [
     {
@@ -22,11 +22,15 @@
       "count": 2
     },
     {
+      "province": "Kratie",
+      "count": 2
+    },
+    {
       "province": "Mondulkiri",
       "count": 2
     }
   ],
-  "last_updated": "2026-06-12T00:58:43.706314+07:00",
+  "last_updated": "2026-06-12T03:15:57.773821+07:00",
   "date_range": {
     "start": "2026-06-10",
     "end": "2026-06-11"
