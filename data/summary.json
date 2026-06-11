@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 13,
+  "total_hotspots": 12,
   "likely_wildfires": 1,
   "possible_wildfires": 1,
-  "thermal_anomalies": 11,
+  "thermal_anomalies": 10,
   "hotspots_in_protected_areas": 2,
   "top_provinces": [
     {
@@ -24,15 +24,11 @@
     {
       "province": "Tboung Khmum",
       "count": 1
-    },
-    {
-      "province": "Preah Vihear",
-      "count": 1
     }
   ],
-  "last_updated": "2026-06-11T05:44:35.766084+07:00",
+  "last_updated": "2026-06-11T09:09:56.596446+07:00",
   "date_range": {
-    "start": "2026-06-09",
+    "start": "2026-06-10",
     "end": "2026-06-10"
   }
 }
