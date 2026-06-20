@@ -1,10 +1,50 @@
 {
-  "total_hotspots": 0,
-  "likely_wildfires": 0,
-  "possible_wildfires": 0,
-  "thermal_anomalies": 0,
-  "hotspots_in_protected_areas": 0,
-  "top_provinces": [],
-  "last_updated": "2026-06-20T23:12:38.971990+07:00",
-  "date_range": {}
+  "total_hotspots": 68,
+  "likely_wildfires": 1,
+  "possible_wildfires": 15,
+  "thermal_anomalies": 52,
+  "hotspots_in_protected_areas": 40,
+  "top_provinces": [
+    {
+      "province": "Ratanakiri",
+      "count": 34
+    },
+    {
+      "province": "Tboung Khmum",
+      "count": 8
+    },
+    {
+      "province": "Kandal",
+      "count": 7
+    },
+    {
+      "province": "Kratie",
+      "count": 6
+    },
+    {
+      "province": "Mondulkiri",
+      "count": 4
+    },
+    {
+      "province": "Oddar Meanchey",
+      "count": 4
+    },
+    {
+      "province": "Banteay Meanchey",
+      "count": 2
+    },
+    {
+      "province": "Kampong Thom",
+      "count": 2
+    },
+    {
+      "province": "Kampong Cham",
+      "count": 1
+    }
+  ],
+  "last_updated": "2026-06-21T02:04:17.539186+07:00",
+  "date_range": {
+    "start": "2026-06-19",
+    "end": "2026-06-20"
+  }
 }
