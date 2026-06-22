@@ -1,66 +1,94 @@
 {
-  "total_hotspots": 66,
+  "total_hotspots": 164,
   "likely_wildfires": 2,
-  "possible_wildfires": 7,
-  "thermal_anomalies": 57,
-  "hotspots_in_protected_areas": 25,
+  "possible_wildfires": 22,
+  "thermal_anomalies": 140,
+  "hotspots_in_protected_areas": 54,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 16
-    },
-    {
-      "province": "Tboung Khmum",
-      "count": 9
-    },
-    {
-      "province": "Mondulkiri",
-      "count": 8
-    },
-    {
-      "province": "Oddar Meanchey",
-      "count": 8
-    },
-    {
-      "province": "Kratie",
-      "count": 5
+      "count": 31
     },
     {
       "province": "Battambang",
-      "count": 5
+      "count": 16
+    },
+    {
+      "province": "Mondulkiri",
+      "count": 16
+    },
+    {
+      "province": "Kratie",
+      "count": 14
+    },
+    {
+      "province": "Oddar Meanchey",
+      "count": 14
+    },
+    {
+      "province": "Kampong Thom",
+      "count": 14
     },
     {
       "province": "Kampong Cham",
-      "count": 4
+      "count": 13
     },
     {
-      "province": "Siem Reap",
-      "count": 4
+      "province": "Tboung Khmum",
+      "count": 11
     },
     {
       "province": "Kandal",
-      "count": 2
+      "count": 10
+    },
+    {
+      "province": "Siem Reap",
+      "count": 5
     },
     {
       "province": "Banteay Meanchey",
+      "count": 5
+    },
+    {
+      "province": "Kampong Chhnang",
+      "count": 3
+    },
+    {
+      "province": "Preah Vihear",
+      "count": 3
+    },
+    {
+      "province": "Kampong Speu",
       "count": 2
+    },
+    {
+      "province": "Stung Treng",
+      "count": 2
+    },
+    {
+      "province": "Kep",
+      "count": 1
+    },
+    {
+      "province": "Kampot",
+      "count": 1
+    },
+    {
+      "province": "Svay Rieng",
+      "count": 1
+    },
+    {
+      "province": "Koh Kong",
+      "count": 1
     },
     {
       "province": "Phnom Penh",
       "count": 1
-    },
-    {
-      "province": "Stung Treng",
-      "count": 1
-    },
-    {
-      "province": "Kampong Speu",
-      "count": 1
     }
   ],
-  "last_updated": "2026-06-22T09:15:06.025166+07:00",
+  "last_updated": "2026-06-22T15:45:07.384738+07:00",
   "date_range": {
     "start": "2026-06-21",
-    "end": "2026-06-21"
+    "end": "2026-06-22"
   }
 }
