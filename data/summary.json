@@ -1,64 +1,56 @@
 {
-  "total_hotspots": 251,
-  "likely_wildfires": 4,
-  "possible_wildfires": 44,
-  "thermal_anomalies": 203,
-  "hotspots_in_protected_areas": 111,
+  "total_hotspots": 158,
+  "likely_wildfires": 0,
+  "possible_wildfires": 28,
+  "thermal_anomalies": 130,
+  "hotspots_in_protected_areas": 64,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 101
-    },
-    {
-      "province": "Kampong Thom",
-      "count": 23
+      "count": 53
     },
     {
       "province": "Mondulkiri",
-      "count": 17
-    },
-    {
-      "province": "Kratie",
-      "count": 17
-    },
-    {
-      "province": "Oddar Meanchey",
       "count": 16
     },
     {
-      "province": "Banteay Meanchey",
+      "province": "Kratie",
       "count": 15
+    },
+    {
+      "province": "Kampong Thom",
+      "count": 14
     },
     {
       "province": "Tboung Khmum",
       "count": 13
     },
     {
-      "province": "Battambang",
-      "count": 10
-    },
-    {
-      "province": "Siem Reap",
-      "count": 9
-    },
-    {
       "province": "Kandal",
-      "count": 9
+      "count": 10
     },
     {
       "province": "Preah Vihear",
       "count": 9
     },
     {
-      "province": "Pursat",
+      "province": "Oddar Meanchey",
+      "count": 9
+    },
+    {
+      "province": "Battambang",
+      "count": 7
+    },
+    {
+      "province": "Banteay Meanchey",
       "count": 4
     },
     {
-      "province": "Stung Treng",
-      "count": 3
+      "province": "Prey Veng",
+      "count": 2
     },
     {
-      "province": "Prey Veng",
+      "province": "Pursat",
       "count": 2
     },
     {
@@ -68,11 +60,15 @@
     {
       "province": "Kampong Cham",
       "count": 1
+    },
+    {
+      "province": "Stung Treng",
+      "count": 1
     }
   ],
-  "last_updated": "2026-06-25T05:04:14.944253+07:00",
+  "last_updated": "2026-06-25T08:56:40.608624+07:00",
   "date_range": {
-    "start": "2026-06-23",
+    "start": "2026-06-24",
     "end": "2026-06-24"
   }
 }
