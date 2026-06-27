@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 105,
+  "total_hotspots": 107,
   "likely_wildfires": 1,
-  "possible_wildfires": 17,
-  "thermal_anomalies": 87,
+  "possible_wildfires": 18,
+  "thermal_anomalies": 88,
   "hotspots_in_protected_areas": 29,
   "top_provinces": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "province": "Mondulkiri",
-      "count": 16
+      "count": 18
     },
     {
       "province": "Banteay Meanchey",
@@ -70,7 +70,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-06-27T20:01:33.494649+07:00",
+  "last_updated": "2026-06-27T22:56:26.460156+07:00",
   "date_range": {
     "start": "2026-06-26",
     "end": "2026-06-27"
