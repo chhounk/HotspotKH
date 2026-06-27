@@ -1,52 +1,28 @@
 {
-  "total_hotspots": 173,
+  "total_hotspots": 64,
   "likely_wildfires": 1,
-  "possible_wildfires": 29,
-  "thermal_anomalies": 143,
-  "hotspots_in_protected_areas": 53,
+  "possible_wildfires": 12,
+  "thermal_anomalies": 51,
+  "hotspots_in_protected_areas": 24,
   "top_provinces": [
     {
-      "province": "Kampong Thom",
-      "count": 48
-    },
-    {
       "province": "Ratanakiri",
-      "count": 35
+      "count": 16
     },
     {
-      "province": "Kampong Cham",
-      "count": 14
-    },
-    {
-      "province": "Mondulkiri",
-      "count": 12
+      "province": "Kampong Thom",
+      "count": 15
     },
     {
       "province": "Banteay Meanchey",
-      "count": 12
+      "count": 9
+    },
+    {
+      "province": "Mondulkiri",
+      "count": 8
     },
     {
       "province": "Kratie",
-      "count": 11
-    },
-    {
-      "province": "Kandal",
-      "count": 10
-    },
-    {
-      "province": "Battambang",
-      "count": 6
-    },
-    {
-      "province": "Kampong Chhnang",
-      "count": 4
-    },
-    {
-      "province": "Pursat",
-      "count": 4
-    },
-    {
-      "province": "Tboung Khmum",
       "count": 3
     },
     {
@@ -54,33 +30,49 @@
       "count": 3
     },
     {
-      "province": "Oddar Meanchey",
-      "count": 3
+      "province": "Kampot",
+      "count": 1
     },
     {
-      "province": "Svay Rieng",
-      "count": 2
+      "province": "Kandal",
+      "count": 1
+    },
+    {
+      "province": "Tboung Khmum",
+      "count": 1
+    },
+    {
+      "province": "Battambang",
+      "count": 1
     },
     {
       "province": "Siem Reap",
-      "count": 2
+      "count": 1
     },
     {
-      "province": "Takeo",
-      "count": 2
-    },
-    {
-      "province": "Kampot",
+      "province": "Oddar Meanchey",
       "count": 1
     },
     {
       "province": "Prey Veng",
       "count": 1
+    },
+    {
+      "province": "Takeo",
+      "count": 1
+    },
+    {
+      "province": "Svay Rieng",
+      "count": 1
+    },
+    {
+      "province": "Kampong Chhnang",
+      "count": 1
     }
   ],
-  "last_updated": "2026-06-27T04:58:28.558562+07:00",
+  "last_updated": "2026-06-27T08:51:45.538919+07:00",
   "date_range": {
-    "start": "2026-06-25",
+    "start": "2026-06-26",
     "end": "2026-06-26"
   }
 }
