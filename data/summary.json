@@ -1,10 +1,18 @@
 {
-  "total_hotspots": 0,
+  "total_hotspots": 4,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 0,
-  "hotspots_in_protected_areas": 0,
-  "top_provinces": [],
-  "last_updated": "2026-07-06T01:54:13.848683+07:00",
-  "date_range": {}
+  "thermal_anomalies": 4,
+  "hotspots_in_protected_areas": 4,
+  "top_provinces": [
+    {
+      "province": "Mondulkiri",
+      "count": 4
+    }
+  ],
+  "last_updated": "2026-07-06T04:45:52.020585+07:00",
+  "date_range": {
+    "start": "2026-07-05",
+    "end": "2026-07-05"
+  }
 }
