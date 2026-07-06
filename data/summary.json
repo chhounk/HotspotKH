@@ -1,18 +1,22 @@
 {
-  "total_hotspots": 4,
+  "total_hotspots": 5,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 4,
+  "thermal_anomalies": 5,
   "hotspots_in_protected_areas": 4,
   "top_provinces": [
     {
       "province": "Mondulkiri",
       "count": 4
+    },
+    {
+      "province": "Kampong Cham",
+      "count": 1
     }
   ],
-  "last_updated": "2026-07-06T13:57:30.005985+07:00",
+  "last_updated": "2026-07-06T19:32:19.567725+07:00",
   "date_range": {
     "start": "2026-07-05",
-    "end": "2026-07-05"
+    "end": "2026-07-06"
   }
 }
