@@ -1,10 +1,18 @@
 {
-  "total_hotspots": 0,
+  "total_hotspots": 1,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 0,
+  "thermal_anomalies": 1,
   "hotspots_in_protected_areas": 0,
-  "top_provinces": [],
-  "last_updated": "2026-07-07T05:07:08.205910+07:00",
-  "date_range": {}
+  "top_provinces": [
+    {
+      "province": "Kampong Cham",
+      "count": 1
+    }
+  ],
+  "last_updated": "2026-07-07T08:44:12.789404+07:00",
+  "date_range": {
+    "start": "2026-07-06",
+    "end": "2026-07-06"
+  }
 }
