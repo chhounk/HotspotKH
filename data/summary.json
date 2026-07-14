@@ -1,10 +1,30 @@
 {
-  "total_hotspots": 0,
+  "total_hotspots": 11,
   "likely_wildfires": 0,
-  "possible_wildfires": 0,
-  "thermal_anomalies": 0,
+  "possible_wildfires": 2,
+  "thermal_anomalies": 9,
   "hotspots_in_protected_areas": 0,
-  "top_provinces": [],
-  "last_updated": "2026-07-14T14:41:09.206223+07:00",
-  "date_range": {}
+  "top_provinces": [
+    {
+      "province": "Kandal",
+      "count": 5
+    },
+    {
+      "province": "Kampong Thom",
+      "count": 4
+    },
+    {
+      "province": "Banteay Meanchey",
+      "count": 1
+    },
+    {
+      "province": "Svay Rieng",
+      "count": 1
+    }
+  ],
+  "last_updated": "2026-07-14T17:27:12.573217+07:00",
+  "date_range": {
+    "start": "2026-07-14",
+    "end": "2026-07-14"
+  }
 }
