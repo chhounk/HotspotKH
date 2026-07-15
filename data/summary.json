@@ -1,20 +1,32 @@
 {
-  "total_hotspots": 11,
-  "likely_wildfires": 0,
-  "possible_wildfires": 2,
-  "thermal_anomalies": 9,
+  "total_hotspots": 41,
+  "likely_wildfires": 1,
+  "possible_wildfires": 8,
+  "thermal_anomalies": 32,
   "hotspots_in_protected_areas": 0,
   "top_provinces": [
+    {
+      "province": "Kampong Thom",
+      "count": 29
+    },
     {
       "province": "Kandal",
       "count": 5
     },
     {
-      "province": "Kampong Thom",
-      "count": 4
+      "province": "Mondulkiri",
+      "count": 2
+    },
+    {
+      "province": "Kampong Cham",
+      "count": 2
     },
     {
       "province": "Banteay Meanchey",
+      "count": 1
+    },
+    {
+      "province": "Tboung Khmum",
       "count": 1
     },
     {
@@ -22,9 +34,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-07-15T14:44:42.208666+07:00",
+  "last_updated": "2026-07-15T17:39:22.229832+07:00",
   "date_range": {
     "start": "2026-07-14",
-    "end": "2026-07-14"
+    "end": "2026-07-15"
   }
 }
