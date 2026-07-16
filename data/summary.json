@@ -1,13 +1,13 @@
 {
-  "total_hotspots": 30,
-  "likely_wildfires": 1,
-  "possible_wildfires": 6,
-  "thermal_anomalies": 23,
-  "hotspots_in_protected_areas": 0,
+  "total_hotspots": 35,
+  "likely_wildfires": 3,
+  "possible_wildfires": 8,
+  "thermal_anomalies": 24,
+  "hotspots_in_protected_areas": 1,
   "top_provinces": [
     {
       "province": "Kampong Thom",
-      "count": 25
+      "count": 29
     },
     {
       "province": "Mondulkiri",
@@ -20,11 +20,15 @@
     {
       "province": "Tboung Khmum",
       "count": 1
+    },
+    {
+      "province": "Kampot",
+      "count": 1
     }
   ],
-  "last_updated": "2026-07-16T14:49:48.475023+07:00",
+  "last_updated": "2026-07-16T17:46:43.539147+07:00",
   "date_range": {
     "start": "2026-07-15",
-    "end": "2026-07-15"
+    "end": "2026-07-16"
   }
 }
