@@ -1,22 +1,22 @@
 {
-  "total_hotspots": 5,
-  "likely_wildfires": 2,
-  "possible_wildfires": 2,
+  "total_hotspots": 7,
+  "likely_wildfires": 3,
+  "possible_wildfires": 3,
   "thermal_anomalies": 1,
   "hotspots_in_protected_areas": 1,
   "top_provinces": [
     {
       "province": "Kampong Thom",
-      "count": 4
+      "count": 6
     },
     {
       "province": "Kampot",
       "count": 1
     }
   ],
-  "last_updated": "2026-07-17T14:47:27.479149+07:00",
+  "last_updated": "2026-07-17T17:27:37.201396+07:00",
   "date_range": {
     "start": "2026-07-16",
-    "end": "2026-07-16"
+    "end": "2026-07-17"
   }
 }
