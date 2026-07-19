@@ -1,13 +1,13 @@
 {
-  "total_hotspots": 118,
+  "total_hotspots": 119,
   "likely_wildfires": 2,
   "possible_wildfires": 34,
-  "thermal_anomalies": 82,
+  "thermal_anomalies": 83,
   "hotspots_in_protected_areas": 1,
   "top_provinces": [
     {
       "province": "Kampong Thom",
-      "count": 89
+      "count": 90
     },
     {
       "province": "Battambang",
@@ -42,9 +42,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-07-19T08:16:22.525192+07:00",
+  "last_updated": "2026-07-19T12:39:06.234274+07:00",
   "date_range": {
     "start": "2026-07-18",
-    "end": "2026-07-18"
+    "end": "2026-07-19"
   }
 }
