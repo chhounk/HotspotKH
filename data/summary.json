@@ -1,9 +1,9 @@
 {
-  "total_hotspots": 427,
+  "total_hotspots": 430,
   "likely_wildfires": 4,
   "possible_wildfires": 65,
-  "thermal_anomalies": 358,
-  "hotspots_in_protected_areas": 43,
+  "thermal_anomalies": 361,
+  "hotspots_in_protected_areas": 44,
   "top_provinces": [
     {
       "province": "Kampong Thom",
@@ -11,7 +11,7 @@
     },
     {
       "province": "Kratie",
-      "count": 34
+      "count": 37
     },
     {
       "province": "Kandal",
@@ -82,7 +82,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-07-20T20:40:19.726897+07:00",
+  "last_updated": "2026-07-20T23:17:47.048220+07:00",
   "date_range": {
     "start": "2026-07-19",
     "end": "2026-07-20"
