@@ -1,57 +1,69 @@
 {
-  "total_hotspots": 269,
-  "likely_wildfires": 0,
-  "possible_wildfires": 37,
-  "thermal_anomalies": 232,
-  "hotspots_in_protected_areas": 31,
+  "total_hotspots": 495,
+  "likely_wildfires": 10,
+  "possible_wildfires": 76,
+  "thermal_anomalies": 409,
+  "hotspots_in_protected_areas": 48,
   "top_provinces": [
     {
       "province": "Kampong Thom",
-      "count": 134
+      "count": 277
     },
     {
       "province": "Kandal",
-      "count": 23
+      "count": 44
     },
     {
       "province": "Kampong Chhnang",
-      "count": 20
+      "count": 34
     },
     {
       "province": "Kratie",
-      "count": 20
-    },
-    {
-      "province": "Banteay Meanchey",
-      "count": 13
-    },
-    {
-      "province": "Pursat",
-      "count": 10
-    },
-    {
-      "province": "Siem Reap",
-      "count": 10
-    },
-    {
-      "province": "Tboung Khmum",
-      "count": 9
+      "count": 25
     },
     {
       "province": "Svay Rieng",
+      "count": 14
+    },
+    {
+      "province": "Pursat",
+      "count": 14
+    },
+    {
+      "province": "Siem Reap",
+      "count": 14
+    },
+    {
+      "province": "Banteay Meanchey",
+      "count": 14
+    },
+    {
+      "province": "Tboung Khmum",
+      "count": 12
+    },
+    {
+      "province": "Ratanakiri",
+      "count": 9
+    },
+    {
+      "province": "Kampong Cham",
+      "count": 8
+    },
+    {
+      "province": "Mondulkiri",
       "count": 8
     },
     {
       "province": "Oddar Meanchey",
-      "count": 4
-    },
-    {
-      "province": "Kampong Cham",
-      "count": 3
+      "count": 5
     },
     {
       "province": "Battambang",
-      "count": 3
+      "count": 4
+    },
+    {
+      "province": "Preah Vihear",
+      "count": 4
     },
     {
       "province": "Takeo",
@@ -66,23 +78,15 @@
       "count": 2
     },
     {
-      "province": "Mondulkiri",
-      "count": 2
-    },
-    {
-      "province": "Ratanakiri",
+      "province": "Kampong Speu",
       "count": 2
     },
     {
       "province": "Prey Veng",
       "count": 1
-    },
-    {
-      "province": "Preah Vihear",
-      "count": 1
     }
   ],
-  "last_updated": "2026-07-21T15:01:36.523680+07:00",
+  "last_updated": "2026-07-21T17:53:48.282011+07:00",
   "date_range": {
     "start": "2026-07-20",
     "end": "2026-07-21"
