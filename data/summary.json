@@ -1,86 +1,74 @@
 {
-  "total_hotspots": 453,
-  "likely_wildfires": 20,
-  "possible_wildfires": 94,
-  "thermal_anomalies": 339,
-  "hotspots_in_protected_areas": 63,
+  "total_hotspots": 189,
+  "likely_wildfires": 10,
+  "possible_wildfires": 55,
+  "thermal_anomalies": 124,
+  "hotspots_in_protected_areas": 28,
   "top_provinces": [
     {
       "province": "Kampong Thom",
-      "count": 226
+      "count": 74
     },
     {
       "province": "Kandal",
-      "count": 57
-    },
-    {
-      "province": "Kampong Chhnang",
-      "count": 29
+      "count": 34
     },
     {
       "province": "Pursat",
-      "count": 24
-    },
-    {
-      "province": "Ratanakiri",
-      "count": 18
-    },
-    {
-      "province": "Tboung Khmum",
       "count": 16
     },
     {
-      "province": "Mondulkiri",
-      "count": 16
-    },
-    {
-      "province": "Kratie",
+      "province": "Kampong Chhnang",
       "count": 15
     },
     {
-      "province": "Kampong Cham",
+      "province": "Tboung Khmum",
       "count": 13
     },
     {
-      "province": "Svay Rieng",
+      "province": "Kampong Cham",
       "count": 8
     },
     {
-      "province": "Siem Reap",
-      "count": 7
-    },
-    {
-      "province": "Kampong Speu",
+      "province": "Ratanakiri",
       "count": 6
     },
     {
-      "province": "Battambang",
+      "province": "Kratie",
       "count": 5
     },
     {
-      "province": "Kampot",
+      "province": "Kampong Speu",
       "count": 4
     },
     {
-      "province": "Takeo",
-      "count": 4
-    },
-    {
-      "province": "Preah Vihear",
+      "province": "Siem Reap",
       "count": 3
     },
     {
-      "province": "Banteay Meanchey",
-      "count": 1
+      "province": "Takeo",
+      "count": 3
     },
     {
-      "province": "Oddar Meanchey",
+      "province": "Mondulkiri",
+      "count": 3
+    },
+    {
+      "province": "Battambang",
+      "count": 2
+    },
+    {
+      "province": "Svay Rieng",
+      "count": 2
+    },
+    {
+      "province": "Kampot",
       "count": 1
     }
   ],
-  "last_updated": "2026-07-23T04:53:35.175284+07:00",
+  "last_updated": "2026-07-23T08:22:03.670925+07:00",
   "date_range": {
-    "start": "2026-07-21",
+    "start": "2026-07-22",
     "end": "2026-07-22"
   }
 }
