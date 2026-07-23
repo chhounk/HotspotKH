@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 206,
+  "total_hotspots": 247,
   "likely_wildfires": 10,
-  "possible_wildfires": 56,
-  "thermal_anomalies": 140,
+  "possible_wildfires": 71,
+  "thermal_anomalies": 166,
   "hotspots_in_protected_areas": 28,
   "top_provinces": [
     {
@@ -11,11 +11,11 @@
     },
     {
       "province": "Kandal",
-      "count": 42
+      "count": 73
     },
     {
       "province": "Tboung Khmum",
-      "count": 17
+      "count": 20
     },
     {
       "province": "Pursat",
@@ -30,24 +30,24 @@
       "count": 8
     },
     {
+      "province": "Mondulkiri",
+      "count": 7
+    },
+    {
+      "province": "Svay Rieng",
+      "count": 7
+    },
+    {
+      "province": "Kratie",
+      "count": 7
+    },
+    {
       "province": "Ratanakiri",
       "count": 6
     },
     {
-      "province": "Mondulkiri",
-      "count": 5
-    },
-    {
-      "province": "Svay Rieng",
-      "count": 5
-    },
-    {
-      "province": "Kratie",
-      "count": 5
-    },
-    {
       "province": "Kampong Speu",
-      "count": 4
+      "count": 5
     },
     {
       "province": "Siem Reap",
@@ -66,7 +66,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-07-23T15:04:46.227677+07:00",
+  "last_updated": "2026-07-23T17:54:58.830003+07:00",
   "date_range": {
     "start": "2026-07-22",
     "end": "2026-07-23"
