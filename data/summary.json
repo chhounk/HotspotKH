@@ -1,10 +1,26 @@
 {
-  "total_hotspots": 0,
-  "likely_wildfires": 0,
+  "total_hotspots": 3,
+  "likely_wildfires": 1,
   "possible_wildfires": 0,
-  "thermal_anomalies": 0,
+  "thermal_anomalies": 2,
   "hotspots_in_protected_areas": 0,
-  "top_provinces": [],
-  "last_updated": "2026-07-28T15:11:35.557584+07:00",
-  "date_range": {}
+  "top_provinces": [
+    {
+      "province": "Prey Veng",
+      "count": 1
+    },
+    {
+      "province": "Svay Rieng",
+      "count": 1
+    },
+    {
+      "province": "Battambang",
+      "count": 1
+    }
+  ],
+  "last_updated": "2026-07-28T18:06:25.254889+07:00",
+  "date_range": {
+    "start": "2026-07-27",
+    "end": "2026-07-28"
+  }
 }
