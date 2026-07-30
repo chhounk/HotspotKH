@@ -1,10 +1,18 @@
 {
-  "total_hotspots": 0,
+  "total_hotspots": 2,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 0,
+  "thermal_anomalies": 2,
   "hotspots_in_protected_areas": 0,
-  "top_provinces": [],
-  "last_updated": "2026-07-30T15:03:39.196935+07:00",
-  "date_range": {}
+  "top_provinces": [
+    {
+      "province": "Tboung Khmum",
+      "count": 2
+    }
+  ],
+  "last_updated": "2026-07-30T17:55:27.403869+07:00",
+  "date_range": {
+    "start": "2026-07-30",
+    "end": "2026-07-30"
+  }
 }
