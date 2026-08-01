@@ -1,16 +1,24 @@
 {
-  "total_hotspots": 4,
+  "total_hotspots": 7,
   "likely_wildfires": 0,
   "possible_wildfires": 1,
-  "thermal_anomalies": 3,
-  "hotspots_in_protected_areas": 0,
+  "thermal_anomalies": 6,
+  "hotspots_in_protected_areas": 3,
   "top_provinces": [
     {
       "province": "Prey Veng",
       "count": 4
+    },
+    {
+      "province": "Pursat",
+      "count": 2
+    },
+    {
+      "province": "Mondulkiri",
+      "count": 1
     }
   ],
-  "last_updated": "2026-08-02T01:46:23.215045+07:00",
+  "last_updated": "2026-08-02T04:42:06.345288+07:00",
   "date_range": {
     "start": "2026-07-31",
     "end": "2026-08-01"
