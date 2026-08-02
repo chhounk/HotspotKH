@@ -1,13 +1,13 @@
 {
-  "total_hotspots": 7,
+  "total_hotspots": 6,
   "likely_wildfires": 0,
   "possible_wildfires": 1,
-  "thermal_anomalies": 6,
+  "thermal_anomalies": 5,
   "hotspots_in_protected_areas": 3,
   "top_provinces": [
     {
       "province": "Prey Veng",
-      "count": 4
+      "count": 3
     },
     {
       "province": "Pursat",
@@ -18,9 +18,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-08-02T04:42:06.345288+07:00",
+  "last_updated": "2026-08-02T08:21:36.975523+07:00",
   "date_range": {
-    "start": "2026-07-31",
+    "start": "2026-08-01",
     "end": "2026-08-01"
   }
 }
