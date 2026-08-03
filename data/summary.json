@@ -1,38 +1,10 @@
 {
-  "total_hotspots": 28,
+  "total_hotspots": 0,
   "likely_wildfires": 0,
-  "possible_wildfires": 2,
-  "thermal_anomalies": 26,
-  "hotspots_in_protected_areas": 7,
-  "top_provinces": [
-    {
-      "province": "Prey Veng",
-      "count": 13
-    },
-    {
-      "province": "Mondulkiri",
-      "count": 5
-    },
-    {
-      "province": "Takeo",
-      "count": 3
-    },
-    {
-      "province": "Svay Rieng",
-      "count": 3
-    },
-    {
-      "province": "Kampot",
-      "count": 2
-    },
-    {
-      "province": "Tboung Khmum",
-      "count": 2
-    }
-  ],
-  "last_updated": "2026-08-04T02:12:52.255809+07:00",
-  "date_range": {
-    "start": "2026-08-02",
-    "end": "2026-08-03"
-  }
+  "possible_wildfires": 0,
+  "thermal_anomalies": 0,
+  "hotspots_in_protected_areas": 0,
+  "top_provinces": [],
+  "last_updated": "2026-08-04T04:57:55.525047+07:00",
+  "date_range": {}
 }
