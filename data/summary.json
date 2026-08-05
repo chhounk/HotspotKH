@@ -1,10 +1,46 @@
 {
-  "total_hotspots": 0,
+  "total_hotspots": 43,
   "likely_wildfires": 0,
-  "possible_wildfires": 0,
-  "thermal_anomalies": 0,
-  "hotspots_in_protected_areas": 0,
-  "top_provinces": [],
-  "last_updated": "2026-08-06T02:10:31.167316+07:00",
-  "date_range": {}
+  "possible_wildfires": 8,
+  "thermal_anomalies": 35,
+  "hotspots_in_protected_areas": 3,
+  "top_provinces": [
+    {
+      "province": "Svay Rieng",
+      "count": 18
+    },
+    {
+      "province": "Prey Veng",
+      "count": 15
+    },
+    {
+      "province": "Kandal",
+      "count": 3
+    },
+    {
+      "province": "Tboung Khmum",
+      "count": 2
+    },
+    {
+      "province": "Kampong Chhnang",
+      "count": 2
+    },
+    {
+      "province": "Takeo",
+      "count": 1
+    },
+    {
+      "province": "Banteay Meanchey",
+      "count": 1
+    },
+    {
+      "province": "Kampong Speu",
+      "count": 1
+    }
+  ],
+  "last_updated": "2026-08-06T05:01:44.355576+07:00",
+  "date_range": {
+    "start": "2026-08-04",
+    "end": "2026-08-05"
+  }
 }
