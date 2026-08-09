@@ -1,22 +1,10 @@
 {
-  "total_hotspots": 2,
+  "total_hotspots": 0,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 2,
+  "thermal_anomalies": 0,
   "hotspots_in_protected_areas": 0,
-  "top_provinces": [
-    {
-      "province": "Prey Veng",
-      "count": 1
-    },
-    {
-      "province": "Kandal",
-      "count": 1
-    }
-  ],
-  "last_updated": "2026-08-09T04:16:37.741192+07:00",
-  "date_range": {
-    "start": "2026-08-07",
-    "end": "2026-08-07"
-  }
+  "top_provinces": [],
+  "last_updated": "2026-08-09T07:40:27.290304+07:00",
+  "date_range": {}
 }
