@@ -1,17 +1,13 @@
 {
-  "total_hotspots": 83,
+  "total_hotspots": 78,
   "likely_wildfires": 0,
   "possible_wildfires": 8,
-  "thermal_anomalies": 75,
-  "hotspots_in_protected_areas": 16,
+  "thermal_anomalies": 70,
+  "hotspots_in_protected_areas": 11,
   "top_provinces": [
     {
       "province": "Prey Veng",
       "count": 43
-    },
-    {
-      "province": "Mondulkiri",
-      "count": 10
     },
     {
       "province": "Kandal",
@@ -22,8 +18,12 @@
       "count": 7
     },
     {
+      "province": "Mondulkiri",
+      "count": 6
+    },
+    {
       "province": "Ratanakiri",
-      "count": 4
+      "count": 3
     },
     {
       "province": "Kampong Chhnang",
@@ -54,9 +54,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-08-13T04:31:26.585945+07:00",
+  "last_updated": "2026-08-13T07:50:31.889721+07:00",
   "date_range": {
-    "start": "2026-08-11",
+    "start": "2026-08-12",
     "end": "2026-08-12"
   }
 }
