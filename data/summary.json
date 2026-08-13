@@ -1,66 +1,10 @@
 {
-  "total_hotspots": 89,
+  "total_hotspots": 0,
   "likely_wildfires": 0,
-  "possible_wildfires": 11,
-  "thermal_anomalies": 78,
-  "hotspots_in_protected_areas": 12,
-  "top_provinces": [
-    {
-      "province": "Prey Veng",
-      "count": 44
-    },
-    {
-      "province": "Svay Rieng",
-      "count": 14
-    },
-    {
-      "province": "Kandal",
-      "count": 8
-    },
-    {
-      "province": "Mondulkiri",
-      "count": 6
-    },
-    {
-      "province": "Ratanakiri",
-      "count": 3
-    },
-    {
-      "province": "Kampong Chhnang",
-      "count": 3
-    },
-    {
-      "province": "Kratie",
-      "count": 2
-    },
-    {
-      "province": "Phnom Penh",
-      "count": 2
-    },
-    {
-      "province": "Tboung Khmum",
-      "count": 2
-    },
-    {
-      "province": "Kampot",
-      "count": 2
-    },
-    {
-      "province": "Kampong Cham",
-      "count": 1
-    },
-    {
-      "province": "Battambang",
-      "count": 1
-    },
-    {
-      "province": "Oddar Meanchey",
-      "count": 1
-    }
-  ],
-  "last_updated": "2026-08-13T11:41:58.098954+07:00",
-  "date_range": {
-    "start": "2026-08-12",
-    "end": "2026-08-13"
-  }
+  "possible_wildfires": 0,
+  "thermal_anomalies": 0,
+  "hotspots_in_protected_areas": 0,
+  "top_provinces": [],
+  "last_updated": "2026-08-13T14:08:12.922623+07:00",
+  "date_range": {}
 }
