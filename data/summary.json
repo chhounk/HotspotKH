@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 41,
+  "total_hotspots": 44,
   "likely_wildfires": 0,
   "possible_wildfires": 3,
-  "thermal_anomalies": 38,
+  "thermal_anomalies": 41,
   "hotspots_in_protected_areas": 5,
   "top_provinces": [
     {
@@ -18,11 +18,15 @@
       "count": 3
     },
     {
+      "province": "Battambang",
+      "count": 3
+    },
+    {
       "province": "Kratie",
       "count": 3
     },
     {
-      "province": "Battambang",
+      "province": "Tboung Khmum",
       "count": 2
     },
     {
@@ -30,17 +34,17 @@
       "count": 1
     },
     {
-      "province": "Tboung Khmum",
+      "province": "Mondulkiri",
       "count": 1
     },
     {
-      "province": "Mondulkiri",
+      "province": "Kampong Thom",
       "count": 1
     }
   ],
-  "last_updated": "2026-08-15T13:15:14.720367+07:00",
+  "last_updated": "2026-08-15T16:13:14.590611+07:00",
   "date_range": {
     "start": "2026-08-14",
-    "end": "2026-08-14"
+    "end": "2026-08-15"
   }
 }
