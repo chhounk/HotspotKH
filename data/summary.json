@@ -1,26 +1,10 @@
 {
-  "total_hotspots": 3,
+  "total_hotspots": 0,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 3,
+  "thermal_anomalies": 0,
   "hotspots_in_protected_areas": 0,
-  "top_provinces": [
-    {
-      "province": "Tboung Khmum",
-      "count": 1
-    },
-    {
-      "province": "Battambang",
-      "count": 1
-    },
-    {
-      "province": "Kampong Thom",
-      "count": 1
-    }
-  ],
-  "last_updated": "2026-08-16T07:28:08.089484+07:00",
-  "date_range": {
-    "start": "2026-08-15",
-    "end": "2026-08-15"
-  }
+  "top_provinces": [],
+  "last_updated": "2026-08-16T10:39:12.628712+07:00",
+  "date_range": {}
 }
