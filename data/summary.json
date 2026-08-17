@@ -1,7 +1,7 @@
 {
-  "total_hotspots": 92,
+  "total_hotspots": 93,
   "likely_wildfires": 0,
-  "possible_wildfires": 19,
+  "possible_wildfires": 20,
   "thermal_anomalies": 73,
   "hotspots_in_protected_areas": 2,
   "top_provinces": [
@@ -36,11 +36,15 @@
     {
       "province": "Kampong Cham",
       "count": 2
+    },
+    {
+      "province": "Kampong Thom",
+      "count": 1
     }
   ],
-  "last_updated": "2026-08-17T16:26:33.387669+07:00",
+  "last_updated": "2026-08-17T19:15:43.360773+07:00",
   "date_range": {
     "start": "2026-08-16",
-    "end": "2026-08-16"
+    "end": "2026-08-17"
   }
 }
