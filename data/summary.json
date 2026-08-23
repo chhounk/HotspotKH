@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 128,
+  "total_hotspots": 130,
   "likely_wildfires": 1,
   "possible_wildfires": 6,
-  "thermal_anomalies": 121,
+  "thermal_anomalies": 123,
   "hotspots_in_protected_areas": 3,
   "top_provinces": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "province": "Kampong Thom",
-      "count": 4
+      "count": 6
     },
     {
       "province": "Tboung Khmum",
@@ -54,7 +54,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-08-23T16:14:33.492875+07:00",
+  "last_updated": "2026-08-23T19:12:35.804714+07:00",
   "date_range": {
     "start": "2026-08-22",
     "end": "2026-08-23"
