@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 107,
+  "total_hotspots": 109,
   "likely_wildfires": 0,
   "possible_wildfires": 12,
-  "thermal_anomalies": 95,
+  "thermal_anomalies": 97,
   "hotspots_in_protected_areas": 1,
   "top_provinces": [
     {
@@ -30,23 +30,23 @@
       "count": 3
     },
     {
+      "province": "Mondulkiri",
+      "count": 3
+    },
+    {
       "province": "Battambang",
       "count": 2
     },
     {
-      "province": "Mondulkiri",
+      "province": "Kratie",
       "count": 2
     },
     {
       "province": "Ratanakiri",
       "count": 1
-    },
-    {
-      "province": "Kratie",
-      "count": 1
     }
   ],
-  "last_updated": "2026-08-24T19:19:31.326891+07:00",
+  "last_updated": "2026-08-24T22:25:53.290756+07:00",
   "date_range": {
     "start": "2026-08-23",
     "end": "2026-08-24"
