@@ -1,16 +1,16 @@
 {
-  "total_hotspots": 15,
+  "total_hotspots": 13,
   "likely_wildfires": 0,
-  "possible_wildfires": 1,
-  "thermal_anomalies": 14,
+  "possible_wildfires": 0,
+  "thermal_anomalies": 13,
   "hotspots_in_protected_areas": 1,
   "top_provinces": [
     {
-      "province": "Svay Rieng",
-      "count": 8
+      "province": "Prey Veng",
+      "count": 6
     },
     {
-      "province": "Prey Veng",
+      "province": "Svay Rieng",
       "count": 6
     },
     {
@@ -18,9 +18,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-08-30T05:50:49.838510+07:00",
+  "last_updated": "2026-08-30T08:52:44.061430+07:00",
   "date_range": {
-    "start": "2026-08-28",
+    "start": "2026-08-29",
     "end": "2026-08-29"
   }
 }
