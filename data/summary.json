@@ -1,10 +1,22 @@
 {
-  "total_hotspots": 0,
+  "total_hotspots": 3,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 0,
+  "thermal_anomalies": 3,
   "hotspots_in_protected_areas": 0,
-  "top_provinces": [],
-  "last_updated": "2026-09-02T01:03:20.672522+07:00",
-  "date_range": {}
+  "top_provinces": [
+    {
+      "province": "Prey Veng",
+      "count": 2
+    },
+    {
+      "province": "Kampong Cham",
+      "count": 1
+    }
+  ],
+  "last_updated": "2026-09-02T05:51:52.972075+07:00",
+  "date_range": {
+    "start": "2026-08-31",
+    "end": "2026-08-31"
+  }
 }
