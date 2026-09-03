@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 22,
+  "total_hotspots": 23,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 22,
+  "thermal_anomalies": 23,
   "hotspots_in_protected_areas": 6,
   "top_provinces": [
     {
@@ -22,6 +22,10 @@
       "count": 2
     },
     {
+      "province": "Mondulkiri",
+      "count": 2
+    },
+    {
       "province": "Battambang",
       "count": 1
     },
@@ -38,10 +42,6 @@
       "count": 1
     },
     {
-      "province": "Mondulkiri",
-      "count": 1
-    },
-    {
       "province": "Prey Veng",
       "count": 1
     },
@@ -50,7 +50,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-09-04T01:08:38.399810+07:00",
+  "last_updated": "2026-09-04T05:51:41.877517+07:00",
   "date_range": {
     "start": "2026-09-02",
     "end": "2026-09-03"
