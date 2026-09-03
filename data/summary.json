@@ -1,38 +1,10 @@
 {
-  "total_hotspots": 6,
+  "total_hotspots": 0,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 6,
-  "hotspots_in_protected_areas": 2,
-  "top_provinces": [
-    {
-      "province": "Kampong Cham",
-      "count": 1
-    },
-    {
-      "province": "Kampong Chhnang",
-      "count": 1
-    },
-    {
-      "province": "Pursat",
-      "count": 1
-    },
-    {
-      "province": "Banteay Meanchey",
-      "count": 1
-    },
-    {
-      "province": "Takeo",
-      "count": 1
-    },
-    {
-      "province": "Mondulkiri",
-      "count": 1
-    }
-  ],
-  "last_updated": "2026-09-03T14:24:28.141403+07:00",
-  "date_range": {
-    "start": "2026-09-02",
-    "end": "2026-09-02"
-  }
+  "thermal_anomalies": 0,
+  "hotspots_in_protected_areas": 0,
+  "top_provinces": [],
+  "last_updated": "2026-09-03T20:05:39.184196+07:00",
+  "date_range": {}
 }
