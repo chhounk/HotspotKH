@@ -1,52 +1,40 @@
 {
-  "total_hotspots": 99,
+  "total_hotspots": 82,
   "likely_wildfires": 0,
   "possible_wildfires": 15,
-  "thermal_anomalies": 84,
-  "hotspots_in_protected_areas": 11,
+  "thermal_anomalies": 67,
+  "hotspots_in_protected_areas": 7,
   "top_provinces": [
     {
       "province": "Svay Rieng",
-      "count": 70
+      "count": 63
     },
     {
       "province": "Battambang",
-      "count": 5
-    },
-    {
-      "province": "Pursat",
       "count": 4
-    },
-    {
-      "province": "Kampong Thom",
-      "count": 3
-    },
-    {
-      "province": "Prey Veng",
-      "count": 3
     },
     {
       "province": "Kampong Speu",
       "count": 3
     },
     {
-      "province": "Kampong Chhnang",
+      "province": "Pursat",
       "count": 3
+    },
+    {
+      "province": "Prey Veng",
+      "count": 2
     },
     {
       "province": "Kandal",
       "count": 2
     },
     {
-      "province": "Siem Reap",
+      "province": "Kampong Thom",
       "count": 2
     },
     {
-      "province": "Banteay Meanchey",
-      "count": 1
-    },
-    {
-      "province": "Mondulkiri",
+      "province": "Siem Reap",
       "count": 1
     },
     {
@@ -58,9 +46,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-09-05T05:35:12.869206+07:00",
+  "last_updated": "2026-09-05T08:32:36.119421+07:00",
   "date_range": {
-    "start": "2026-09-03",
+    "start": "2026-09-04",
     "end": "2026-09-04"
   }
 }
