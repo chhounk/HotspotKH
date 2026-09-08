@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 108,
+  "total_hotspots": 110,
   "likely_wildfires": 2,
   "possible_wildfires": 22,
-  "thermal_anomalies": 84,
+  "thermal_anomalies": 86,
   "hotspots_in_protected_areas": 10,
   "top_provinces": [
     {
@@ -12,6 +12,10 @@
     {
       "province": "Kampong Speu",
       "count": 7
+    },
+    {
+      "province": "Takeo",
+      "count": 3
     },
     {
       "province": "Kampong Thom",
@@ -24,10 +28,6 @@
     {
       "province": "Kampot",
       "count": 2
-    },
-    {
-      "province": "Takeo",
-      "count": 1
     },
     {
       "province": "Kandal",
@@ -46,7 +46,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-09-09T01:08:47.094901+07:00",
+  "last_updated": "2026-09-09T06:01:06.608530+07:00",
   "date_range": {
     "start": "2026-09-07",
     "end": "2026-09-08"
