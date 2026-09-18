@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 15,
+  "total_hotspots": 16,
   "likely_wildfires": 0,
   "possible_wildfires": 2,
-  "thermal_anomalies": 13,
+  "thermal_anomalies": 14,
   "hotspots_in_protected_areas": 0,
   "top_provinces": [
     {
@@ -24,9 +24,13 @@
     {
       "province": "Phnom Penh",
       "count": 1
+    },
+    {
+      "province": "Mondulkiri",
+      "count": 1
     }
   ],
-  "last_updated": "2026-09-18T14:38:46.020432+07:00",
+  "last_updated": "2026-09-18T20:11:38.335368+07:00",
   "date_range": {
     "start": "2026-09-17",
     "end": "2026-09-18"
