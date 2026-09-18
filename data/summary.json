@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 16,
+  "total_hotspots": 17,
   "likely_wildfires": 0,
   "possible_wildfires": 2,
-  "thermal_anomalies": 14,
+  "thermal_anomalies": 15,
   "hotspots_in_protected_areas": 0,
   "top_provinces": [
     {
@@ -18,6 +18,10 @@
       "count": 2
     },
     {
+      "province": "Takeo",
+      "count": 1
+    },
+    {
       "province": "Prey Veng",
       "count": 1
     },
@@ -30,7 +34,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-09-19T03:04:43.622286+07:00",
+  "last_updated": "2026-09-19T05:52:49.644471+07:00",
   "date_range": {
     "start": "2026-09-17",
     "end": "2026-09-18"
