@@ -1,18 +1,10 @@
 {
-  "total_hotspots": 17,
+  "total_hotspots": 4,
   "likely_wildfires": 0,
   "possible_wildfires": 2,
-  "thermal_anomalies": 15,
+  "thermal_anomalies": 2,
   "hotspots_in_protected_areas": 0,
   "top_provinces": [
-    {
-      "province": "Svay Rieng",
-      "count": 9
-    },
-    {
-      "province": "Tboung Khmum",
-      "count": 2
-    },
     {
       "province": "Battambang",
       "count": 2
@@ -22,21 +14,13 @@
       "count": 1
     },
     {
-      "province": "Prey Veng",
-      "count": 1
-    },
-    {
-      "province": "Phnom Penh",
-      "count": 1
-    },
-    {
       "province": "Mondulkiri",
       "count": 1
     }
   ],
-  "last_updated": "2026-09-19T05:52:49.644471+07:00",
+  "last_updated": "2026-09-19T08:47:27.834169+07:00",
   "date_range": {
-    "start": "2026-09-17",
+    "start": "2026-09-18",
     "end": "2026-09-18"
   }
 }
