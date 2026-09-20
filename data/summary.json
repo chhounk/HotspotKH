@@ -1,25 +1,17 @@
 {
-  "total_hotspots": 14,
+  "total_hotspots": 10,
   "likely_wildfires": 0,
-  "possible_wildfires": 3,
-  "thermal_anomalies": 11,
+  "possible_wildfires": 1,
+  "thermal_anomalies": 9,
   "hotspots_in_protected_areas": 0,
   "top_provinces": [
     {
       "province": "Mondulkiri",
-      "count": 5
+      "count": 4
     },
     {
       "province": "Kandal",
       "count": 3
-    },
-    {
-      "province": "Battambang",
-      "count": 2
-    },
-    {
-      "province": "Takeo",
-      "count": 1
     },
     {
       "province": "Kampong Cham",
@@ -34,9 +26,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-09-20T05:32:02.957040+07:00",
+  "last_updated": "2026-09-20T08:50:10.878999+07:00",
   "date_range": {
-    "start": "2026-09-18",
+    "start": "2026-09-19",
     "end": "2026-09-19"
   }
 }
