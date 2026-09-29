@@ -1,34 +1,26 @@
 {
-  "total_hotspots": 17,
+  "total_hotspots": 14,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 17,
-  "hotspots_in_protected_areas": 1,
+  "thermal_anomalies": 14,
+  "hotspots_in_protected_areas": 0,
   "top_provinces": [
     {
       "province": "Prey Veng",
       "count": 9
     },
     {
-      "province": "Tboung Khmum",
-      "count": 3
-    },
-    {
       "province": "Mondulkiri",
       "count": 3
     },
     {
-      "province": "Kratie",
-      "count": 1
-    },
-    {
-      "province": "Svay Rieng",
-      "count": 1
+      "province": "Tboung Khmum",
+      "count": 2
     }
   ],
-  "last_updated": "2026-09-29T05:39:54.270413+07:00",
+  "last_updated": "2026-09-29T09:52:35.152072+07:00",
   "date_range": {
-    "start": "2026-09-27",
+    "start": "2026-09-28",
     "end": "2026-09-28"
   }
 }
