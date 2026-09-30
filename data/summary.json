@@ -1,34 +1,10 @@
 {
-  "total_hotspots": 9,
+  "total_hotspots": 0,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 9,
-  "hotspots_in_protected_areas": 3,
-  "top_provinces": [
-    {
-      "province": "Mondulkiri",
-      "count": 3
-    },
-    {
-      "province": "Pursat",
-      "count": 2
-    },
-    {
-      "province": "Takeo",
-      "count": 2
-    },
-    {
-      "province": "Prey Veng",
-      "count": 1
-    },
-    {
-      "province": "Kandal",
-      "count": 1
-    }
-  ],
-  "last_updated": "2026-09-30T09:33:52.578539+07:00",
-  "date_range": {
-    "start": "2026-09-29",
-    "end": "2026-09-29"
-  }
+  "thermal_anomalies": 0,
+  "hotspots_in_protected_areas": 0,
+  "top_provinces": [],
+  "last_updated": "2026-09-30T16:06:09.384318+07:00",
+  "date_range": {}
 }
