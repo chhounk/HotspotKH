@@ -1,10 +1,46 @@
 {
-  "total_hotspots": 0,
+  "total_hotspots": 14,
   "likely_wildfires": 0,
-  "possible_wildfires": 0,
-  "thermal_anomalies": 0,
-  "hotspots_in_protected_areas": 0,
-  "top_provinces": [],
-  "last_updated": "2026-09-30T16:06:09.384318+07:00",
-  "date_range": {}
+  "possible_wildfires": 2,
+  "thermal_anomalies": 12,
+  "hotspots_in_protected_areas": 5,
+  "top_provinces": [
+    {
+      "province": "Pursat",
+      "count": 3
+    },
+    {
+      "province": "Mondulkiri",
+      "count": 3
+    },
+    {
+      "province": "Takeo",
+      "count": 2
+    },
+    {
+      "province": "Kampong Thom",
+      "count": 2
+    },
+    {
+      "province": "Prey Veng",
+      "count": 1
+    },
+    {
+      "province": "Kandal",
+      "count": 1
+    },
+    {
+      "province": "Ratanakiri",
+      "count": 1
+    },
+    {
+      "province": "Oddar Meanchey",
+      "count": 1
+    }
+  ],
+  "last_updated": "2026-10-01T00:03:00.380617+07:00",
+  "date_range": {
+    "start": "2026-09-29",
+    "end": "2026-09-30"
+  }
 }
