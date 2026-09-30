@@ -1,13 +1,17 @@
 {
-  "total_hotspots": 14,
+  "total_hotspots": 19,
   "likely_wildfires": 0,
   "possible_wildfires": 2,
-  "thermal_anomalies": 12,
-  "hotspots_in_protected_areas": 5,
+  "thermal_anomalies": 17,
+  "hotspots_in_protected_areas": 10,
   "top_provinces": [
     {
       "province": "Pursat",
-      "count": 3
+      "count": 5
+    },
+    {
+      "province": "Ratanakiri",
+      "count": 4
     },
     {
       "province": "Mondulkiri",
@@ -30,15 +34,11 @@
       "count": 1
     },
     {
-      "province": "Ratanakiri",
-      "count": 1
-    },
-    {
       "province": "Oddar Meanchey",
       "count": 1
     }
   ],
-  "last_updated": "2026-10-01T00:03:00.380617+07:00",
+  "last_updated": "2026-10-01T04:33:44.002424+07:00",
   "date_range": {
     "start": "2026-09-29",
     "end": "2026-09-30"
