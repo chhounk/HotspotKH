@@ -1,20 +1,20 @@
 {
-  "total_hotspots": 5,
+  "total_hotspots": 11,
   "likely_wildfires": 0,
   "possible_wildfires": 1,
-  "thermal_anomalies": 4,
-  "hotspots_in_protected_areas": 1,
+  "thermal_anomalies": 10,
+  "hotspots_in_protected_areas": 2,
   "top_provinces": [
     {
-      "province": "Prey Veng",
-      "count": 1
-    },
-    {
       "province": "Mondulkiri",
-      "count": 1
+      "count": 6
     },
     {
       "province": "Ratanakiri",
+      "count": 2
+    },
+    {
+      "province": "Prey Veng",
       "count": 1
     },
     {
@@ -26,7 +26,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-10-02T23:52:29.071182+07:00",
+  "last_updated": "2026-10-03T04:28:28.408493+07:00",
   "date_range": {
     "start": "2026-10-01",
     "end": "2026-10-02"
