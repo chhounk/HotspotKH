@@ -1,17 +1,17 @@
 {
-  "total_hotspots": 29,
+  "total_hotspots": 20,
   "likely_wildfires": 0,
-  "possible_wildfires": 1,
-  "thermal_anomalies": 28,
-  "hotspots_in_protected_areas": 11,
+  "possible_wildfires": 0,
+  "thermal_anomalies": 20,
+  "hotspots_in_protected_areas": 9,
   "top_provinces": [
     {
       "province": "Mondulkiri",
-      "count": 14
+      "count": 9
     },
     {
       "province": "Ratanakiri",
-      "count": 5
+      "count": 3
     },
     {
       "province": "Pursat",
@@ -22,21 +22,17 @@
       "count": 3
     },
     {
-      "province": "Kampong Chhnang",
-      "count": 2
-    },
-    {
       "province": "Takeo",
       "count": 1
     },
     {
-      "province": "Kampong Cham",
+      "province": "Kampong Chhnang",
       "count": 1
     }
   ],
-  "last_updated": "2026-10-04T06:24:01.877172+07:00",
+  "last_updated": "2026-10-04T09:58:04.764263+07:00",
   "date_range": {
-    "start": "2026-10-02",
+    "start": "2026-10-03",
     "end": "2026-10-03"
   }
 }
