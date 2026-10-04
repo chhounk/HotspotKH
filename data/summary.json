@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 20,
+  "total_hotspots": 21,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 20,
+  "thermal_anomalies": 21,
   "hotspots_in_protected_areas": 9,
   "top_provinces": [
     {
@@ -28,11 +28,15 @@
     {
       "province": "Kampong Chhnang",
       "count": 1
+    },
+    {
+      "province": "Tboung Khmum",
+      "count": 1
     }
   ],
-  "last_updated": "2026-10-04T09:58:04.764263+07:00",
+  "last_updated": "2026-10-04T16:15:17.543660+07:00",
   "date_range": {
     "start": "2026-10-03",
-    "end": "2026-10-03"
+    "end": "2026-10-04"
   }
 }
