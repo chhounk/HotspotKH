@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 12,
+  "total_hotspots": 13,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 12,
+  "thermal_anomalies": 13,
   "hotspots_in_protected_areas": 8,
   "top_provinces": [
     {
@@ -36,11 +36,15 @@
     {
       "province": "Mondulkiri",
       "count": 1
+    },
+    {
+      "province": "Siem Reap",
+      "count": 1
     }
   ],
-  "last_updated": "2026-10-08T10:08:05.571271+07:00",
+  "last_updated": "2026-10-08T19:18:06.804679+07:00",
   "date_range": {
     "start": "2026-10-07",
-    "end": "2026-10-07"
+    "end": "2026-10-08"
   }
 }
