@@ -1,18 +1,30 @@
 {
-  "total_hotspots": 1,
+  "total_hotspots": 7,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 1,
-  "hotspots_in_protected_areas": 0,
+  "thermal_anomalies": 7,
+  "hotspots_in_protected_areas": 5,
   "top_provinces": [
+    {
+      "province": "Pursat",
+      "count": 4
+    },
     {
       "province": "Siem Reap",
       "count": 1
+    },
+    {
+      "province": "Takeo",
+      "count": 1
+    },
+    {
+      "province": "Ratanakiri",
+      "count": 1
     }
   ],
-  "last_updated": "2026-10-10T00:35:14.893852+07:00",
+  "last_updated": "2026-10-10T04:54:19.761531+07:00",
   "date_range": {
     "start": "2026-10-08",
-    "end": "2026-10-08"
+    "end": "2026-10-09"
   }
 }
