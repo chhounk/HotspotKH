@@ -1,13 +1,21 @@
 {
-  "total_hotspots": 6,
+  "total_hotspots": 11,
   "likely_wildfires": 0,
-  "possible_wildfires": 0,
-  "thermal_anomalies": 6,
-  "hotspots_in_protected_areas": 5,
+  "possible_wildfires": 3,
+  "thermal_anomalies": 8,
+  "hotspots_in_protected_areas": 6,
   "top_provinces": [
     {
       "province": "Pursat",
       "count": 4
+    },
+    {
+      "province": "Kampot",
+      "count": 3
+    },
+    {
+      "province": "Kandal",
+      "count": 2
     },
     {
       "province": "Takeo",
@@ -18,9 +26,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-10-10T09:53:29.559014+07:00",
+  "last_updated": "2026-10-10T16:08:03.110825+07:00",
   "date_range": {
     "start": "2026-10-09",
-    "end": "2026-10-09"
+    "end": "2026-10-10"
   }
 }
