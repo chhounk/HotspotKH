@@ -1,10 +1,34 @@
 {
-  "total_hotspots": 0,
+  "total_hotspots": 10,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 0,
-  "hotspots_in_protected_areas": 0,
-  "top_provinces": [],
-  "last_updated": "2026-10-14T17:41:19.441829+07:00",
-  "date_range": {}
+  "thermal_anomalies": 10,
+  "hotspots_in_protected_areas": 4,
+  "top_provinces": [
+    {
+      "province": "Mondulkiri",
+      "count": 6
+    },
+    {
+      "province": "Kampot",
+      "count": 1
+    },
+    {
+      "province": "Koh Kong",
+      "count": 1
+    },
+    {
+      "province": "Kampong Cham",
+      "count": 1
+    },
+    {
+      "province": "Tboung Khmum",
+      "count": 1
+    }
+  ],
+  "last_updated": "2026-10-14T23:01:04.609933+07:00",
+  "date_range": {
+    "start": "2026-10-14",
+    "end": "2026-10-14"
+  }
 }
