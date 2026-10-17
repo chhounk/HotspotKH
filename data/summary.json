@@ -1,38 +1,10 @@
 {
-  "total_hotspots": 40,
-  "likely_wildfires": 3,
-  "possible_wildfires": 7,
-  "thermal_anomalies": 30,
-  "hotspots_in_protected_areas": 9,
-  "top_provinces": [
-    {
-      "province": "Ratanakiri",
-      "count": 18
-    },
-    {
-      "province": "Mondulkiri",
-      "count": 15
-    },
-    {
-      "province": "Kampot",
-      "count": 4
-    },
-    {
-      "province": "Tboung Khmum",
-      "count": 1
-    },
-    {
-      "province": "Stung Treng",
-      "count": 1
-    },
-    {
-      "province": "Battambang",
-      "count": 1
-    }
-  ],
-  "last_updated": "2026-10-17T06:04:21.336311+07:00",
-  "date_range": {
-    "start": "2026-10-15",
-    "end": "2026-10-16"
-  }
+  "total_hotspots": 0,
+  "likely_wildfires": 0,
+  "possible_wildfires": 0,
+  "thermal_anomalies": 0,
+  "hotspots_in_protected_areas": 0,
+  "top_provinces": [],
+  "last_updated": "2026-10-17T08:46:28.332763+07:00",
+  "date_range": {}
 }
