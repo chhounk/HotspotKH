@@ -1,22 +1,22 @@
 {
-  "total_hotspots": 31,
+  "total_hotspots": 33,
   "likely_wildfires": 1,
   "possible_wildfires": 4,
-  "thermal_anomalies": 26,
-  "hotspots_in_protected_areas": 19,
+  "thermal_anomalies": 28,
+  "hotspots_in_protected_areas": 21,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 19
+      "count": 21
     },
     {
       "province": "Mondulkiri",
       "count": 12
     }
   ],
-  "last_updated": "2026-10-19T08:57:37.870831+07:00",
+  "last_updated": "2026-10-19T15:08:03.129529+07:00",
   "date_range": {
     "start": "2026-10-18",
-    "end": "2026-10-18"
+    "end": "2026-10-19"
   }
 }
