@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 34,
+  "total_hotspots": 37,
   "likely_wildfires": 0,
   "possible_wildfires": 5,
-  "thermal_anomalies": 29,
+  "thermal_anomalies": 32,
   "hotspots_in_protected_areas": 21,
   "top_provinces": [
     {
@@ -18,6 +18,10 @@
       "count": 3
     },
     {
+      "province": "Takeo",
+      "count": 3
+    },
+    {
       "province": "Kratie",
       "count": 3
     },
@@ -30,7 +34,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-10-21T01:46:51.668581+07:00",
+  "last_updated": "2026-10-21T06:29:45.058915+07:00",
   "date_range": {
     "start": "2026-10-19",
     "end": "2026-10-20"
