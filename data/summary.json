@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 20,
+  "total_hotspots": 23,
   "likely_wildfires": 0,
-  "possible_wildfires": 0,
-  "thermal_anomalies": 20,
+  "possible_wildfires": 2,
+  "thermal_anomalies": 21,
   "hotspots_in_protected_areas": 15,
   "top_provinces": [
     {
@@ -12,11 +12,23 @@
     {
       "province": "Mondulkiri",
       "count": 3
+    },
+    {
+      "province": "Svay Rieng",
+      "count": 1
+    },
+    {
+      "province": "Kandal",
+      "count": 1
+    },
+    {
+      "province": "Stung Treng",
+      "count": 1
     }
   ],
-  "last_updated": "2026-10-20T09:15:20.075583+07:00",
+  "last_updated": "2026-10-20T14:57:18.315086+07:00",
   "date_range": {
     "start": "2026-10-19",
-    "end": "2026-10-19"
+    "end": "2026-10-20"
   }
 }
