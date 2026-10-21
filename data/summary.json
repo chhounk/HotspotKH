@@ -1,13 +1,17 @@
 {
-  "total_hotspots": 17,
+  "total_hotspots": 18,
   "likely_wildfires": 0,
   "possible_wildfires": 5,
-  "thermal_anomalies": 12,
-  "hotspots_in_protected_areas": 6,
+  "thermal_anomalies": 13,
+  "hotspots_in_protected_areas": 7,
   "top_provinces": [
     {
       "province": "Svay Rieng",
       "count": 5
+    },
+    {
+      "province": "Ratanakiri",
+      "count": 4
     },
     {
       "province": "Takeo",
@@ -15,10 +19,6 @@
     },
     {
       "province": "Kratie",
-      "count": 3
-    },
-    {
-      "province": "Ratanakiri",
       "count": 3
     },
     {
@@ -30,9 +30,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-10-21T09:08:39.418288+07:00",
+  "last_updated": "2026-10-21T15:01:52.164942+07:00",
   "date_range": {
     "start": "2026-10-20",
-    "end": "2026-10-20"
+    "end": "2026-10-21"
   }
 }
