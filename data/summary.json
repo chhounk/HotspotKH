@@ -1,22 +1,22 @@
 {
-  "total_hotspots": 7,
+  "total_hotspots": 5,
   "likely_wildfires": 0,
-  "possible_wildfires": 1,
-  "thermal_anomalies": 6,
-  "hotspots_in_protected_areas": 5,
+  "possible_wildfires": 0,
+  "thermal_anomalies": 5,
+  "hotspots_in_protected_areas": 3,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 6
+      "count": 4
     },
     {
       "province": "Takeo",
       "count": 1
     }
   ],
-  "last_updated": "2026-10-23T06:42:22.625268+07:00",
+  "last_updated": "2026-10-23T09:07:24.691331+07:00",
   "date_range": {
-    "start": "2026-10-21",
+    "start": "2026-10-22",
     "end": "2026-10-22"
   }
 }
