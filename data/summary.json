@@ -1,10 +1,38 @@
 {
-  "total_hotspots": 0,
+  "total_hotspots": 16,
   "likely_wildfires": 0,
-  "possible_wildfires": 0,
-  "thermal_anomalies": 0,
-  "hotspots_in_protected_areas": 0,
-  "top_provinces": [],
-  "last_updated": "2026-10-24T01:48:45.247262+07:00",
-  "date_range": {}
+  "possible_wildfires": 1,
+  "thermal_anomalies": 15,
+  "hotspots_in_protected_areas": 8,
+  "top_provinces": [
+    {
+      "province": "Ratanakiri",
+      "count": 8
+    },
+    {
+      "province": "Mondulkiri",
+      "count": 3
+    },
+    {
+      "province": "Battambang",
+      "count": 2
+    },
+    {
+      "province": "Banteay Meanchey",
+      "count": 1
+    },
+    {
+      "province": "Takeo",
+      "count": 1
+    },
+    {
+      "province": "Tboung Khmum",
+      "count": 1
+    }
+  ],
+  "last_updated": "2026-10-24T06:35:30.632066+07:00",
+  "date_range": {
+    "start": "2026-10-22",
+    "end": "2026-10-23"
+  }
 }
