@@ -1,29 +1,29 @@
 {
-  "total_hotspots": 28,
+  "total_hotspots": 33,
   "likely_wildfires": 0,
-  "possible_wildfires": 4,
-  "thermal_anomalies": 24,
-  "hotspots_in_protected_areas": 10,
+  "possible_wildfires": 6,
+  "thermal_anomalies": 27,
+  "hotspots_in_protected_areas": 12,
   "top_provinces": [
+    {
+      "province": "Svay Rieng",
+      "count": 8
+    },
     {
       "province": "Tboung Khmum",
       "count": 7
     },
     {
-      "province": "Svay Rieng",
+      "province": "Pursat",
       "count": 6
     },
     {
-      "province": "Pursat",
-      "count": 5
-    },
-    {
       "province": "Mondulkiri",
-      "count": 3
+      "count": 4
     },
     {
       "province": "Ratanakiri",
-      "count": 2
+      "count": 3
     },
     {
       "province": "Kampong Cham",
@@ -46,9 +46,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-10-25T08:52:54.590983+07:00",
+  "last_updated": "2026-10-25T14:50:37.028010+07:00",
   "date_range": {
     "start": "2026-10-24",
-    "end": "2026-10-24"
+    "end": "2026-10-25"
   }
 }
