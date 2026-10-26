@@ -1,24 +1,24 @@
 {
-  "total_hotspots": 21,
+  "total_hotspots": 28,
   "likely_wildfires": 0,
-  "possible_wildfires": 3,
-  "thermal_anomalies": 18,
-  "hotspots_in_protected_areas": 13,
+  "possible_wildfires": 4,
+  "thermal_anomalies": 24,
+  "hotspots_in_protected_areas": 17,
   "top_provinces": [
     {
       "province": "Mondulkiri",
-      "count": 8
+      "count": 11
     },
     {
       "province": "Pursat",
       "count": 5
     },
     {
-      "province": "Kampong Chhnang",
-      "count": 2
+      "province": "Ratanakiri",
+      "count": 4
     },
     {
-      "province": "Ratanakiri",
+      "province": "Kampong Chhnang",
       "count": 2
     },
     {
@@ -26,13 +26,17 @@
       "count": 2
     },
     {
+      "province": "Kandal",
+      "count": 2
+    },
+    {
       "province": "Svay Rieng",
       "count": 2
     }
   ],
-  "last_updated": "2026-10-26T08:54:56.902163+07:00",
+  "last_updated": "2026-10-26T15:09:58.090531+07:00",
   "date_range": {
     "start": "2026-10-25",
-    "end": "2026-10-25"
+    "end": "2026-10-26"
   }
 }
