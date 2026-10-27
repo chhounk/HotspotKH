@@ -1,29 +1,21 @@
 {
-  "total_hotspots": 51,
+  "total_hotspots": 30,
   "likely_wildfires": 1,
-  "possible_wildfires": 7,
-  "thermal_anomalies": 43,
-  "hotspots_in_protected_areas": 30,
+  "possible_wildfires": 4,
+  "thermal_anomalies": 25,
+  "hotspots_in_protected_areas": 17,
   "top_provinces": [
     {
       "province": "Mondulkiri",
-      "count": 23
-    },
-    {
-      "province": "Pursat",
-      "count": 8
+      "count": 15
     },
     {
       "province": "Ratanakiri",
-      "count": 6
+      "count": 4
     },
     {
-      "province": "Tboung Khmum",
+      "province": "Pursat",
       "count": 3
-    },
-    {
-      "province": "Kampong Chhnang",
-      "count": 2
     },
     {
       "province": "Kandal",
@@ -34,21 +26,21 @@
       "count": 2
     },
     {
-      "province": "Svay Rieng",
+      "province": "Kampong Cham",
       "count": 2
     },
     {
-      "province": "Kampong Cham",
-      "count": 2
+      "province": "Tboung Khmum",
+      "count": 1
     },
     {
       "province": "Oddar Meanchey",
       "count": 1
     }
   ],
-  "last_updated": "2026-10-27T04:57:13.294508+07:00",
+  "last_updated": "2026-10-27T09:33:00.835402+07:00",
   "date_range": {
-    "start": "2026-10-25",
+    "start": "2026-10-26",
     "end": "2026-10-26"
   }
 }
