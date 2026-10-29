@@ -1,17 +1,17 @@
 {
-  "total_hotspots": 42,
+  "total_hotspots": 46,
   "likely_wildfires": 0,
   "possible_wildfires": 2,
-  "thermal_anomalies": 40,
-  "hotspots_in_protected_areas": 19,
+  "thermal_anomalies": 44,
+  "hotspots_in_protected_areas": 23,
   "top_provinces": [
+    {
+      "province": "Ratanakiri",
+      "count": 16
+    },
     {
       "province": "Mondulkiri",
       "count": 13
-    },
-    {
-      "province": "Ratanakiri",
-      "count": 12
     },
     {
       "province": "Tboung Khmum",
@@ -42,7 +42,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-10-30T00:38:38.753637+07:00",
+  "last_updated": "2026-10-30T05:03:18.219913+07:00",
   "date_range": {
     "start": "2026-10-28",
     "end": "2026-10-29"
