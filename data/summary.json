@@ -1,9 +1,9 @@
 {
-  "total_hotspots": 22,
+  "total_hotspots": 23,
   "likely_wildfires": 0,
   "possible_wildfires": 3,
-  "thermal_anomalies": 19,
-  "hotspots_in_protected_areas": 1,
+  "thermal_anomalies": 20,
+  "hotspots_in_protected_areas": 2,
   "top_provinces": [
     {
       "province": "Tboung Khmum",
@@ -28,9 +28,13 @@
     {
       "province": "Banteay Meanchey",
       "count": 1
+    },
+    {
+      "province": "Kratie",
+      "count": 1
     }
   ],
-  "last_updated": "2026-11-05T16:57:05.826565+07:00",
+  "last_updated": "2026-11-06T02:06:27.699932+07:00",
   "date_range": {
     "start": "2026-11-04",
     "end": "2026-11-05"
