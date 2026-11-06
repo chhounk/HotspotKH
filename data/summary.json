@@ -1,9 +1,9 @@
 {
-  "total_hotspots": 14,
+  "total_hotspots": 16,
   "likely_wildfires": 0,
   "possible_wildfires": 1,
-  "thermal_anomalies": 13,
-  "hotspots_in_protected_areas": 3,
+  "thermal_anomalies": 15,
+  "hotspots_in_protected_areas": 4,
   "top_provinces": [
     {
       "province": "Tboung Khmum",
@@ -18,6 +18,10 @@
       "count": 2
     },
     {
+      "province": "Ratanakiri",
+      "count": 2
+    },
+    {
       "province": "Kampong Thom",
       "count": 2
     },
@@ -26,13 +30,13 @@
       "count": 1
     },
     {
-      "province": "Ratanakiri",
+      "province": "Svay Rieng",
       "count": 1
     }
   ],
-  "last_updated": "2026-11-06T08:11:42.032187+07:00",
+  "last_updated": "2026-11-06T16:59:08.362610+07:00",
   "date_range": {
     "start": "2026-11-05",
-    "end": "2026-11-05"
+    "end": "2026-11-06"
   }
 }
