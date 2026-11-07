@@ -1,7 +1,7 @@
 {
-  "total_hotspots": 9,
+  "total_hotspots": 10,
   "likely_wildfires": 0,
-  "possible_wildfires": 0,
+  "possible_wildfires": 1,
   "thermal_anomalies": 9,
   "hotspots_in_protected_areas": 4,
   "top_provinces": [
@@ -24,11 +24,15 @@
     {
       "province": "Svay Rieng",
       "count": 1
+    },
+    {
+      "province": "Stung Treng",
+      "count": 1
     }
   ],
-  "last_updated": "2026-11-07T07:26:59.990391+07:00",
+  "last_updated": "2026-11-07T16:19:13.251525+07:00",
   "date_range": {
     "start": "2026-11-06",
-    "end": "2026-11-06"
+    "end": "2026-11-07"
   }
 }
