@@ -1,13 +1,13 @@
 {
-  "total_hotspots": 46,
+  "total_hotspots": 50,
   "likely_wildfires": 1,
   "possible_wildfires": 9,
-  "thermal_anomalies": 36,
-  "hotspots_in_protected_areas": 24,
+  "thermal_anomalies": 40,
+  "hotspots_in_protected_areas": 27,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 18
+      "count": 21
     },
     {
       "province": "Tboung Khmum",
@@ -46,6 +46,10 @@
       "count": 1
     },
     {
+      "province": "Koh Kong",
+      "count": 1
+    },
+    {
       "province": "Kampot",
       "count": 1
     },
@@ -54,7 +58,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-11-09T21:27:46.279584+07:00",
+  "last_updated": "2026-11-10T06:37:03.370663+07:00",
   "date_range": {
     "start": "2026-11-08",
     "end": "2026-11-09"
