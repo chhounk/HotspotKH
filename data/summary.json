@@ -1,9 +1,9 @@
 {
-  "total_hotspots": 33,
+  "total_hotspots": 34,
   "likely_wildfires": 0,
   "possible_wildfires": 1,
-  "thermal_anomalies": 32,
-  "hotspots_in_protected_areas": 12,
+  "thermal_anomalies": 33,
+  "hotspots_in_protected_areas": 13,
   "top_provinces": [
     {
       "province": "Kandal",
@@ -30,6 +30,10 @@
       "count": 2
     },
     {
+      "province": "Mondulkiri",
+      "count": 2
+    },
+    {
       "province": "Kampong Speu",
       "count": 1
     },
@@ -44,13 +48,9 @@
     {
       "province": "Oddar Meanchey",
       "count": 1
-    },
-    {
-      "province": "Mondulkiri",
-      "count": 1
     }
   ],
-  "last_updated": "2026-11-11T20:00:46.227484+07:00",
+  "last_updated": "2026-11-12T04:36:54.026756+07:00",
   "date_range": {
     "start": "2026-11-10",
     "end": "2026-11-11"
