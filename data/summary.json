@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 5,
+  "total_hotspots": 6,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 5,
+  "thermal_anomalies": 6,
   "hotspots_in_protected_areas": 4,
   "top_provinces": [
     {
@@ -16,11 +16,15 @@
     {
       "province": "Preah Vihear",
       "count": 1
+    },
+    {
+      "province": "Battambang",
+      "count": 1
     }
   ],
-  "last_updated": "2026-11-12T11:29:18.887111+07:00",
+  "last_updated": "2026-11-12T21:03:11.665017+07:00",
   "date_range": {
     "start": "2026-11-11",
-    "end": "2026-11-11"
+    "end": "2026-11-12"
   }
 }
