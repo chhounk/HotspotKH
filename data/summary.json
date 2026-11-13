@@ -1,30 +1,18 @@
 {
-  "total_hotspots": 6,
+  "total_hotspots": 1,
   "likely_wildfires": 0,
   "possible_wildfires": 0,
-  "thermal_anomalies": 6,
-  "hotspots_in_protected_areas": 4,
+  "thermal_anomalies": 1,
+  "hotspots_in_protected_areas": 0,
   "top_provinces": [
-    {
-      "province": "Mondulkiri",
-      "count": 2
-    },
-    {
-      "province": "Kratie",
-      "count": 2
-    },
-    {
-      "province": "Preah Vihear",
-      "count": 1
-    },
     {
       "province": "Battambang",
       "count": 1
     }
   ],
-  "last_updated": "2026-11-13T04:37:22.718038+07:00",
+  "last_updated": "2026-11-13T10:43:43.206954+07:00",
   "date_range": {
-    "start": "2026-11-11",
+    "start": "2026-11-12",
     "end": "2026-11-12"
   }
 }
