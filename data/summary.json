@@ -1,13 +1,17 @@
 {
-  "total_hotspots": 12,
+  "total_hotspots": 14,
   "likely_wildfires": 0,
   "possible_wildfires": 1,
-  "thermal_anomalies": 11,
-  "hotspots_in_protected_areas": 6,
+  "thermal_anomalies": 13,
+  "hotspots_in_protected_areas": 8,
   "top_provinces": [
     {
       "province": "Kratie",
       "count": 4
+    },
+    {
+      "province": "Oddar Meanchey",
+      "count": 3
     },
     {
       "province": "Mondulkiri",
@@ -18,21 +22,17 @@
       "count": 2
     },
     {
-      "province": "Oddar Meanchey",
+      "province": "Ratanakiri",
       "count": 2
     },
     {
       "province": "Preah Vihear",
       "count": 1
-    },
-    {
-      "province": "Ratanakiri",
-      "count": 1
     }
   ],
-  "last_updated": "2026-11-16T07:27:00.955944+07:00",
+  "last_updated": "2026-11-16T17:13:52.901181+07:00",
   "date_range": {
     "start": "2026-11-15",
-    "end": "2026-11-15"
+    "end": "2026-11-16"
   }
 }
