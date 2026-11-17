@@ -1,38 +1,42 @@
 {
-  "total_hotspots": 14,
+  "total_hotspots": 11,
   "likely_wildfires": 0,
   "possible_wildfires": 1,
-  "thermal_anomalies": 13,
-  "hotspots_in_protected_areas": 8,
+  "thermal_anomalies": 10,
+  "hotspots_in_protected_areas": 6,
   "top_provinces": [
     {
-      "province": "Kratie",
+      "province": "Ratanakiri",
       "count": 4
     },
     {
       "province": "Oddar Meanchey",
-      "count": 3
+      "count": 2
+    },
+    {
+      "province": "Prey Veng",
+      "count": 1
+    },
+    {
+      "province": "Tboung Khmum",
+      "count": 1
     },
     {
       "province": "Mondulkiri",
-      "count": 2
+      "count": 1
     },
     {
-      "province": "Battambang",
-      "count": 2
+      "province": "Kratie",
+      "count": 1
     },
     {
-      "province": "Ratanakiri",
-      "count": 2
-    },
-    {
-      "province": "Preah Vihear",
+      "province": "Kampong Chhnang",
       "count": 1
     }
   ],
-  "last_updated": "2026-11-17T04:17:55.690247+07:00",
+  "last_updated": "2026-11-17T12:21:17.334359+07:00",
   "date_range": {
-    "start": "2026-11-15",
-    "end": "2026-11-16"
+    "start": "2026-11-16",
+    "end": "2026-11-17"
   }
 }
