@@ -1,29 +1,29 @@
 {
-  "total_hotspots": 76,
+  "total_hotspots": 87,
   "likely_wildfires": 3,
   "possible_wildfires": 12,
-  "thermal_anomalies": 61,
-  "hotspots_in_protected_areas": 37,
+  "thermal_anomalies": 72,
+  "hotspots_in_protected_areas": 47,
   "top_provinces": [
     {
       "province": "Mondulkiri",
-      "count": 17
+      "count": 22
     },
     {
       "province": "Preah Vihear",
       "count": 17
     },
     {
+      "province": "Ratanakiri",
+      "count": 12
+    },
+    {
       "province": "Kampong Thom",
       "count": 8
     },
     {
-      "province": "Ratanakiri",
-      "count": 7
-    },
-    {
       "province": "Oddar Meanchey",
-      "count": 7
+      "count": 8
     },
     {
       "province": "Tboung Khmum",
@@ -70,7 +70,7 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-11-19T21:44:55.415229+07:00",
+  "last_updated": "2026-11-20T05:29:11.768827+07:00",
   "date_range": {
     "start": "2026-11-18",
     "end": "2026-11-19"
