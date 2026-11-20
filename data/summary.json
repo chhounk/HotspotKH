@@ -1,9 +1,9 @@
 {
-  "total_hotspots": 104,
+  "total_hotspots": 106,
   "likely_wildfires": 1,
   "possible_wildfires": 16,
-  "thermal_anomalies": 87,
-  "hotspots_in_protected_areas": 47,
+  "thermal_anomalies": 89,
+  "hotspots_in_protected_areas": 49,
   "top_provinces": [
     {
       "province": "Preah Vihear",
@@ -11,7 +11,7 @@
     },
     {
       "province": "Ratanakiri",
-      "count": 20
+      "count": 21
     },
     {
       "province": "Mondulkiri",
@@ -58,11 +58,15 @@
       "count": 1
     },
     {
+      "province": "Pursat",
+      "count": 1
+    },
+    {
       "province": "Prey Veng",
       "count": 1
     }
   ],
-  "last_updated": "2026-11-20T21:26:34.658155+07:00",
+  "last_updated": "2026-11-21T04:59:44.917969+07:00",
   "date_range": {
     "start": "2026-11-19",
     "end": "2026-11-20"
