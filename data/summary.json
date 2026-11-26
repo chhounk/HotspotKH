@@ -1,24 +1,32 @@
 {
-  "total_hotspots": 39,
-  "likely_wildfires": 0,
-  "possible_wildfires": 4,
-  "thermal_anomalies": 35,
-  "hotspots_in_protected_areas": 18,
+  "total_hotspots": 56,
+  "likely_wildfires": 2,
+  "possible_wildfires": 6,
+  "thermal_anomalies": 48,
+  "hotspots_in_protected_areas": 31,
   "top_provinces": [
     {
-      "province": "Ratanakiri",
-      "count": 9
+      "province": "Preah Vihear",
+      "count": 18
     },
     {
-      "province": "Preah Vihear",
-      "count": 6
+      "province": "Ratanakiri",
+      "count": 11
     },
     {
       "province": "Kampong Speu",
       "count": 4
     },
     {
+      "province": "Kampot",
+      "count": 3
+    },
+    {
       "province": "Prey Veng",
+      "count": 3
+    },
+    {
+      "province": "Kratie",
       "count": 3
     },
     {
@@ -26,8 +34,8 @@
       "count": 3
     },
     {
-      "province": "Kampot",
-      "count": 2
+      "province": "Kampong Thom",
+      "count": 3
     },
     {
       "province": "Pursat",
@@ -35,14 +43,6 @@
     },
     {
       "province": "Mondulkiri",
-      "count": 2
-    },
-    {
-      "province": "Kratie",
-      "count": 2
-    },
-    {
-      "province": "Kampong Thom",
       "count": 2
     },
     {
@@ -62,9 +62,9 @@
       "count": 1
     }
   ],
-  "last_updated": "2026-11-26T08:12:36.085899+07:00",
+  "last_updated": "2026-11-26T18:35:01.111120+07:00",
   "date_range": {
     "start": "2026-11-25",
-    "end": "2026-11-25"
+    "end": "2026-11-26"
   }
 }
