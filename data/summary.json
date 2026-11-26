@@ -1,82 +1,70 @@
 {
-  "total_hotspots": 71,
+  "total_hotspots": 39,
   "likely_wildfires": 0,
-  "possible_wildfires": 7,
-  "thermal_anomalies": 64,
-  "hotspots_in_protected_areas": 25,
+  "possible_wildfires": 4,
+  "thermal_anomalies": 35,
+  "hotspots_in_protected_areas": 18,
   "top_provinces": [
     {
       "province": "Ratanakiri",
-      "count": 13
-    },
-    {
-      "province": "Kratie",
-      "count": 11
-    },
-    {
-      "province": "Mondulkiri",
       "count": 9
     },
     {
       "province": "Preah Vihear",
-      "count": 8
-    },
-    {
-      "province": "Kampot",
-      "count": 4
-    },
-    {
-      "province": "Battambang",
-      "count": 4
+      "count": 6
     },
     {
       "province": "Kampong Speu",
       "count": 4
     },
     {
-      "province": "Pursat",
-      "count": 3
-    },
-    {
-      "province": "Kampong Thom",
-      "count": 3
-    },
-    {
       "province": "Prey Veng",
       "count": 3
     },
     {
-      "province": "Koh Kong",
+      "province": "Battambang",
+      "count": 3
+    },
+    {
+      "province": "Kampot",
       "count": 2
     },
     {
-      "province": "Tboung Khmum",
+      "province": "Pursat",
       "count": 2
     },
     {
-      "province": "Siem Reap",
-      "count": 1
+      "province": "Mondulkiri",
+      "count": 2
     },
     {
-      "province": "Banteay Meanchey",
-      "count": 1
+      "province": "Kratie",
+      "count": 2
+    },
+    {
+      "province": "Kampong Thom",
+      "count": 2
     },
     {
       "province": "Kep",
       "count": 1
     },
     {
-      "province": "Oddar Meanchey",
+      "province": "Tboung Khmum",
       "count": 1
     },
     {
-      "province": "Svay Rieng",
+      "province": "Koh Kong",
+      "count": 1
+    },
+    {
+      "province": "Oddar Meanchey",
       "count": 1
     }
   ],
-  "last_updated": "2026-11-25T23:14:14.283936+07:00",
+  "last_updated": "2026-11-26T08:12:36.085899+07:00",
   "date_range": {
-    "start": "2026-11-24",
+    "start": "2026-11-25",
     "end": "2026-11-25"
   }
 }
