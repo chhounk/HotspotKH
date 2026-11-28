@@ -1,8 +1,8 @@
 {
-  "total_hotspots": 36,
+  "total_hotspots": 37,
   "likely_wildfires": 0,
   "possible_wildfires": 3,
-  "thermal_anomalies": 33,
+  "thermal_anomalies": 34,
   "hotspots_in_protected_areas": 11,
   "top_provinces": [
     {
@@ -44,11 +44,15 @@
     {
       "province": "Kratie",
       "count": 1
+    },
+    {
+      "province": "Kampong Cham",
+      "count": 1
     }
   ],
-  "last_updated": "2026-11-28T07:43:52.274284+07:00",
+  "last_updated": "2026-11-28T17:58:14.370890+07:00",
   "date_range": {
     "start": "2026-11-27",
-    "end": "2026-11-27"
+    "end": "2026-11-28"
   }
 }
